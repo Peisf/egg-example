@@ -1,0 +1,1796 @@
+2021-02-03 09:20:00,766 INFO 32480 [egg-swagger-doc] register router: get /swagger-doc
+2021-02-03 09:20:00,787 INFO 32480 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-02-03 09:20:00,830 INFO 32480 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-02-03 09:20:03,825 INFO 32480 [-/127.0.0.1/-/5ms POST /api/v1/login/register] {
+  request: {
+    method: 'POST',
+    url: '/api/v1/login/register',
+    header: {
+      'user-agent': 'PostmanRuntime/7.26.8',
+      accept: '*/*',
+      'postman-token': '84dc95c5-e4ef-4ffa-88a8-ea2e154c80b0',
+      host: '127.0.0.1:7000',
+      'accept-encoding': 'gzip, deflate, br',
+      connection: 'keep-alive',
+      'content-type': 'multipart/form-data; boundary=--------------------------768716153711779192727830',
+      'content-length': '396'
+    }
+  },
+  response: {
+    status: 404,
+    message: 'Not Found',
+    header: [Object: null prototype] { vary: 'Origin' }
+  },
+  app: {
+    env: 'local',
+    name: 'egg-example',
+    baseDir: 'D:\\egg\\egg-example',
+    subdomainOffset: 2,
+    config: '<egg config>',
+    controller: '<egg controller>',
+    httpclient: '<egg httpclient>',
+    loggers: '<egg loggers>',
+    middlewares: '<egg middlewares>',
+    router: '<egg router>',
+    serviceClasses: '<egg serviceClasses>'
+  },
+  originalUrl: '/api/v1/login/register',
+  req: '<original node req>',
+  res: '<original node res>',
+  socket: '<original node socket>'
+}
+2021-02-03 09:20:03,847 ERROR 32480 [-/127.0.0.1/-/27ms POST /api/v1/login/register] nodejs.TypeError: Cannot read property 'create' of undefined
+    at UserService.register (D:\egg\egg-example\app\service\userInfo\user.js:19:46)
+    at async LoginController.register (D:\egg\egg-example\app\controller\login\index.js:10:23)
+
+pid: 32480
+hostname: XC-AE-0536-C
+
+2021-02-03 09:21:17,951 INFO 33108 [egg-swagger-doc] register router: get /swagger-doc
+2021-02-03 09:21:17,975 INFO 33108 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-02-03 09:21:18,017 INFO 33108 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2021-02-03 09:21:19,379 INFO 33108 [-/127.0.0.1/-/4ms POST /api/v1/login/register] {
+  request: {
+    method: 'POST',
+    url: '/api/v1/login/register',
+    header: {
+      'user-agent': 'PostmanRuntime/7.26.8',
+      accept: '*/*',
+      'postman-token': '437ed0b9-385d-496a-89c0-dbb5123869ba',
+      host: '127.0.0.1:7000',
+      'accept-encoding': 'gzip, deflate, br',
+      connection: 'keep-alive',
+      'content-type': 'multipart/form-data; boundary=--------------------------500762300355107559857249',
+      'content-length': '396'
+    }
+  },
+  response: {
+    status: 404,
+    message: 'Not Found',
+    header: [Object: null prototype] { vary: 'Origin' }
+  },
+  app: {
+    env: 'local',
+    name: 'egg-example',
+    baseDir: 'D:\\egg\\egg-example',
+    subdomainOffset: 2,
+    config: '<egg config>',
+    controller: '<egg controller>',
+    httpclient: '<egg httpclient>',
+    loggers: '<egg loggers>',
+    middlewares: '<egg middlewares>',
+    router: '<egg router>',
+    serviceClasses: '<egg serviceClasses>'
+  },
+  originalUrl: '/api/v1/login/register',
+  req: '<original node req>',
+  res: '<original node res>',
+  socket: '<original node socket>'
+}
+2021-02-03 09:30:21,421 INFO 14128 [egg-swagger-doc] register router: get /swagger-doc
+2021-02-03 09:30:21,455 INFO 14128 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-02-03 09:30:21,498 INFO 14128 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-02-03 10:59:22,023 INFO 11920 [egg-swagger-doc] register router: get /swagger-doc
+2021-02-03 10:59:22,043 INFO 11920 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-02-03 10:59:22,085 INFO 11920 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2021-02-03 10:59:29,730 INFO 11920 [-/127.0.0.1/-/4ms POST /api/v1/login/register] Sequelize {
+  ctx: {
+    request: { method: 'POST', url: '/api/v1/login/register', header: [Object] },
+    response: {
+      status: 404,
+      message: 'Not Found',
+      header: [Object: null prototype]
+    },
+    app: {
+      env: 'local',
+      name: 'egg-example',
+      baseDir: 'D:\\egg\\egg-example',
+      subdomainOffset: 2,
+      config: '<egg config>',
+      controller: '<egg controller>',
+      httpclient: '<egg httpclient>',
+      loggers: '<egg loggers>',
+      middlewares: '<egg middlewares>',
+      router: '<egg router>',
+      serviceClasses: '<egg serviceClasses>'
+    },
+    originalUrl: '/api/v1/login/register',
+    req: '<original node req>',
+    res: '<original node res>',
+    socket: '<original node socket>'
+  }
+}
+2021-02-03 11:00:00,078 INFO 13632 [egg-swagger-doc] register router: get /swagger-doc
+2021-02-03 11:00:00,098 INFO 13632 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-02-03 11:00:00,141 INFO 13632 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-02-03 11:00:01,713 INFO 13632 [-/127.0.0.1/-/4ms POST /api/v1/login/register] Sequelize {
+  ctx: {
+    request: { method: 'POST', url: '/api/v1/login/register', header: [Object] },
+    response: {
+      status: 404,
+      message: 'Not Found',
+      header: [Object: null prototype]
+    },
+    app: {
+      env: 'local',
+      name: 'egg-example',
+      baseDir: 'D:\\egg\\egg-example',
+      subdomainOffset: 2,
+      config: '<egg config>',
+      controller: '<egg controller>',
+      httpclient: '<egg httpclient>',
+      loggers: '<egg loggers>',
+      middlewares: '<egg middlewares>',
+      router: '<egg router>',
+      serviceClasses: '<egg serviceClasses>'
+    },
+    originalUrl: '/api/v1/login/register',
+    req: '<original node req>',
+    res: '<original node res>',
+    socket: '<original node socket>'
+  }
+}
+2021-02-03 11:00:16,180 INFO 6772 [egg-swagger-doc] register router: get /swagger-doc
+2021-02-03 11:00:16,202 INFO 6772 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-02-03 11:00:16,247 INFO 6772 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-02-03 11:00:20,404 INFO 6772 [-/127.0.0.1/-/5ms POST /api/v1/login/register] undefined
+2021-02-03 11:01:06,585 INFO 18588 [egg-swagger-doc] register router: get /swagger-doc
+2021-02-03 11:01:06,607 INFO 18588 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-02-03 11:01:06,651 INFO 18588 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2021-02-03 11:01:08,085 ERROR 18588 [-/127.0.0.1/-/6ms POST /api/v1/login/register] nodejs.TypeError: Cannot read property 'findOne' of undefined
+    at UserService.hasRegister (D:\egg\egg-example\app\service\userInfo\user.js:24:48)
+    at UserService.register (D:\egg\egg-example\app\service\userInfo\user.js:10:40)
+    at LoginController.register (D:\egg\egg-example\app\controller\login\index.js:10:56)
+    at Object.callFn (D:\egg\egg-example\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\egg\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\egg\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\egg\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\egg\egg-example\node_modules\@eggjs\router\lib\router.js:190:18
+
+pid: 18588
+hostname: XC-AE-0536-C
+
+2021-02-03 11:27:37,075 ERROR 18588 [-/127.0.0.1/-/1ms POST /api/v1/login/register] nodejs.TypeError: Cannot read property 'findOne' of undefined
+    at UserService.hasRegister (D:\egg\egg-example\app\service\userInfo\user.js:24:48)
+    at UserService.register (D:\egg\egg-example\app\service\userInfo\user.js:10:40)
+    at LoginController.register (D:\egg\egg-example\app\controller\login\index.js:10:56)
+    at Object.callFn (D:\egg\egg-example\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\egg\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\egg\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\egg\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\egg\egg-example\node_modules\@eggjs\router\lib\router.js:190:18
+
+pid: 18588
+hostname: XC-AE-0536-C
+
+2021-02-03 11:27:53,472 INFO 24220 [egg-swagger-doc] register router: get /swagger-doc
+2021-02-03 11:27:53,494 INFO 24220 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-02-03 11:27:53,533 INFO 24220 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-02-03 11:27:54,876 ERROR 24220 [-/127.0.0.1/-/5ms POST /api/v1/login/register] nodejs.TypeError: Cannot read property 'findOne' of undefined
+    at UserService.hasRegister (D:\egg\egg-example\app\service\userInfo\user.js:24:48)
+    at UserService.register (D:\egg\egg-example\app\service\userInfo\user.js:10:40)
+    at LoginController.register (D:\egg\egg-example\app\controller\login\index.js:10:56)
+    at Object.callFn (D:\egg\egg-example\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\egg\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\egg\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\egg\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\egg\egg-example\node_modules\@eggjs\router\lib\router.js:190:18
+
+pid: 24220
+hostname: XC-AE-0536-C
+
+2021-02-03 11:28:30,061 INFO 14040 [egg-swagger-doc] register router: get /swagger-doc
+2021-02-03 11:28:30,082 INFO 14040 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-02-03 11:28:30,120 INFO 14040 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-02-03 11:28:30,601 ERROR 14040 [-/127.0.0.1/-/6ms POST /api/v1/login/register] nodejs.TypeError: Cannot read property 'findOne' of undefined
+    at UserService.hasRegister (D:\egg\egg-example\app\service\userInfo\user.js:24:48)
+    at UserService.register (D:\egg\egg-example\app\service\userInfo\user.js:10:40)
+    at LoginController.register (D:\egg\egg-example\app\controller\login\index.js:10:56)
+    at Object.callFn (D:\egg\egg-example\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\egg\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\egg\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\egg\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\egg\egg-example\node_modules\@eggjs\router\lib\router.js:190:18
+
+pid: 14040
+hostname: XC-AE-0536-C
+
+2021-02-03 11:34:26,923 INFO 16628 [egg-swagger-doc] register router: get /swagger-doc
+2021-02-03 11:34:26,960 INFO 16628 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-02-03 11:34:27,010 INFO 16628 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-02-03 12:31:33,610 INFO 23404 [egg-swagger-doc] register router: get /swagger-doc
+2021-02-03 12:31:33,632 INFO 23404 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-02-03 12:31:33,670 INFO 23404 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-02-03 12:31:55,364 INFO 8684 [egg-swagger-doc] register router: get /swagger-doc
+2021-02-03 12:31:55,384 INFO 8684 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-02-03 12:31:55,424 INFO 8684 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-02-03 12:31:57,330 ERROR 8684 [-/127.0.0.1/-/5ms POST /api/v1/login/register] nodejs.TypeError: Cannot read property 'findOne' of undefined
+    at UserService.hasRegister (D:\egg\egg-example\app\service\userInfo\user.js:24:48)
+    at UserService.register (D:\egg\egg-example\app\service\userInfo\user.js:10:40)
+    at LoginController.register (D:\egg\egg-example\app\controller\login\index.js:10:56)
+    at Object.callFn (D:\egg\egg-example\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\egg\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\egg\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\egg\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\egg\egg-example\node_modules\@eggjs\router\lib\router.js:190:18
+
+pid: 8684
+hostname: XC-AE-0536-C
+
+2021-02-03 12:32:09,907 INFO 7704 [egg-swagger-doc] register router: get /swagger-doc
+2021-02-03 12:32:09,931 INFO 7704 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-02-03 12:32:09,974 INFO 7704 [egg-sequelize](0ms) Executed (default): SELECT 1+1 AS result
+2021-02-03 12:32:12,213 ERROR 7704 [-/127.0.0.1/-/5ms POST /api/v1/login/register] nodejs.TypeError: Cannot read property 'findOne' of undefined
+    at UserService.hasRegister (D:\egg\egg-example\app\service\userInfo\user.js:24:48)
+    at UserService.register (D:\egg\egg-example\app\service\userInfo\user.js:10:40)
+    at LoginController.register (D:\egg\egg-example\app\controller\login\index.js:10:56)
+    at Object.callFn (D:\egg\egg-example\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\egg\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\egg\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\egg\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\egg\egg-example\node_modules\@eggjs\router\lib\router.js:190:18
+
+pid: 7704
+hostname: XC-AE-0536-C
+
+2021-02-03 12:32:22,608 INFO 21200 [egg-swagger-doc] register router: get /swagger-doc
+2021-02-03 12:32:22,628 INFO 21200 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-02-03 12:32:22,667 INFO 21200 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-02-03 12:32:22,995 ERROR 21200 [-/127.0.0.1/-/5ms POST /api/v1/login/register] nodejs.TypeError: Cannot read property 'findOne' of undefined
+    at UserService.hasRegister (D:\egg\egg-example\app\service\userInfo\user.js:24:48)
+    at UserService.register (D:\egg\egg-example\app\service\userInfo\user.js:10:40)
+    at LoginController.register (D:\egg\egg-example\app\controller\login\index.js:10:56)
+    at Object.callFn (D:\egg\egg-example\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\egg\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\egg\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\egg\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\egg\egg-example\node_modules\@eggjs\router\lib\router.js:190:18
+
+pid: 21200
+hostname: XC-AE-0536-C
+
+2021-02-03 12:32:24,718 ERROR 21200 [-/127.0.0.1/-/1ms POST /api/v1/login/register] nodejs.TypeError: Cannot read property 'findOne' of undefined
+    at UserService.hasRegister (D:\egg\egg-example\app\service\userInfo\user.js:24:48)
+    at UserService.register (D:\egg\egg-example\app\service\userInfo\user.js:10:40)
+    at LoginController.register (D:\egg\egg-example\app\controller\login\index.js:10:56)
+    at Object.callFn (D:\egg\egg-example\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\egg\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\egg\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\egg\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\egg\egg-example\node_modules\@eggjs\router\lib\router.js:190:18
+
+pid: 21200
+hostname: XC-AE-0536-C
+
+2021-02-03 12:32:46,547 INFO 8548 [egg-swagger-doc] register router: get /swagger-doc
+2021-02-03 12:32:46,567 INFO 8548 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-02-03 12:32:46,607 INFO 8548 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-02-03 12:32:48,489 INFO 8548 [-/127.0.0.1/-/5ms POST /api/v1/login/register] Sequelize {
+  ctx: {
+    request: { method: 'POST', url: '/api/v1/login/register', header: [Object] },
+    response: {
+      status: 404,
+      message: 'Not Found',
+      header: [Object: null prototype]
+    },
+    app: {
+      env: 'local',
+      name: 'egg-example',
+      baseDir: 'D:\\egg\\egg-example',
+      subdomainOffset: 2,
+      config: '<egg config>',
+      controller: '<egg controller>',
+      httpclient: '<egg httpclient>',
+      loggers: '<egg loggers>',
+      middlewares: '<egg middlewares>',
+      router: '<egg router>',
+      serviceClasses: '<egg serviceClasses>'
+    },
+    originalUrl: '/api/v1/login/register',
+    req: '<original node req>',
+    res: '<original node res>',
+    socket: '<original node socket>'
+  }
+}
+2021-02-03 12:32:48,497 ERROR 8548 [-/127.0.0.1/-/12ms POST /api/v1/login/register] nodejs.TypeError: Cannot read property 'findOne' of undefined
+    at UserService.hasRegister (D:\egg\egg-example\app\service\userInfo\user.js:25:48)
+    at UserService.register (D:\egg\egg-example\app\service\userInfo\user.js:10:40)
+    at LoginController.register (D:\egg\egg-example\app\controller\login\index.js:10:56)
+    at Object.callFn (D:\egg\egg-example\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\egg\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\egg\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\egg\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\egg\egg-example\node_modules\@eggjs\router\lib\router.js:190:18
+
+pid: 8548
+hostname: XC-AE-0536-C
+
+2021-02-03 12:38:42,285 INFO 8548 [-/127.0.0.1/-/1ms POST /api/v1/login/register?username=123&password=123&email=123@qq.com] Sequelize {
+  ctx: {
+    request: {
+      method: 'POST',
+      url: '/api/v1/login/register?username=123&password=123&email=123@qq.com',
+      header: [Object]
+    },
+    response: {
+      status: 404,
+      message: 'Not Found',
+      header: [Object: null prototype]
+    },
+    app: {
+      env: 'local',
+      name: 'egg-example',
+      baseDir: 'D:\\egg\\egg-example',
+      subdomainOffset: 2,
+      config: '<egg config>',
+      controller: '<egg controller>',
+      httpclient: '<egg httpclient>',
+      loggers: '<egg loggers>',
+      middlewares: '<egg middlewares>',
+      router: '<egg router>',
+      serviceClasses: '<egg serviceClasses>'
+    },
+    originalUrl: '/api/v1/login/register?username=123&password=123&email=123@qq.com',
+    req: '<original node req>',
+    res: '<original node res>',
+    socket: '<original node socket>'
+  }
+}
+2021-02-03 12:38:42,305 ERROR 8548 [-/127.0.0.1/-/18ms POST /api/v1/login/register?username=123&password=123&email=123@qq.com] nodejs.TypeError: Cannot read property 'findOne' of undefined
+    at UserService.hasRegister (D:\egg\egg-example\app\service\userInfo\user.js:25:48)
+    at UserService.register (D:\egg\egg-example\app\service\userInfo\user.js:10:40)
+    at LoginController.register (D:\egg\egg-example\app\controller\login\index.js:10:56)
+    at Object.callFn (D:\egg\egg-example\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\egg\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\egg\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\egg\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\egg\egg-example\node_modules\@eggjs\router\lib\router.js:190:18
+
+pid: 8548
+hostname: XC-AE-0536-C
+
+2021-02-03 12:45:13,959 INFO 8484 [egg-swagger-doc] register router: get /swagger-doc
+2021-02-03 12:45:13,980 INFO 8484 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-02-03 12:45:14,016 INFO 8484 [egg-sequelize](0ms) Executed (default): SELECT 1+1 AS result
+2021-02-03 12:45:16,173 INFO 20780 [egg-swagger-doc] register router: get /swagger-doc
+2021-02-03 12:45:16,193 INFO 20780 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-02-03 12:45:16,232 INFO 20780 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-02-03 12:45:18,366 INFO 20780 [-/127.0.0.1/-/4ms POST /api/v1/login/register?username=123&password=123&email=123@qq.com] Sequelize {
+  ctx: {
+    request: {
+      method: 'POST',
+      url: '/api/v1/login/register?username=123&password=123&email=123@qq.com',
+      header: [Object]
+    },
+    response: {
+      status: 404,
+      message: 'Not Found',
+      header: [Object: null prototype]
+    },
+    app: {
+      env: 'local',
+      name: 'egg-example',
+      baseDir: 'D:\\egg\\egg-example',
+      subdomainOffset: 2,
+      config: '<egg config>',
+      controller: '<egg controller>',
+      httpclient: '<egg httpclient>',
+      loggers: '<egg loggers>',
+      middlewares: '<egg middlewares>',
+      router: '<egg router>',
+      serviceClasses: '<egg serviceClasses>'
+    },
+    originalUrl: '/api/v1/login/register?username=123&password=123&email=123@qq.com',
+    req: '<original node req>',
+    res: '<original node res>',
+    socket: '<original node socket>'
+  }
+}
+2021-02-03 12:45:18,389 ERROR 20780 [-/127.0.0.1/-/24ms POST /api/v1/login/register?username=123&password=123&email=123@qq.com] nodejs.Error: WHERE parameter "email" has invalid "undefined" value
+    at MySQLQueryGenerator.whereItemQuery (D:\egg\egg-example\node_modules\egg-sequelize\node_modules\sequelize\lib\dialects\abstract\query-generator.js:2262:13)
+    at D:\egg\egg-example\node_modules\egg-sequelize\node_modules\sequelize\lib\dialects\abstract\query-generator.js:2251:25
+    at Array.forEach (<anonymous>)
+    at MySQLQueryGenerator.whereItemsQuery (D:\egg\egg-example\node_modules\egg-sequelize\node_modules\sequelize\lib\dialects\abstract\query-generator.js:2249:35)
+    at MySQLQueryGenerator.getWhereConditions (D:\egg\egg-example\node_modules\egg-sequelize\node_modules\sequelize\lib\dialects\abstract\query-generator.js:2667:19)
+    at MySQLQueryGenerator.selectQuery (D:\egg\egg-example\node_modules\egg-sequelize\node_modules\sequelize\lib\dialects\abstract\query-generator.js:1320:28)
+    at MySQLQueryInterface.select (D:\egg\egg-example\node_modules\egg-sequelize\node_modules\sequelize\lib\dialects\abstract\query-interface.js:953:27)
+    at Function.findAll (D:\egg\egg-example\node_modules\egg-sequelize\node_modules\sequelize\lib\model.js:1753:47)
+    at async Function.findOne (D:\egg\egg-example\node_modules\egg-sequelize\node_modules\sequelize\lib\model.js:1917:12)
+    at async UserService.hasRegister (D:\egg\egg-example\app\service\userInfo\user.js:25:22)
+
+pid: 20780
+hostname: XC-AE-0536-C
+
+2021-02-03 12:45:27,834 INFO 3632 [egg-swagger-doc] register router: get /swagger-doc
+2021-02-03 12:45:27,854 INFO 3632 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-02-03 12:45:27,893 INFO 3632 [egg-sequelize](0ms) Executed (default): SELECT 1+1 AS result
+2021-02-03 12:45:29,181 INFO 19748 [egg-swagger-doc] register router: get /swagger-doc
+2021-02-03 12:45:29,203 INFO 19748 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-02-03 12:45:29,243 INFO 19748 [egg-sequelize](0ms) Executed (default): SELECT 1+1 AS result
+2021-02-03 12:47:30,506 INFO 18172 [egg-swagger-doc] register router: get /swagger-doc
+2021-02-03 12:47:30,526 INFO 18172 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-02-03 12:47:30,573 INFO 18172 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-02-03 12:47:35,397 INFO 18172 [-/127.0.0.1/-/5ms POST /api/v1/login/register?username=123&password=123&email=123@qq.com] undefined
+2021-02-03 12:47:35,412 ERROR 18172 [-/127.0.0.1/-/6ms POST /api/v1/login/register?username=123&password=123&email=123@qq.com] nodejs.TypeError: Cannot read property 'findOne' of undefined
+    at UserService.hasRegister (D:\egg\egg-example\app\service\userInfo\user.js:25:48)
+    at UserService.register (D:\egg\egg-example\app\service\userInfo\user.js:10:40)
+    at LoginController.register (D:\egg\egg-example\app\controller\login\index.js:10:56)
+    at Object.callFn (D:\egg\egg-example\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\egg\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\egg\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\egg\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\egg\egg-example\node_modules\@eggjs\router\lib\router.js:190:18
+
+pid: 18172
+hostname: XC-AE-0536-C
+
+2021-02-03 12:48:13,904 INFO 11212 [egg-swagger-doc] register router: get /swagger-doc
+2021-02-03 12:48:13,924 INFO 11212 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-02-03 12:48:13,966 INFO 11212 [egg-sequelize](0ms) Executed (default): SELECT 1+1 AS result
+2021-02-03 12:48:15,944 INFO 11212 [-/127.0.0.1/-/5ms POST /api/v1/login/register?username=123&password=123&email=123@qq.com] [service.userInfo.user] user========= { username: undefined, password: undefined, email: undefined }
+2021-02-03 12:48:15,977 INFO 11212 [-/127.0.0.1/-/38ms POST /api/v1/login/register?username=123&password=123&email=123@qq.com] undefined
+2021-02-03 12:48:15,992 ERROR 11212 [-/127.0.0.1/-/50ms POST /api/v1/login/register?username=123&password=123&email=123@qq.com] nodejs.TypeError: Cannot read property 'findOne' of undefined
+    at UserService.hasRegister (D:\egg\egg-example\app\service\userInfo\user.js:26:48)
+    at UserService.register (D:\egg\egg-example\app\service\userInfo\user.js:11:40)
+    at LoginController.register (D:\egg\egg-example\app\controller\login\index.js:10:56)
+    at Object.callFn (D:\egg\egg-example\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\egg\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\egg\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\egg\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\egg\egg-example\node_modules\@eggjs\router\lib\router.js:190:18
+
+pid: 11212
+hostname: XC-AE-0536-C
+
+2021-02-03 12:48:48,910 INFO 3992 [egg-swagger-doc] register router: get /swagger-doc
+2021-02-03 12:48:48,930 INFO 3992 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-02-03 12:48:48,975 INFO 3992 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-02-03 12:48:51,296 INFO 3992 [-/127.0.0.1/-/8ms POST /api/v1/login/register?username=123&password=123&email=123@qq.com] [service.userInfo.user] user========= { username: undefined, password: undefined, email: undefined }
+2021-02-03 12:48:51,297 INFO 3992 [-/127.0.0.1/-/9ms POST /api/v1/login/register?username=123&password=123&email=123@qq.com] undefined
+2021-02-03 12:48:51,301 ERROR 3992 [-/127.0.0.1/-/11ms POST /api/v1/login/register?username=123&password=123&email=123@qq.com] nodejs.TypeError: Cannot read property 'findOne' of undefined
+    at UserService.hasRegister (D:\egg\egg-example\app\service\userInfo\user.js:26:48)
+    at UserService.register (D:\egg\egg-example\app\service\userInfo\user.js:11:40)
+    at LoginController.register (D:\egg\egg-example\app\controller\login\index.js:11:56)
+    at Object.callFn (D:\egg\egg-example\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\egg\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\egg\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\egg\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\egg\egg-example\node_modules\@eggjs\router\lib\router.js:190:18
+
+pid: 3992
+hostname: XC-AE-0536-C
+
+2021-02-03 12:49:01,217 INFO 9220 [egg-swagger-doc] register router: get /swagger-doc
+2021-02-03 12:49:01,238 INFO 9220 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-02-03 12:49:01,284 INFO 9220 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-02-03 12:49:03,006 INFO 9220 [-/127.0.0.1/-/5ms POST /api/v1/login/register?username=123&password=123&email=123@qq.com] [service.userInfo.user] user========= { username: undefined, password: undefined, email: undefined }
+2021-02-03 12:49:03,017 INFO 9220 [-/127.0.0.1/-/16ms POST /api/v1/login/register?username=123&password=123&email=123@qq.com] undefined
+2021-02-03 12:49:03,021 ERROR 9220 [-/127.0.0.1/-/18ms POST /api/v1/login/register?username=123&password=123&email=123@qq.com] nodejs.TypeError: Cannot read property 'findOne' of undefined
+    at UserService.hasRegister (D:\egg\egg-example\app\service\userInfo\user.js:26:48)
+    at UserService.register (D:\egg\egg-example\app\service\userInfo\user.js:11:40)
+    at LoginController.register (D:\egg\egg-example\app\controller\login\index.js:11:56)
+    at Object.callFn (D:\egg\egg-example\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\egg\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\egg\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\egg\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\egg\egg-example\node_modules\@eggjs\router\lib\router.js:190:18
+
+pid: 9220
+hostname: XC-AE-0536-C
+
+2021-02-03 12:49:34,117 INFO 11532 [egg-swagger-doc] register router: get /swagger-doc
+2021-02-03 12:49:34,138 INFO 11532 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-02-03 12:49:34,178 INFO 11532 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-02-03 12:49:55,965 INFO 22248 [egg-swagger-doc] register router: get /swagger-doc
+2021-02-03 12:49:55,986 INFO 22248 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-02-03 12:49:56,026 INFO 22248 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-02-03 12:49:57,241 INFO 24464 [egg-swagger-doc] register router: get /swagger-doc
+2021-02-03 12:49:57,264 INFO 24464 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-02-03 12:49:57,308 INFO 24464 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-02-03 12:49:59,611 INFO 24464 [-/127.0.0.1/-/4ms POST /api/v1/login/register?username=123&password=123&email=123@qq.com] [service.userInfo.user] user========= { username: undefined, password: undefined, email: undefined }
+2021-02-03 12:49:59,612 INFO 24464 [-/127.0.0.1/-/6ms POST /api/v1/login/register?username=123&password=123&email=123@qq.com] undefined
+2021-02-03 12:49:59,626 ERROR 24464 [-/127.0.0.1/-/17ms POST /api/v1/login/register?username=123&password=123&email=123@qq.com] nodejs.TypeError: Cannot read property 'findOne' of undefined
+    at UserService.hasRegister (D:\egg\egg-example\app\service\userInfo\user.js:26:48)
+    at UserService.register (D:\egg\egg-example\app\service\userInfo\user.js:11:40)
+    at LoginController.register (D:\egg\egg-example\app\controller\login\index.js:11:56)
+    at Object.callFn (D:\egg\egg-example\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\egg\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\egg\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\egg\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\egg\egg-example\node_modules\@eggjs\router\lib\router.js:190:18
+
+pid: 24464
+hostname: XC-AE-0536-C
+
+2021-02-03 12:51:47,002 INFO 24464 [-/127.0.0.1/-/15ms POST /api/v1/login/register?username=123&password=123&email=123@qq.com] [service.userInfo.user] user========= { username: '123', password: '123', email: '123@qq.com' }
+2021-02-03 12:51:47,002 INFO 24464 [-/127.0.0.1/-/15ms POST /api/v1/login/register?username=123&password=123&email=123@qq.com] [service.userInfo.user] 123@qq.com
+2021-02-03 12:51:47,017 ERROR 24464 [-/127.0.0.1/-/16ms POST /api/v1/login/register?username=123&password=123&email=123@qq.com] nodejs.TypeError: Cannot read property 'findOne' of undefined
+    at UserService.hasRegister (D:\egg\egg-example\app\service\userInfo\user.js:26:48)
+    at UserService.register (D:\egg\egg-example\app\service\userInfo\user.js:11:40)
+    at LoginController.register (D:\egg\egg-example\app\controller\login\index.js:11:56)
+    at Object.callFn (D:\egg\egg-example\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\egg\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\egg\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\egg\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\egg\egg-example\node_modules\@eggjs\router\lib\router.js:190:18
+
+pid: 24464
+hostname: XC-AE-0536-C
+
+2021-02-03 12:55:28,771 INFO 18408 [egg-swagger-doc] register router: get /swagger-doc
+2021-02-03 12:55:28,792 INFO 18408 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-02-03 12:55:28,832 INFO 18408 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-02-03 12:55:32,306 INFO 18408 [-/127.0.0.1/-/13ms POST /api/v1/login/register?username=123&password=123&email=123@qq.com] [service.userInfo.user] 123@qq.com
+2021-02-03 12:55:32,318 ERROR 18408 [-/127.0.0.1/-/14ms POST /api/v1/login/register?username=123&password=123&email=123@qq.com] nodejs.TypeError: Cannot read property 'findAll' of undefined
+    at UserService.hasRegister (D:\egg\egg-example\app\service\userInfo\user.js:25:48)
+    at UserService.register (D:\egg\egg-example\app\service\userInfo\user.js:10:40)
+    at LoginController.register (D:\egg\egg-example\app\controller\login\index.js:11:56)
+    at Object.callFn (D:\egg\egg-example\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\egg\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\egg\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\egg\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\egg\egg-example\node_modules\@eggjs\router\lib\router.js:190:18
+
+pid: 18408
+hostname: XC-AE-0536-C
+
+2021-02-03 13:00:15,557 INFO 16404 [egg-swagger-doc] register router: get /swagger-doc
+2021-02-03 13:00:15,579 INFO 16404 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-02-03 13:00:15,656 INFO 16404 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-02-03 13:00:25,825 INFO 16404 [-/127.0.0.1/-/17ms POST /api/v1/login/register?username=123&password=123&email=123@qq.com] [service.userInfo.user] 123@qq.com
+2021-02-03 13:00:25,840 ERROR 16404 [-/127.0.0.1/-/18ms POST /api/v1/login/register?username=123&password=123&email=123@qq.com] nodejs.TypeError: Cannot read property 'findAll' of undefined
+    at UserService.hasRegister (D:\egg\egg-example\app\service\userInfo\user.js:25:48)
+    at UserService.register (D:\egg\egg-example\app\service\userInfo\user.js:10:40)
+    at LoginController.register (D:\egg\egg-example\app\controller\login\index.js:11:56)
+    at Object.callFn (D:\egg\egg-example\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\egg\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\egg\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\egg\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\egg\egg-example\node_modules\@eggjs\router\lib\router.js:190:18
+
+pid: 16404
+hostname: XC-AE-0536-C
+
+2021-02-03 13:01:21,866 INFO 12136 [egg-swagger-doc] register router: get /swagger-doc
+2021-02-03 13:01:21,887 INFO 12136 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-02-03 13:01:21,935 INFO 12136 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-02-03 13:01:23,782 INFO 12136 [-/127.0.0.1/-/14ms POST /api/v1/login/register?username=123&password=123&email=123@qq.com] [service.userInfo.user] 123@qq.com
+2021-02-03 13:01:23,792 ERROR 12136 [-/127.0.0.1/-/16ms POST /api/v1/login/register?username=123&password=123&email=123@qq.com] nodejs.TypeError: Cannot read property 'findOne' of undefined
+    at UserService.hasRegister (D:\egg\egg-example\app\service\userInfo\user.js:25:48)
+    at UserService.register (D:\egg\egg-example\app\service\userInfo\user.js:10:40)
+    at LoginController.register (D:\egg\egg-example\app\controller\login\index.js:11:56)
+    at Object.callFn (D:\egg\egg-example\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\egg\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\egg\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\egg\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\egg\egg-example\node_modules\@eggjs\router\lib\router.js:190:18
+
+pid: 12136
+hostname: XC-AE-0536-C
+
+2021-02-03 13:01:35,896 INFO 24092 [egg-swagger-doc] register router: get /swagger-doc
+2021-02-03 13:01:35,918 INFO 24092 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-02-03 13:01:35,956 INFO 24092 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-02-03 13:01:37,663 INFO 24092 [-/127.0.0.1/-/15ms POST /api/v1/login/register?username=123&password=123&email=123@qq.com] UserService {
+  ctx: {
+    request: {
+      method: 'POST',
+      url: '/api/v1/login/register?username=123&password=123&email=123@qq.com',
+      header: [Object]
+    },
+    response: {
+      status: 404,
+      message: 'Not Found',
+      header: [Object: null prototype]
+    },
+    app: {
+      env: 'local',
+      name: 'egg-example',
+      baseDir: 'D:\\egg\\egg-example',
+      subdomainOffset: 2,
+      config: '<egg config>',
+      controller: '<egg controller>',
+      httpclient: '<egg httpclient>',
+      loggers: '<egg loggers>',
+      middlewares: '<egg middlewares>',
+      router: '<egg router>',
+      serviceClasses: '<egg serviceClasses>'
+    },
+    originalUrl: '/api/v1/login/register?username=123&password=123&email=123@qq.com',
+    req: '<original node req>',
+    res: '<original node res>',
+    socket: '<original node socket>'
+  },
+  app: {
+    env: 'local',
+    name: 'egg-example',
+    baseDir: 'D:\\egg\\egg-example',
+    subdomainOffset: 2,
+    config: '<egg config>',
+    controller: '<egg controller>',
+    httpclient: '<egg httpclient>',
+    loggers: '<egg loggers>',
+    middlewares: '<egg middlewares>',
+    router: '<egg router>',
+    serviceClasses: '<egg serviceClasses>'
+  },
+  config: {
+    session: {
+      maxAge: 86400000,
+      key: 'EGG_SESS',
+      httpOnly: true,
+      encrypt: true,
+      overwrite: true,
+      signed: true,
+      autoCommit: true,
+      encode: [Function: encode],
+      decode: [Function: decode],
+      genid: [Function: v4]
+    },
+    security: {
+      domainWhiteList: [Array],
+      protocolWhiteList: [],
+      defaultMiddleware: 'csrf,hsts,methodnoallow,noopen,nosniff,csp,xssProtection,xframe,dta',
+      csrf: [Object],
+      xframe: [Object],
+      hsts: [Object],
+      dta: [Object],
+      methodnoallow: [Object],
+      noopen: [Object],
+      nosniff: [Object],
+      referrerPolicy: [Object],
+      xssProtection: [Object],
+      csp: [Object],
+      ssrf: [Object],
+      _protocolWhiteListSet: [Set]
+    },
+    helper: { shtml: {} },
+    jsonp: { limit: 50, callback: [Array], csrf: false },
+    onerror: {
+      errorPageUrl: '',
+      appErrorFilter: null,
+      templatePath: 'D:\\egg\\egg-example\\node_modules\\egg-onerror\\lib\\onerror_page.mustache'
+    },
+    i18n: {
+      defaultLocale: 'en_US',
+      dirs: [Array],
+      queryField: 'locale',
+      cookieField: 'locale',
+      cookieDomain: '',
+      cookieMaxAge: '1y',
+      functionName: '__'
+    },
+    watcher: { type: 'development', eventSources: [Object] },
+    customLogger: { scheduleLogger: [Object] },
+    schedule: { directory: [] },
+    multipart: {
+      mode: 'stream',
+      autoFields: false,
+      defaultCharset: 'utf8',
+      fieldNameSize: 100,
+      fieldSize: 102400,
+      fields: 10,
+      fileSize: 10485760,
+      files: 10,
+      fileExtensions: [],
+      whitelist: null,
+      tmpdir: 'C:\\Users\\SC4029\\AppData\\Local\\Temp\\egg-multipart-tmp\\egg-example',
+      cleanSchedule: [Object]
+    },
+    development: {
+      watchDirs: [],
+      ignoreDirs: [],
+      fastReady: false,
+      reloadOnDebug: true,
+      overrideDefault: false,
+      overrideIgnore: false
+    },
+    logrotator: {
+      filesRotateByHour: null,
+      hourDelimiter: '-',
+      filesRotateBySize: null,
+      maxFileSize: 52428800,
+      maxFiles: 10,
+      rotateDuration: 60000,
+      maxDays: 31
+    },
+    static: {
+      prefix: '/public',
+      dir: 'D:\\egg\\egg-example\\app\\public',
+      dynamic: true,
+      preload: false,
+      buffer: false,
+      maxFiles: 1000
+    },
+    view: {
+      root: [Array],
+      cache: false,
+      defaultExtension: '.html',
+      defaultViewEngine: 'nunjucks',
+      mapping: [Object]
+    },
+    nunjucks: {
+      autoescape: true,
+      throwOnUndefined: false,
+      trimBlocks: false,
+      lstripBlocks: false,
+      cache: false
+    },
+    validate: {},
+    sequelize: {
+      dialect: 'mysql',
+      database: 'learn',
+      host: 'localhost',
+      port: '3306',
+      username: 'root',
+      password: 'sf200672',
+      define: [Object]
+    },
+    mysql: { default: [Object], app: true, agent: false, client: [Object] },
+    jwt: { secret: 'sfpei', enable: false, expiresIn: 604800 },
+    cors: {
+      credentials: true,
+      allowMethods: 'GET,HEAD,PUT,POST,DELETE,PATCH',
+      origin: [Function: corsOrigin]
+    },
+    swaggerdoc: {
+      dirScanner: './app/controller',
+      basePath: '/',
+      apiInfo: [Object],
+      schemes: [Array],
+      consumes: [Array],
+      produces: [Array],
+      securityDefinitions: {},
+      enableSecurity: false,
+      routerMap: true,
+      enable: true,
+      dirScannerL: './app/controller'
+    },
+    env: 'local',
+    name: 'egg-example',
+    keys: 'egg-example_176021831751304_1748',
+    cookies: {},
+    proxy: false,
+    maxIpsCount: 0,
+    maxProxyCount: 0,
+    protocolHeaders: 'x-forwarded-proto',
+    ipHeaders: 'x-forwarded-for',
+    hostHeaders: '',
+    pkg: {
+      name: 'egg-example',
+      author: 'sfPei',
+      scripts: [Object],
+      dependencies: [Object]
+    },
+    baseDir: 'D:\\egg\\egg-example',
+    HOME: 'C:\\Users\\SC4029',
+    rundir: 'D:\\egg\\egg-example\\run',
+    dump: { ignore: [Set] },
+    confusedConfigurations: {
+      bodyparser: 'bodyParser',
+      notFound: 'notfound',
+      sitefile: 'siteFile',
+      middlewares: 'middleware',
+      httpClient: 'httpclient'
+    },
+    notfound: { pageUrl: '' },
+    siteFile: {
+      '/favicon.ico': <Buffer 89 50 4e 47 0d 0a 1a 0a 00 00 00 0d 49 48 44 52 00 00 00 ca 00 00 00 ca 08 06 00 00 00 e4 65 df a8 00 00 00 01 73 52 47 42 00 ae ce 1c e9 00 00 18 f9 ... 6413 more bytes>
+    },
+    bodyParser: {
+      enable: true,
+      encoding: 'utf8',
+      formLimit: '1mb',
+      jsonLimit: '1mb',
+      textLimit: '1mb',
+      strict: true,
+      queryString: [Object],
+      onerror: undefined,
+      detectJSON: undefined,
+      returnRawBody: true
+    },
+    logger: {
+      dir: 'D:\\egg\\egg-example\\logs\\egg-example',
+      encoding: 'utf8',
+      env: 'local',
+      level: 'DEBUG',
+      consoleLevel: 'DEBUG',
+      disableConsoleAfterReady: false,
+      outputJSON: false,
+      buffer: true,
+      appLogName: 'egg-example-web.log',
+      coreLogName: 'egg-web.log',
+      agentLogName: 'egg-agent.log',
+      errorLogName: 'common-error.log',
+      coreLogger: [Object],
+      allowDebugAtProd: false,
+      type: 'application'
+    },
+    httpclient: {
+      enableDNSCache: false,
+      dnsCacheLookupInterval: 10000,
+      dnsCacheMaxLength: 1000,
+      request: [Object],
+      httpAgent: [Object],
+      httpsAgent: [Object]
+    },
+    meta: { enable: true, logging: false },
+    coreMiddleware: [
+      'cors',
+      'meta',
+      'siteFile',
+      'notfound',
+      'static',
+      'bodyParser',
+      'overrideMethod',
+      'session',
+      'securities',
+      'i18n',
+      'eggLoaderTrace'
+    ],
+    workerStartTimeout: 600000,
+    serverTimeout: null,
+    cluster: { listen: [Object] },
+    clusterClient: { maxWaitTime: 60000, responseTimeout: 60000 },
+    onClientError: null,
+    news: { pageSize: 5, serverUrl: 'https://hacker-news.firebaseio.com/v0' },
+    middleware: [ 'jwt', 'robot' ],
+    robot: { ua: [Array] },
+    auth_cookie_name: 'token',
+    coreMiddlewares: [
+      'cors',
+      'meta',
+      'siteFile',
+      'notfound',
+      'static',
+      'bodyParser',
+      'overrideMethod',
+      'session',
+      'securities',
+      'i18n',
+      'eggLoaderTrace'
+    ],
+    appMiddlewares: [ 'jwt', 'robot' ],
+    appMiddleware: [ 'jwt', 'robot' ],
+    multipartParseOptions: {
+      autoFields: false,
+      defCharset: 'utf8',
+      limits: [Object],
+      checkFile: [Function: checkFile]
+    }
+  },
+  service: ClassLoader {
+    _cache: Map { 'userInfo' => [ClassLoader] },
+    _ctx: {
+      request: [Object],
+      response: [Object],
+      app: [Object],
+      originalUrl: '/api/v1/login/register?username=123&password=123&email=123@qq.com',
+      req: '<original node req>',
+      res: '<original node res>',
+      socket: '<original node socket>'
+    }
+  },
+  [Symbol(BaseContextClass#logger)]: BaseContextLogger {
+    ctx: {
+      request: [Object],
+      response: [Object],
+      app: [Object],
+      originalUrl: '/api/v1/login/register?username=123&password=123&email=123@qq.com',
+      req: '<original node req>',
+      res: '<original node res>',
+      socket: '<original node socket>'
+    },
+    pathName: 'service.userInfo.user'
+  }
+}
+2021-02-03 13:01:37,736 ERROR 24092 [-/127.0.0.1/-/69ms POST /api/v1/login/register?username=123&password=123&email=123@qq.com] nodejs.TypeError: Cannot read property 'findOne' of undefined
+    at UserService.hasRegister (D:\egg\egg-example\app\service\userInfo\user.js:25:48)
+    at UserService.register (D:\egg\egg-example\app\service\userInfo\user.js:10:40)
+    at LoginController.register (D:\egg\egg-example\app\controller\login\index.js:11:56)
+    at Object.callFn (D:\egg\egg-example\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\egg\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\egg\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\egg\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\egg\egg-example\node_modules\@eggjs\router\lib\router.js:190:18
+
+pid: 24092
+hostname: XC-AE-0536-C
+
+2021-02-03 13:03:55,599 INFO 5072 [egg-swagger-doc] register router: get /swagger-doc
+2021-02-03 13:03:55,621 INFO 5072 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-02-03 13:03:55,665 INFO 5072 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-02-03 13:03:59,270 INFO 5072 [-/127.0.0.1/-/14ms POST /api/v1/login/register?username=123&password=123&email=123@qq.com] undefined
+2021-02-03 13:03:59,280 ERROR 5072 [-/127.0.0.1/-/15ms POST /api/v1/login/register?username=123&password=123&email=123@qq.com] nodejs.TypeError: Cannot read property 'findOne' of undefined
+    at UserService.hasRegister (D:\egg\egg-example\app\service\userInfo\user.js:25:48)
+    at UserService.register (D:\egg\egg-example\app\service\userInfo\user.js:10:40)
+    at LoginController.register (D:\egg\egg-example\app\controller\login\index.js:11:56)
+    at Object.callFn (D:\egg\egg-example\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\egg\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\egg\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\egg\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\egg\egg-example\node_modules\@eggjs\router\lib\router.js:190:18
+
+pid: 5072
+hostname: XC-AE-0536-C
+
+2021-02-03 13:04:18,193 INFO 21752 [egg-swagger-doc] register router: get /swagger-doc
+2021-02-03 13:04:18,214 INFO 21752 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-02-03 13:04:18,258 INFO 21752 [egg-sequelize](0ms) Executed (default): SELECT 1+1 AS result
+2021-02-03 13:04:19,222 INFO 21752 [-/127.0.0.1/-/15ms POST /api/v1/login/register?username=123&password=123&email=123@qq.com] users
+2021-02-03 13:04:19,231 INFO 21752 [egg-sequelize](3ms) Executed (default): SELECT `id`, `userId`, `username`, `email`, `password`, `avatarUrl`, `mobile`, `prefix`, `sex`, `created_at`, `updated_at`, `abstract` FROM `users` AS `users` WHERE `users`.`email` = '123@qq.com' LIMIT 1;
+2021-02-03 13:05:34,374 INFO 14048 [egg-swagger-doc] register router: get /swagger-doc
+2021-02-03 13:05:34,395 INFO 14048 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-02-03 13:05:34,432 INFO 14048 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-02-03 13:05:41,073 INFO 8652 [egg-swagger-doc] register router: get /swagger-doc
+2021-02-03 13:05:41,095 INFO 8652 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-02-03 13:05:41,134 INFO 8652 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-02-03 13:05:44,434 INFO 8652 [-/127.0.0.1/-/14ms POST /api/v1/login/register?username=123&password=123&email=123@qq.com] users
+2021-02-03 13:05:44,442 INFO 8652 [egg-sequelize](2ms) Executed (default): SELECT `id`, `userId`, `username`, `email`, `password`, `avatarUrl`, `mobile`, `prefix`, `sex`, `created_at`, `updated_at`, `abstract` FROM `users` AS `users` WHERE `users`.`email` = '123@qq.com' LIMIT 1;
+2021-02-03 13:05:44,456 ERROR 8652 [-/127.0.0.1/-/28ms POST /api/v1/login/register?username=123&password=123&email=123@qq.com] nodejs.SequelizeValidationError: notNull Violation: users.id cannot be null,
+notNull Violation: users.updated_at cannot be null
+notNull Violation: users.updated_at cannot be null
+    at InstanceValidator._validate (D:\egg\egg-example\node_modules\egg-sequelize\node_modules\sequelize\lib\instance-validator.js:78:13)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async InstanceValidator._validateAndRunHooks (D:\egg\egg-example\node_modules\egg-sequelize\node_modules\sequelize\lib\instance-validator.js:111:7)
+    at async InstanceValidator.validate (D:\egg\egg-example\node_modules\egg-sequelize\node_modules\sequelize\lib\instance-validator.js:93:12)
+    at async model.save (D:\egg\egg-example\node_modules\egg-sequelize\node_modules\sequelize\lib\model.js:3877:7)
+    at async Function.create (D:\egg\egg-example\node_modules\egg-sequelize\node_modules\sequelize\lib\model.js:2207:12)
+    at async UserService.register (D:\egg\egg-example\app\service\userInfo\user.js:19:25)
+    at async LoginController.register (D:\egg\egg-example\app\controller\login\index.js:11:23)
+    at async robotMiddleware (D:\egg\egg-example\app\middleware\robot.js:10:13)
+    at async D:\egg\egg-example\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+name: "SequelizeValidationError"
+errors: [{"message":"users.id cannot be null","type":"notNull Violation","path":"id","value":null,"origin":"CORE","instance":{"sex":"0","id":null,"username":"123","password":"123","email":"123@qq.com","userId":"6736c3a5535a4a1e932c19b75cd6c6e8"},"validatorKey":"is_null","validatorName":null,"validatorArgs":[]},{"message":"users.updated_at cannot be null","type":"notNull Violation","path":"updated_at","value":null,"origin":"CORE","instance":{"sex":"0","id":null,"username":"123","password":"123","email":"123@qq.com","userId":"6736c3a5535a4a1e932c19b75cd6c6e8"},"validatorKey":"is_null","validatorName":null,"validatorArgs":[]}]
+pid: 8652
+hostname: XC-AE-0536-C
+
+2021-02-03 13:06:11,461 INFO 1748 [egg-swagger-doc] register router: get /swagger-doc
+2021-02-03 13:06:11,482 INFO 1748 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-02-03 13:06:11,520 INFO 1748 [egg-sequelize](0ms) Executed (default): SELECT 1+1 AS result
+2021-02-03 13:06:14,098 INFO 1748 [-/127.0.0.1/-/20ms POST /api/v1/login/register?username=123&password=123&email=123@qq.com] users
+2021-02-03 13:06:14,107 INFO 1748 [egg-sequelize](2ms) Executed (default): SELECT `id`, `userId`, `username`, `email`, `password`, `avatarUrl`, `mobile`, `prefix`, `sex`, `created_at`, `updated_at`, `abstract` FROM `users` AS `users` WHERE `users`.`email` = '123@qq.com' LIMIT 1;
+2021-02-03 13:06:14,121 INFO 1748 [-/127.0.0.1/-/43ms POST /api/v1/login/register?username=123&password=123&email=123@qq.com] [service.userInfo.user] ---------userAdd-------- {
+  username: '123',
+  password: '123',
+  email: '123@qq.com',
+  userId: '875c38e86f0e471aaeae1c6493d392cc'
+}
+2021-02-03 13:06:14,247 ERROR 1748 [-/127.0.0.1/-/134ms POST /api/v1/login/register?username=123&password=123&email=123@qq.com] nodejs.TypeError: Cannot read property 'code' of undefined
+    at LoginController.register (D:\egg\egg-example\app\controller\login\index.js:12:19)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async robotMiddleware (D:\egg\egg-example\app\middleware\robot.js:10:13)
+    at async D:\egg\egg-example\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\egg\egg-example\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\egg\egg-example\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\egg\egg-example\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\egg\egg-example\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\egg\egg-example\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (D:\egg\egg-example\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 1748
+hostname: XC-AE-0536-C
+
+2021-02-03 13:07:04,745 INFO 20040 [egg-swagger-doc] register router: get /swagger-doc
+2021-02-03 13:07:04,766 INFO 20040 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-02-03 13:07:04,822 INFO 20040 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2021-02-03 13:07:13,092 INFO 20040 [-/127.0.0.1/-/14ms POST /api/v1/login/register?username=123&password=123&email=123@qq.com] users
+2021-02-03 13:07:13,098 INFO 20040 [egg-sequelize](2ms) Executed (default): SELECT `id`, `userId`, `username`, `email`, `password`, `avatarUrl`, `mobile`, `prefix`, `sex`, `created_at`, `updated_at`, `abstract` FROM `users` AS `users` WHERE `users`.`email` = '123@qq.com' LIMIT 1;
+2021-02-03 13:07:13,112 ERROR 20040 [-/127.0.0.1/-/30ms POST /api/v1/login/register?username=123&password=123&email=123@qq.com] nodejs.SequelizeValidationError: notNull Violation: users.id cannot be null,
+notNull Violation: users.updated_at cannot be null
+notNull Violation: users.updated_at cannot be null
+    at InstanceValidator._validate (D:\egg\egg-example\node_modules\egg-sequelize\node_modules\sequelize\lib\instance-validator.js:78:13)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async InstanceValidator._validateAndRunHooks (D:\egg\egg-example\node_modules\egg-sequelize\node_modules\sequelize\lib\instance-validator.js:111:7)
+    at async InstanceValidator.validate (D:\egg\egg-example\node_modules\egg-sequelize\node_modules\sequelize\lib\instance-validator.js:93:12)
+    at async model.save (D:\egg\egg-example\node_modules\egg-sequelize\node_modules\sequelize\lib\model.js:3877:7)
+    at async Function.create (D:\egg\egg-example\node_modules\egg-sequelize\node_modules\sequelize\lib\model.js:2207:12)
+    at async UserService.register (D:\egg\egg-example\app\service\userInfo\user.js:19:25)
+    at async LoginController.register (D:\egg\egg-example\app\controller\login\index.js:11:23)
+    at async robotMiddleware (D:\egg\egg-example\app\middleware\robot.js:10:13)
+    at async D:\egg\egg-example\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+name: "SequelizeValidationError"
+errors: [{"message":"users.id cannot be null","type":"notNull Violation","path":"id","value":null,"origin":"CORE","instance":{"sex":"0","id":null,"username":"123","password":"123","email":"123@qq.com","userId":"7d3b23b596934cad98eaef1063081681"},"validatorKey":"is_null","validatorName":null,"validatorArgs":[]},{"message":"users.updated_at cannot be null","type":"notNull Violation","path":"updated_at","value":null,"origin":"CORE","instance":{"sex":"0","id":null,"username":"123","password":"123","email":"123@qq.com","userId":"7d3b23b596934cad98eaef1063081681"},"validatorKey":"is_null","validatorName":null,"validatorArgs":[]}]
+pid: 20040
+hostname: XC-AE-0536-C
+
+2021-02-03 13:09:21,060 INFO 24036 [egg-swagger-doc] register router: get /swagger-doc
+2021-02-03 13:09:21,081 INFO 24036 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-02-03 13:09:21,119 INFO 24036 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-02-03 13:09:27,688 INFO 24036 [-/127.0.0.1/-/16ms POST /api/v1/login/register?username=123&password=123&email=123@qq.com] users
+2021-02-03 13:09:27,697 INFO 24036 [egg-sequelize](2ms) Executed (default): SELECT `id`, `userId`, `username`, `email`, `password`, `avatarUrl`, `mobile`, `prefix`, `sex`, `created_at`, `updated_at`, `abstract` FROM `users` AS `users` WHERE `users`.`email` = '123@qq.com' LIMIT 1;
+2021-02-03 13:09:27,708 ERROR 24036 [-/127.0.0.1/-/29ms POST /api/v1/login/register?username=123&password=123&email=123@qq.com] nodejs.SequelizeValidationError: notNull Violation: users.updated_at cannot be null
+    at InstanceValidator._validate (D:\egg\egg-example\node_modules\egg-sequelize\node_modules\sequelize\lib\instance-validator.js:78:13)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async InstanceValidator._validateAndRunHooks (D:\egg\egg-example\node_modules\egg-sequelize\node_modules\sequelize\lib\instance-validator.js:111:7)
+    at async InstanceValidator.validate (D:\egg\egg-example\node_modules\egg-sequelize\node_modules\sequelize\lib\instance-validator.js:93:12)
+    at async model.save (D:\egg\egg-example\node_modules\egg-sequelize\node_modules\sequelize\lib\model.js:3877:7)
+    at async Function.create (D:\egg\egg-example\node_modules\egg-sequelize\node_modules\sequelize\lib\model.js:2207:12)
+    at async UserService.register (D:\egg\egg-example\app\service\userInfo\user.js:19:25)
+    at async LoginController.register (D:\egg\egg-example\app\controller\login\index.js:11:23)
+    at async robotMiddleware (D:\egg\egg-example\app\middleware\robot.js:10:13)
+    at async D:\egg\egg-example\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+name: "SequelizeValidationError"
+errors: [{"message":"users.updated_at cannot be null","type":"notNull Violation","path":"updated_at","value":null,"origin":"CORE","instance":{"sex":"0","id":null,"username":"123","password":"123","email":"123@qq.com","userId":"d6061b2e806f484a8d63b457f3e5db1c"},"validatorKey":"is_null","validatorName":null,"validatorArgs":[]}]
+pid: 24036
+hostname: XC-AE-0536-C
+
+2021-02-03 13:10:54,606 INFO 24036 [-/127.0.0.1/-/2ms POST /api/v1/login/register?username=123&password=123&email=123@qq.com] users
+2021-02-03 13:10:54,613 INFO 24036 [egg-sequelize](2ms) Executed (default): SELECT `id`, `userId`, `username`, `email`, `password`, `avatarUrl`, `mobile`, `prefix`, `sex`, `created_at`, `updated_at`, `abstract` FROM `users` AS `users` WHERE `users`.`email` = '123@qq.com' LIMIT 1;
+2021-02-03 13:10:54,623 ERROR 24036 [-/127.0.0.1/-/15ms POST /api/v1/login/register?username=123&password=123&email=123@qq.com] nodejs.SequelizeValidationError: notNull Violation: users.updated_at cannot be null
+    at InstanceValidator._validate (D:\egg\egg-example\node_modules\egg-sequelize\node_modules\sequelize\lib\instance-validator.js:78:13)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async InstanceValidator._validateAndRunHooks (D:\egg\egg-example\node_modules\egg-sequelize\node_modules\sequelize\lib\instance-validator.js:111:7)
+    at async InstanceValidator.validate (D:\egg\egg-example\node_modules\egg-sequelize\node_modules\sequelize\lib\instance-validator.js:93:12)
+    at async model.save (D:\egg\egg-example\node_modules\egg-sequelize\node_modules\sequelize\lib\model.js:3877:7)
+    at async Function.create (D:\egg\egg-example\node_modules\egg-sequelize\node_modules\sequelize\lib\model.js:2207:12)
+    at async UserService.register (D:\egg\egg-example\app\service\userInfo\user.js:19:25)
+    at async LoginController.register (D:\egg\egg-example\app\controller\login\index.js:11:23)
+    at async robotMiddleware (D:\egg\egg-example\app\middleware\robot.js:10:13)
+    at async D:\egg\egg-example\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+name: "SequelizeValidationError"
+errors: [{"message":"users.updated_at cannot be null","type":"notNull Violation","path":"updated_at","value":null,"origin":"CORE","instance":{"sex":"0","id":null,"username":"123","password":"123","email":"123@qq.com","userId":"f1c5446476d14f21b2b950c4e53d28f6"},"validatorKey":"is_null","validatorName":null,"validatorArgs":[]}]
+pid: 24036
+hostname: XC-AE-0536-C
+
+2021-02-03 13:11:03,549 INFO 21944 [egg-swagger-doc] register router: get /swagger-doc
+2021-02-03 13:11:03,571 INFO 21944 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-02-03 13:11:03,614 INFO 21944 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-02-03 13:11:04,218 INFO 21944 [-/127.0.0.1/-/13ms POST /api/v1/login/register?username=123&password=123&email=123@qq.com] users
+2021-02-03 13:11:04,225 INFO 21944 [egg-sequelize](2ms) Executed (default): SELECT `id`, `userId`, `username`, `email`, `password`, `avatarUrl`, `mobile`, `prefix`, `sex`, `created_at`, `updated_at`, `abstract` FROM `users` AS `users` WHERE `users`.`email` = '123@qq.com' LIMIT 1;
+2021-02-03 13:11:04,244 INFO 21944 [egg-sequelize](11ms) Executed (default): INSERT INTO `users` (`id`,`userId`,`username`,`email`,`password`,`sex`) VALUES (DEFAULT,?,?,?,?,?);
+2021-02-03 13:11:04,245 INFO 21944 [-/127.0.0.1/-/40ms POST /api/v1/login/register?username=123&password=123&email=123@qq.com] [service.userInfo.user] ---------userAdd-------- users {
+  dataValues: {
+    sex: '0',
+    id: 6,
+    username: '123',
+    password: '123',
+    email: '123@qq.com',
+    userId: 'ab64868bb84f45f58888443a9c03197b'
+  },
+  _previousDataValues: {
+    username: '123',
+    password: '123',
+    email: '123@qq.com',
+    userId: 'ab64868bb84f45f58888443a9c03197b',
+    id: 6,
+    avatarUrl: undefined,
+    mobile: undefined,
+    prefix: undefined,
+    sex: '0',
+    created_at: undefined,
+    updated_at: undefined,
+    abstract: undefined
+  },
+  _changed: Set {},
+  _options: {
+    isNewRecord: true,
+    _schema: null,
+    _schemaDelimiter: '',
+    attributes: undefined,
+    include: undefined,
+    raw: undefined,
+    silent: undefined
+  },
+  isNewRecord: false
+}
+2021-02-03 13:12:04,792 INFO 23992 [egg-swagger-doc] register router: get /swagger-doc
+2021-02-03 13:12:04,814 INFO 23992 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-02-03 13:12:04,853 INFO 23992 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-02-03 13:19:12,267 INFO 23992 [-/127.0.0.1/-/14ms POST /api/v1/login/register?username=123&password=123&email=123@qq.com] users
+2021-02-03 13:19:12,277 INFO 23992 [egg-sequelize](2ms) Executed (default): SELECT `id`, `userId`, `username`, `email`, `password`, `avatarUrl`, `mobile`, `prefix`, `sex`, `created_at`, `updated_at`, `abstract` FROM `users` AS `users` WHERE `users`.`email` = '123@qq.com' LIMIT 1;
+2021-02-03 13:19:18,144 INFO 23992 [-/127.0.0.1/-/1ms POST /api/v1/login/register?username=123&password=123&email=123@qq.com] users
+2021-02-03 13:19:18,146 INFO 23992 [egg-sequelize](1ms) Executed (default): SELECT `id`, `userId`, `username`, `email`, `password`, `avatarUrl`, `mobile`, `prefix`, `sex`, `created_at`, `updated_at`, `abstract` FROM `users` AS `users` WHERE `users`.`email` = '123@qq.com4' LIMIT 1;
+2021-02-03 13:19:18,170 INFO 23992 [egg-sequelize](8ms) Executed (default): INSERT INTO `users` (`id`,`userId`,`username`,`email`,`password`,`avatarUrl`,`sex`) VALUES (DEFAULT,?,?,?,?,?,?);
+2021-02-03 13:19:18,177 INFO 23992 [-/127.0.0.1/-/35ms POST /api/v1/login/register?username=123&password=123&email=123@qq.com] [service.userInfo.user] ---------userAdd-------- users {
+  dataValues: {
+    avatarUrl: 'https://s11.mogucdn.com/mlcdn/c45406/181105_60bdj928jdhjg9ehhg58hje1212ek_640x640.jpg',
+    sex: '0',
+    id: 7,
+    username: '123',
+    password: '123',
+    email: '123@qq.com4',
+    userId: 'bd672accdda34f319151ff96d316f735'
+  },
+  _previousDataValues: {
+    username: '123',
+    password: '123',
+    email: '123@qq.com4',
+    userId: 'bd672accdda34f319151ff96d316f735',
+    id: 7,
+    avatarUrl: 'https://s11.mogucdn.com/mlcdn/c45406/181105_60bdj928jdhjg9ehhg58hje1212ek_640x640.jpg',
+    mobile: undefined,
+    prefix: undefined,
+    sex: '0',
+    created_at: undefined,
+    updated_at: undefined,
+    abstract: undefined
+  },
+  _changed: Set {},
+  _options: {
+    isNewRecord: true,
+    _schema: null,
+    _schemaDelimiter: '',
+    attributes: undefined,
+    include: undefined,
+    raw: undefined,
+    silent: undefined
+  },
+  isNewRecord: false
+}
+2021-02-03 13:29:27,035 INFO 12072 [egg-swagger-doc] register router: get /swagger-doc
+2021-02-03 13:29:27,057 INFO 12072 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-02-03 13:29:27,104 INFO 12072 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2021-02-03 13:32:52,357 INFO 23708 [egg-swagger-doc] register router: get /swagger-doc
+2021-02-03 13:32:52,379 INFO 23708 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-02-03 13:32:52,417 INFO 23708 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-02-03 13:32:55,294 INFO 23708 [egg-sequelize](2ms) Executed (default): SELECT `id`, `userId`, `username`, `email`, `password`, `avatarUrl`, `mobile`, `prefix`, `sex`, `created_at`, `updated_at`, `abstract` FROM `users` AS `users` WHERE `users`.`email` = '123@qq.com4' LIMIT 1;
+2021-02-03 13:33:01,773 INFO 23708 [egg-sequelize](1ms) Executed (default): SELECT `id`, `userId`, `username`, `email`, `password`, `avatarUrl`, `mobile`, `prefix`, `sex`, `created_at`, `updated_at`, `abstract` FROM `users` AS `users` WHERE `users`.`email` = '1232@qq.com4' LIMIT 1;
+2021-02-03 13:33:01,791 INFO 23708 [egg-sequelize](5ms) Executed (default): INSERT INTO `users` (`id`,`userId`,`username`,`email`,`password`,`avatarUrl`,`sex`,`created_at`,`updated_at`) VALUES (DEFAULT,?,?,?,?,?,?,?,?);
+2021-02-03 13:48:44,797 INFO 23316 [egg-swagger-doc] register router: get /swagger-doc
+2021-02-03 13:48:44,817 INFO 23316 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-02-03 13:48:44,855 INFO 23316 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-02-03 13:49:15,718 INFO 23316 [egg-sequelize](2ms) Executed (default): SELECT `id`, `userId`, `username`, `email`, `password`, `avatarUrl`, `mobile`, `prefix`, `sex`, `created_at`, `updated_at`, `abstract` FROM `users` AS `users` WHERE `users`.`email` = '123@qq.com' LIMIT 1;
+2021-02-03 13:53:09,875 INFO 23128 [egg-swagger-doc] register router: get /swagger-doc
+2021-02-03 13:53:09,896 INFO 23128 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-02-03 13:53:09,938 INFO 23128 [egg-sequelize](0ms) Executed (default): SELECT 1+1 AS result
+2021-02-03 13:53:12,825 INFO 23128 [egg-sequelize](4ms) Executed (default): SELECT `id`, `userId`, `username`, `email`, `password`, `avatarUrl`, `mobile`, `prefix`, `sex`, `created_at`, `updated_at`, `abstract` FROM `users` AS `users` WHERE `users`.`email` = '123@qq.com' LIMIT 1;
+2021-02-03 13:55:03,148 INFO 4024 [egg-swagger-doc] register router: get /swagger-doc
+2021-02-03 13:55:03,170 INFO 4024 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-02-03 13:55:03,208 INFO 4024 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-02-03 13:55:03,638 INFO 4024 [egg-sequelize](2ms) Executed (default): SELECT `id`, `userId`, `username`, `email`, `password`, `avatarUrl`, `mobile`, `prefix`, `sex`, `created_at`, `updated_at`, `abstract` FROM `users` AS `users` WHERE `users`.`email` = '123@qq.com' LIMIT 1;
+2021-02-03 13:56:34,292 INFO 23120 [egg-swagger-doc] register router: get /swagger-doc
+2021-02-03 13:56:34,352 INFO 23120 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-02-03 13:56:34,408 INFO 23120 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-02-03 13:56:36,443 INFO 23120 [egg-sequelize](2ms) Executed (default): SELECT `id`, `userId`, `username`, `email`, `password`, `avatarUrl`, `mobile`, `prefix`, `sex`, `created_at`, `updated_at`, `abstract` FROM `users` AS `users` WHERE `users`.`email` = '123@qq.com' LIMIT 1;
+2021-02-03 13:56:57,248 INFO 24288 [egg-swagger-doc] register router: get /swagger-doc
+2021-02-03 13:56:57,269 INFO 24288 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-02-03 13:56:57,308 INFO 24288 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-02-03 13:56:59,859 INFO 24288 [egg-sequelize](2ms) Executed (default): SELECT `id`, `userId`, `username`, `email`, `password`, `avatarUrl`, `mobile`, `prefix`, `sex`, `created_at`, `updated_at`, `abstract` FROM `users` AS `users` WHERE `users`.`email` = '123@qq.com' LIMIT 1;
+2021-02-03 13:58:59,153 INFO 21160 [egg-swagger-doc] register router: get /swagger-doc
+2021-02-03 13:58:59,175 INFO 21160 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-02-03 13:58:59,218 INFO 21160 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-02-03 13:59:01,242 ERROR 21160 [-/127.0.0.1/-/14ms POST /api/v1/login/register] nodejs.TypeError: Cannot read property 'uuid' of undefined
+    at UserService.register (D:\egg\egg-example\app\service\userInfo\user.js:8:33)
+    at LoginController.register (D:\egg\egg-example\app\controller\login\index.js:11:56)
+    at Object.callFn (D:\egg\egg-example\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\egg\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\egg\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\egg\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\egg\egg-example\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+
+pid: 21160
+hostname: XC-AE-0536-C
+
+2021-02-03 13:59:25,182 INFO 14784 [egg-swagger-doc] register router: get /swagger-doc
+2021-02-03 13:59:25,203 INFO 14784 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-02-03 13:59:25,243 INFO 14784 [egg-sequelize](0ms) Executed (default): SELECT 1+1 AS result
+2021-02-03 13:59:26,433 INFO 14784 [egg-sequelize](2ms) Executed (default): SELECT `id`, `userId`, `username`, `email`, `password`, `avatarUrl`, `mobile`, `prefix`, `sex`, `created_at`, `updated_at`, `abstract` FROM `users` AS `users` WHERE `users`.`email` = '123@qq.com' LIMIT 1;
+2021-02-03 13:59:33,727 INFO 8000 [egg-swagger-doc] register router: get /swagger-doc
+2021-02-03 13:59:33,750 INFO 8000 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-02-03 13:59:33,792 INFO 8000 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2021-02-03 13:59:34,910 INFO 8000 [egg-sequelize](2ms) Executed (default): SELECT `id`, `userId`, `username`, `email`, `password`, `avatarUrl`, `mobile`, `prefix`, `sex`, `created_at`, `updated_at`, `abstract` FROM `users` AS `users` WHERE `users`.`email` = '123@qq.com' LIMIT 1;
+2021-02-03 14:00:03,841 INFO 16700 [egg-swagger-doc] register router: get /swagger-doc
+2021-02-03 14:00:03,862 INFO 16700 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-02-03 14:00:03,902 INFO 16700 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-02-03 14:04:15,687 INFO 23688 [egg-swagger-doc] register router: get /swagger-doc
+2021-02-03 14:04:15,710 INFO 23688 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-02-03 14:04:15,748 INFO 23688 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-02-03 14:04:21,778 INFO 24156 [egg-swagger-doc] register router: get /swagger-doc
+2021-02-03 14:04:21,799 INFO 24156 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-02-03 14:04:21,844 INFO 24156 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-02-03 14:04:23,934 INFO 24156 [egg-sequelize](2ms) Executed (default): SELECT `id`, `userId`, `username`, `email`, `password`, `avatarUrl`, `mobile`, `prefix`, `sex`, `created_at`, `updated_at`, `abstract` FROM `users` AS `users` WHERE `users`.`email` = '123@qq.com' LIMIT 1;
+2021-02-03 14:04:23,945 ERROR 24156 [-/127.0.0.1/-/27ms POST /api/v1/login/register] nodejs.TypeError: Cannot read property 'code' of undefined
+    at LoginController.register (D:\egg\egg-example\app\controller\login\index.js:12:19)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async robotMiddleware (D:\egg\egg-example\app\middleware\robot.js:10:13)
+    at async D:\egg\egg-example\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\egg\egg-example\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\egg\egg-example\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\egg\egg-example\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\egg\egg-example\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\egg\egg-example\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (D:\egg\egg-example\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 24156
+hostname: XC-AE-0536-C
+
+2021-02-03 14:05:00,114 INFO 16784 [egg-swagger-doc] register router: get /swagger-doc
+2021-02-03 14:05:00,135 INFO 16784 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-02-03 14:05:00,174 INFO 16784 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-02-03 14:05:00,639 INFO 16784 [egg-sequelize](2ms) Executed (default): SELECT `id`, `userId`, `username`, `email`, `password`, `avatarUrl`, `mobile`, `prefix`, `sex`, `created_at`, `updated_at`, `abstract` FROM `users` AS `users` WHERE `users`.`email` = '123@qq.com' LIMIT 1;
+2021-02-03 14:06:02,329 INFO 10168 [egg-swagger-doc] register router: get /swagger-doc
+2021-02-03 14:06:02,350 INFO 10168 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-02-03 14:06:02,387 INFO 10168 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-02-03 14:06:10,361 INFO 10168 [egg-sequelize](1ms) Executed (default): SELECT `id`, `userId`, `username`, `email`, `password`, `avatarUrl`, `mobile`, `prefix`, `sex`, `created_at`, `updated_at`, `abstract` FROM `users` AS `users` WHERE `users`.`email` = '12111@qq.com' LIMIT 1;
+2021-02-03 14:06:10,386 INFO 10168 [egg-sequelize](11ms) Executed (default): INSERT INTO `users` (`id`,`userId`,`username`,`email`,`password`,`avatarUrl`,`sex`,`created_at`,`updated_at`) VALUES (DEFAULT,?,?,?,?,?,?,?,?);
+2021-02-03 14:06:10,393 ERROR 10168 [-/127.0.0.1/-/50ms POST /api/v1/login/register] nodejs.ReferenceError: userInfo is not defined
+    at UserService.register (D:\egg\egg-example\app\service\userInfo\user.js:19:21)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async LoginController.register (D:\egg\egg-example\app\controller\login\index.js:11:9)
+    at async robotMiddleware (D:\egg\egg-example\app\middleware\robot.js:10:13)
+    at async D:\egg\egg-example\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\egg\egg-example\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\egg\egg-example\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\egg\egg-example\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\egg\egg-example\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\egg\egg-example\node_modules\koa-session\index.js:41:7)
+
+pid: 10168
+hostname: XC-AE-0536-C
+
+2021-02-03 14:06:20,740 INFO 21700 [egg-swagger-doc] register router: get /swagger-doc
+2021-02-03 14:06:20,762 INFO 21700 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-02-03 14:06:20,803 INFO 21700 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-02-03 14:06:21,388 INFO 21700 [egg-sequelize](3ms) Executed (default): SELECT `id`, `userId`, `username`, `email`, `password`, `avatarUrl`, `mobile`, `prefix`, `sex`, `created_at`, `updated_at`, `abstract` FROM `users` AS `users` WHERE `users`.`email` = '12111@qq.com' LIMIT 1;
+2021-02-03 14:06:27,820 INFO 21700 [egg-sequelize](1ms) Executed (default): SELECT `id`, `userId`, `username`, `email`, `password`, `avatarUrl`, `mobile`, `prefix`, `sex`, `created_at`, `updated_at`, `abstract` FROM `users` AS `users` WHERE `users`.`email` = '121211@qq.com' LIMIT 1;
+2021-02-03 14:06:27,834 INFO 21700 [egg-sequelize](7ms) Executed (default): INSERT INTO `users` (`id`,`userId`,`username`,`email`,`password`,`avatarUrl`,`sex`,`created_at`,`updated_at`) VALUES (DEFAULT,?,?,?,?,?,?,?,?);
+2021-02-03 14:10:29,678 INFO 9664 [egg-swagger-doc] register router: get /swagger-doc
+2021-02-03 14:10:29,698 INFO 9664 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-02-03 14:10:29,743 INFO 9664 [egg-sequelize](0ms) Executed (default): SELECT 1+1 AS result
+2021-02-03 14:10:32,174 INFO 9664 [egg-sequelize](2ms) Executed (default): SELECT `id`, `userId`, `username`, `email`, `password`, `avatarUrl`, `mobile`, `prefix`, `sex`, `created_at`, `updated_at`, `abstract` FROM `users` AS `users` WHERE `users`.`email` = '121211@qq.com' LIMIT 1;
+2021-02-03 14:10:39,187 INFO 9664 [egg-sequelize](1ms) Executed (default): SELECT `id`, `userId`, `username`, `email`, `password`, `avatarUrl`, `mobile`, `prefix`, `sex`, `created_at`, `updated_at`, `abstract` FROM `users` AS `users` WHERE `users`.`email` = '12121221@qq.com' LIMIT 1;
+2021-02-03 14:10:39,202 ERROR 9664 [-/127.0.0.1/-/12ms POST /api/v1/login/register] nodejs.TypeError: ctx.model.User.create222 is not a function
+    at UserService.register (D:\egg\egg-example\app\service\userInfo\user.js:17:46)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async LoginController.register (D:\egg\egg-example\app\controller\login\index.js:11:9)
+    at async robotMiddleware (D:\egg\egg-example\app\middleware\robot.js:10:13)
+    at async D:\egg\egg-example\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\egg\egg-example\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\egg\egg-example\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\egg\egg-example\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\egg\egg-example\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\egg\egg-example\node_modules\koa-session\index.js:41:7)
+
+pid: 9664
+hostname: XC-AE-0536-C
+
+2021-02-03 14:11:01,752 INFO 2572 [egg-swagger-doc] register router: get /swagger-doc
+2021-02-03 14:11:01,773 INFO 2572 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-02-03 14:11:01,810 INFO 2572 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-02-03 14:11:07,965 INFO 4152 [egg-swagger-doc] register router: get /swagger-doc
+2021-02-03 14:11:07,989 INFO 4152 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-02-03 14:11:08,031 INFO 4152 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-02-03 14:11:10,739 INFO 4152 [egg-sequelize](2ms) Executed (default): SELECT `id`, `userId`, `username`, `email`, `password`, `avatarUrl`, `mobile`, `prefix`, `sex`, `created_at`, `updated_at`, `abstract` FROM `users` AS `users` WHERE `users`.`email` = '12121221@qq.com' LIMIT 1;
+2021-02-03 14:11:10,754 ERROR 4152 [-/127.0.0.1/-/22ms POST /api/v1/login/register] nodejs.TypeError: ctx.model.User.create222 is not a function
+    at UserService.register (D:\egg\egg-example\app\service\userInfo\user.js:17:46)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async LoginController.register (D:\egg\egg-example\app\controller\login\index.js:11:9)
+    at async robotMiddleware (D:\egg\egg-example\app\middleware\robot.js:10:13)
+    at async D:\egg\egg-example\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\egg\egg-example\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\egg\egg-example\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\egg\egg-example\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\egg\egg-example\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\egg\egg-example\node_modules\koa-session\index.js:41:7)
+
+pid: 4152
+hostname: XC-AE-0536-C
+
+2021-02-03 14:11:34,340 INFO 13684 [egg-swagger-doc] register router: get /swagger-doc
+2021-02-03 14:11:34,362 INFO 13684 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-02-03 14:11:34,398 INFO 13684 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-02-03 14:11:58,919 INFO 13684 [egg-sequelize](1ms) Executed (default): SELECT `id`, `userId`, `username`, `email`, `password`, `avatarUrl`, `mobile`, `prefix`, `sex`, `created_at`, `updated_at`, `abstract` FROM `users` AS `users` WHERE `users`.`email` = '12121221@qq.com' LIMIT 1;
+2021-02-03 14:11:58,933 INFO 13684 [egg-sequelize](4ms) Executed (default): INSERT INTO `users` (`id`,`userId`,`username`,`email`,`password`,`avatarUrl`,`sex`,`created_at`,`updated_at`) VALUES (DEFAULT,?,?,?,?,?,?,?,?);
+2021-02-03 14:20:46,414 INFO 23824 [egg-swagger-doc] register router: get /swagger-doc
+2021-02-03 14:20:46,435 INFO 23824 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-02-03 14:20:46,473 INFO 23824 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-02-03 14:43:57,208 INFO 23824 [egg-sequelize](2ms) Executed (default): SELECT `id`, `userId`, `username`, `email`, `password`, `avatarUrl`, `mobile`, `prefix`, `sex`, `created_at`, `updated_at`, `abstract` FROM `users` AS `users` WHERE `users`.`email` = '' LIMIT 1;
+2021-02-03 14:43:57,228 INFO 23824 [egg-sequelize](8ms) Executed (default): INSERT INTO `users` (`id`,`userId`,`username`,`email`,`password`,`avatarUrl`,`sex`,`created_at`,`updated_at`) VALUES (DEFAULT,?,?,?,?,?,?,?,?);
+2021-02-03 14:43:59,414 INFO 23824 [egg-sequelize](2ms) Executed (default): SELECT `id`, `userId`, `username`, `email`, `password`, `avatarUrl`, `mobile`, `prefix`, `sex`, `created_at`, `updated_at`, `abstract` FROM `users` AS `users` WHERE `users`.`email` = '' LIMIT 1;
+2021-02-03 14:46:06,077 INFO 2628 [egg-swagger-doc] register router: get /swagger-doc
+2021-02-03 14:46:06,097 INFO 2628 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-02-03 14:46:06,139 INFO 2628 [egg-sequelize](0ms) Executed (default): SELECT 1+1 AS result
+2021-02-03 14:46:12,962 INFO 18136 [egg-swagger-doc] register router: get /swagger-doc
+2021-02-03 14:46:12,983 INFO 18136 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-02-03 14:46:13,027 INFO 18136 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-02-03 14:46:49,255 INFO 22676 [egg-swagger-doc] register router: get /swagger-doc
+2021-02-03 14:46:49,276 INFO 22676 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-02-03 14:46:49,320 INFO 22676 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-02-03 14:46:50,296 WARN 22676 [-/127.0.0.1/-/13ms POST /api/v1/login/register] nodejs.BadRequestError: 手机号或者邮箱不能为空
+    at Object.throw (D:\egg\egg-example\node_modules\koa\lib\context.js:97:11)
+    at LoginController.__errNotice (D:\egg\egg-example\app\controller\login\index.js:69:22)
+    at LoginController.register (D:\egg\egg-example\app\controller\login\index.js:10:26)
+    at Object.callFn (D:\egg\egg-example\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\egg\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\egg\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\egg\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\egg\egg-example\node_modules\@eggjs\router\lib\router.js:190:18
+message: "手机号或者邮箱不能为空"
+pid: 22676
+hostname: XC-AE-0536-C
+
+2021-02-03 14:47:59,293 INFO 23992 [egg-swagger-doc] register router: get /swagger-doc
+2021-02-03 14:47:59,316 INFO 23992 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-02-03 14:47:59,360 INFO 23992 [egg-sequelize](0ms) Executed (default): SELECT 1+1 AS result
+2021-02-03 14:48:09,299 INFO 24180 [egg-swagger-doc] register router: get /swagger-doc
+2021-02-03 14:48:09,321 INFO 24180 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-02-03 14:48:09,363 INFO 24180 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-02-03 14:49:47,433 INFO 20560 [egg-swagger-doc] register router: get /swagger-doc
+2021-02-03 14:49:47,454 INFO 20560 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-02-03 14:49:47,493 INFO 20560 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-02-03 14:49:47,621 WARN 20560 [-/127.0.0.1/-/15ms POST /api/v1/login/register] nodejs.BadRequestError: 手机号或者邮箱不能为空
+    at Object.throw (D:\egg\egg-example\node_modules\koa\lib\context.js:97:11)
+    at LoginController.__errNotice (D:\egg\egg-example\app\controller\login\index.js:69:22)
+    at LoginController.register (D:\egg\egg-example\app\controller\login\index.js:10:26)
+    at Object.callFn (D:\egg\egg-example\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\egg\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\egg\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\egg\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\egg\egg-example\node_modules\@eggjs\router\lib\router.js:190:18
+message: "手机号或者邮箱不能为空"
+pid: 20560
+hostname: XC-AE-0536-C
+
+2021-02-03 14:50:02,965 WARN 20560 [-/127.0.0.1/-/1ms POST /api/v1/login/register] nodejs.BadRequestError: 手机号或者邮箱不能为空
+    at Object.throw (D:\egg\egg-example\node_modules\koa\lib\context.js:97:11)
+    at LoginController.__errNotice (D:\egg\egg-example\app\controller\login\index.js:69:22)
+    at LoginController.register (D:\egg\egg-example\app\controller\login\index.js:10:26)
+    at Object.callFn (D:\egg\egg-example\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\egg\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\egg\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\egg\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\egg\egg-example\node_modules\@eggjs\router\lib\router.js:190:18
+message: "手机号或者邮箱不能为空"
+pid: 20560
+hostname: XC-AE-0536-C
+
+2021-02-03 14:50:23,384 WARN 20560 [-/127.0.0.1/-/2ms POST /api/v1/login/register] nodejs.BadRequestError: 验证码不能为空
+    at Object.throw (D:\egg\egg-example\node_modules\koa\lib\context.js:97:11)
+    at LoginController.__errNotice (D:\egg\egg-example\app\controller\login\index.js:69:22)
+    at LoginController.register (D:\egg\egg-example\app\controller\login\index.js:10:26)
+    at Object.callFn (D:\egg\egg-example\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\egg\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\egg\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\egg\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\egg\egg-example\node_modules\@eggjs\router\lib\router.js:190:18
+message: "验证码不能为空"
+pid: 20560
+hostname: XC-AE-0536-C
+
+2021-02-03 15:01:47,290 INFO 25180 [egg-swagger-doc] register router: get /swagger-doc
+2021-02-03 15:01:47,312 INFO 25180 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-02-03 15:01:47,353 INFO 25180 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-02-03 15:05:34,824 INFO 25492 [egg-swagger-doc] register router: get /swagger-doc
+2021-02-03 15:05:34,848 INFO 25492 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-02-03 15:05:34,897 INFO 25492 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-02-03 15:06:02,300 INFO 11792 [egg-swagger-doc] register router: get /swagger-doc
+2021-02-03 15:06:02,324 INFO 11792 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-02-03 15:06:02,360 INFO 11792 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-02-03 15:53:46,993 INFO 8816 [egg-swagger-doc] register router: get /swagger-doc
+2021-02-03 15:53:47,014 INFO 8816 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-02-03 15:53:47,053 INFO 8816 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-02-03 15:54:15,002 INFO 23476 [egg-swagger-doc] register router: get /swagger-doc
+2021-02-03 15:54:15,023 INFO 23476 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-02-03 15:54:15,060 INFO 23476 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-02-03 15:54:48,095 INFO 20508 [egg-swagger-doc] register router: get /swagger-doc
+2021-02-03 15:54:48,117 INFO 20508 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-02-03 15:54:48,158 INFO 20508 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-02-03 15:55:59,760 INFO 22736 [egg-swagger-doc] register router: get /swagger-doc
+2021-02-03 15:55:59,781 INFO 22736 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-02-03 15:55:59,817 INFO 22736 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-02-03 15:57:22,825 INFO 9364 [egg-swagger-doc] register router: get /swagger-doc
+2021-02-03 15:57:22,845 INFO 9364 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-02-03 15:57:22,883 INFO 9364 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-02-03 15:59:30,165 INFO 3964 [egg-swagger-doc] register router: get /swagger-doc
+2021-02-03 15:59:30,186 INFO 3964 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-02-03 15:59:30,223 INFO 3964 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-02-03 16:01:32,162 INFO 21848 [egg-swagger-doc] register router: get /swagger-doc
+2021-02-03 16:01:32,185 INFO 21848 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-02-03 16:01:32,226 INFO 21848 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-02-03 16:01:39,334 INFO 4152 [egg-swagger-doc] register router: get /swagger-doc
+2021-02-03 16:01:39,375 INFO 4152 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-02-03 16:01:39,413 INFO 4152 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-02-03 16:01:40,959 INFO 12176 [egg-swagger-doc] register router: get /swagger-doc
+2021-02-03 16:01:40,980 INFO 12176 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-02-03 16:01:41,020 INFO 12176 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2021-02-03 16:02:34,251 INFO 20896 [egg-swagger-doc] register router: get /swagger-doc
+2021-02-03 16:02:34,270 INFO 20896 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-02-03 16:02:34,310 INFO 20896 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-02-03 16:03:31,235 INFO 21272 [egg-swagger-doc] register router: get /swagger-doc
+2021-02-03 16:03:31,255 INFO 21272 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-02-03 16:03:31,297 INFO 21272 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-02-03 16:04:02,859 INFO 21792 [egg-swagger-doc] register router: get /swagger-doc
+2021-02-03 16:04:02,878 INFO 21792 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-02-03 16:04:02,919 INFO 21792 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2021-02-03 16:04:18,721 INFO 21792 [egg-sequelize](3ms) Executed (default): SELECT `id`, `userId`, `username`, `email`, `password`, `avatarUrl`, `mobile`, `prefix`, `sex`, `created_at`, `updated_at`, `abstract` FROM `users` AS `users` WHERE `users`.`email` = '1232@qq.com4' LIMIT 1;
+2021-02-03 16:06:35,381 INFO 20988 [egg-swagger-doc] register router: get /swagger-doc
+2021-02-03 16:06:35,402 INFO 20988 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-02-03 16:06:35,444 INFO 20988 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-02-03 16:07:24,010 ERROR 20988 [-/127.0.0.1/-/5ms GET /api/v1/login/signout] nodejs.TypeError: ctx.logout is not a function
+    at LoginController.signOut (D:\egg\egg-example\app\controller\login\index.js:36:13)
+    at Object.callFn (D:\egg\egg-example\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\egg\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\egg\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\egg\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\egg\egg-example\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+
+pid: 20988
+hostname: XC-AE-0536-C
+
+2021-02-03 16:09:06,468 INFO 9552 [egg-swagger-doc] register router: get /swagger-doc
+2021-02-03 16:09:06,489 INFO 9552 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-02-03 16:09:06,562 INFO 9552 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-02-03 16:09:10,125 INFO 17700 [egg-swagger-doc] register router: get /swagger-doc
+2021-02-03 16:09:10,146 INFO 17700 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-02-03 16:09:10,182 INFO 17700 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-02-03 16:16:29,971 INFO 25200 [egg-swagger-doc] register router: get /swagger-doc
+2021-02-03 16:16:29,994 INFO 25200 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-02-03 16:16:30,031 INFO 25200 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-02-03 16:16:33,274 ERROR 25200 [-/127.0.0.1/-/26ms GET /api/v1/login/signout] nodejs.TypeError: ctx.logout is not a function
+    at LoginController.signOut (D:\egg\egg-example\app\controller\login\index.js:37:13)
+    at Object.callFn (D:\egg\egg-example\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\egg\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\egg\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\egg\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\egg\egg-example\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+
+pid: 25200
+hostname: XC-AE-0536-C
+
+2021-02-03 16:22:37,500 INFO 8648 [egg-swagger-doc] register router: get /swagger-doc
+2021-02-03 16:22:37,520 INFO 8648 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-02-03 16:22:37,558 INFO 8648 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-02-03 16:24:38,156 INFO 22936 [egg-swagger-doc] register router: get /swagger-doc
+2021-02-03 16:24:38,178 INFO 22936 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-02-03 16:24:38,220 INFO 22936 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2021-02-03 16:24:55,088 INFO 22936 [egg-sequelize](3ms) Executed (default): SELECT `id`, `userId`, `username`, `email`, `password`, `avatarUrl`, `mobile`, `prefix`, `sex`, `created_at`, `updated_at`, `abstract` FROM `users` AS `users` WHERE `users`.`email` = '1232@qq.com4' LIMIT 1;
+2021-02-03 16:25:09,974 INFO 22936 [egg-sequelize](1ms) Executed (default): SELECT `id`, `userId`, `username`, `email`, `password`, `avatarUrl`, `mobile`, `prefix`, `sex`, `created_at`, `updated_at`, `abstract` FROM `users` AS `users` WHERE `users`.`email` = '1232@qq.com4' LIMIT 1;
+2021-02-03 16:25:10,982 INFO 22936 [egg-sequelize](2ms) Executed (default): SELECT `id`, `userId`, `username`, `email`, `password`, `avatarUrl`, `mobile`, `prefix`, `sex`, `created_at`, `updated_at`, `abstract` FROM `users` AS `users` WHERE `users`.`email` = '1232@qq.com4' LIMIT 1;
+2021-02-03 16:25:11,846 INFO 22936 [egg-sequelize](1ms) Executed (default): SELECT `id`, `userId`, `username`, `email`, `password`, `avatarUrl`, `mobile`, `prefix`, `sex`, `created_at`, `updated_at`, `abstract` FROM `users` AS `users` WHERE `users`.`email` = '1232@qq.com4' LIMIT 1;
+2021-02-03 16:25:12,801 INFO 22936 [egg-sequelize](2ms) Executed (default): SELECT `id`, `userId`, `username`, `email`, `password`, `avatarUrl`, `mobile`, `prefix`, `sex`, `created_at`, `updated_at`, `abstract` FROM `users` AS `users` WHERE `users`.`email` = '1232@qq.com4' LIMIT 1;
+2021-02-03 16:52:34,936 INFO 23992 [egg-swagger-doc] register router: get /swagger-doc
+2021-02-03 16:52:34,958 INFO 23992 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-02-03 16:52:35,003 INFO 23992 [egg-sequelize](0ms) Executed (default): SELECT 1+1 AS result
+2021-02-03 16:57:32,967 INFO 24608 [egg-swagger-doc] register router: get /swagger-doc
+2021-02-03 16:57:32,988 INFO 24608 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-02-03 16:57:33,029 INFO 24608 [egg-sequelize](0ms) Executed (default): SELECT 1+1 AS result
+2021-02-03 16:57:40,376 INFO 16628 [egg-swagger-doc] register router: get /swagger-doc
+2021-02-03 16:57:40,397 INFO 16628 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-02-03 16:57:40,433 INFO 16628 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-02-03 16:58:59,166 INFO 9244 [egg-swagger-doc] register router: get /swagger-doc
+2021-02-03 16:58:59,188 INFO 9244 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-02-03 16:58:59,228 INFO 9244 [egg-sequelize](0ms) Executed (default): SELECT 1+1 AS result
+2021-02-03 16:59:45,148 ERROR 9244 [-/127.0.0.1/-/4ms GET /api/v1/user/info] nodejs.TypeError: Cannot read property 'userId' of undefined
+    at UserController.userInfo (D:\egg\egg-example\app\controller\user\index.js:8:51)
+    at Object.callFn (D:\egg\egg-example\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\egg\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\egg\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\egg\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\egg\egg-example\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+
+pid: 9244
+hostname: XC-AE-0536-C
+
+2021-02-03 17:01:00,938 INFO 20596 [egg-swagger-doc] register router: get /swagger-doc
+2021-02-03 17:01:00,959 INFO 20596 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-02-03 17:01:01,002 INFO 20596 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-02-03 17:01:03,125 ERROR 20596 [-/127.0.0.1/-/7ms GET /api/v1/user/info] nodejs.ReferenceError: jwt is not defined
+    at Object.get user [as user] (D:\egg\egg-example\app\extend\context.js:5:20)
+    at UserController.userInfo (D:\egg\egg-example\app\controller\user\index.js:8:46)
+    at Object.callFn (D:\egg\egg-example\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\egg\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\egg\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\egg\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\egg\egg-example\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+
+pid: 20596
+hostname: XC-AE-0536-C
+
+2021-02-03 17:01:25,732 INFO 17580 [egg-swagger-doc] register router: get /swagger-doc
+2021-02-03 17:01:25,753 INFO 17580 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-02-03 17:01:25,803 INFO 17580 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-02-03 17:02:20,814 INFO 17580 [egg-sequelize](3ms) Executed (default): SELECT `id`, `userId`, `username`, `email`, `password`, `avatarUrl`, `mobile`, `prefix`, `sex`, `created_at`, `updated_at`, `abstract` FROM `users` AS `users` WHERE `users`.`email` = '12121221@qq.com' LIMIT 1;
+2021-02-03 17:02:42,040 ERROR 17580 [-/127.0.0.1/-/1ms GET /api/v1/user/info] nodejs.JsonWebTokenError: jwt must be provided
+    at Object.module.exports [as verify] (D:\egg\egg-example\node_modules\jsonwebtoken\verify.js:53:17)
+    at AsyncFunction.<computed>.verify (D:\egg\egg-example\node_modules\egg-jwt\app\extend\application.js:42:20)
+    at Object.get user [as user] (D:\egg\egg-example\app\extend\context.js:5:33)
+    at UserController.userInfo (D:\egg\egg-example\app\controller\user\index.js:8:46)
+    at Object.callFn (D:\egg\egg-example\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\egg\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\egg\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\egg\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+name: "JsonWebTokenError"
+message: "jwt must be provided"
+pid: 17580
+hostname: XC-AE-0536-C
+
+2021-02-03 17:04:27,446 INFO 3664 [egg-swagger-doc] register router: get /swagger-doc
+2021-02-03 17:04:27,465 INFO 3664 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-02-03 17:04:27,504 INFO 3664 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-02-03 17:04:33,465 INFO 22924 [egg-swagger-doc] register router: get /swagger-doc
+2021-02-03 17:04:33,488 INFO 22924 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-02-03 17:04:33,543 INFO 22924 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-02-03 17:04:38,533 INFO 8336 [egg-swagger-doc] register router: get /swagger-doc
+2021-02-03 17:04:38,553 INFO 8336 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-02-03 17:04:38,599 INFO 8336 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-02-03 17:04:43,745 ERROR 8336 [-/127.0.0.1/-/5ms GET /api/v1/user/info] nodejs.JsonWebTokenError: jwt must be provided
+    at Object.module.exports [as verify] (D:\egg\egg-example\node_modules\jsonwebtoken\verify.js:53:17)
+    at AsyncFunction.<computed>.verify (D:\egg\egg-example\node_modules\egg-jwt\app\extend\application.js:42:20)
+    at Object.get user [as user] (D:\egg\egg-example\app\extend\context.js:5:33)
+    at UserController.userInfo (D:\egg\egg-example\app\controller\user\index.js:8:46)
+    at Object.callFn (D:\egg\egg-example\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\egg\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\egg\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\egg\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+name: "JsonWebTokenError"
+message: "jwt must be provided"
+pid: 8336
+hostname: XC-AE-0536-C
+
+2021-02-03 17:12:03,846 INFO 23952 [egg-swagger-doc] register router: get /swagger-doc
+2021-02-03 17:12:03,868 INFO 23952 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-02-03 17:12:03,910 INFO 23952 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-02-03 17:12:06,538 ERROR 23952 [-/127.0.0.1/-/5ms GET /api/v1/user/info] nodejs.JsonWebTokenError: jwt must be provided
+    at Object.module.exports [as verify] (D:\egg\egg-example\node_modules\jsonwebtoken\verify.js:53:17)
+    at AsyncFunction.<computed>.verify (D:\egg\egg-example\node_modules\egg-jwt\app\extend\application.js:42:20)
+    at Object.get user [as user] (D:\egg\egg-example\app\extend\context.js:5:33)
+    at UserController.userInfo (D:\egg\egg-example\app\controller\user\index.js:8:46)
+    at Object.callFn (D:\egg\egg-example\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\egg\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\egg\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\egg\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+name: "JsonWebTokenError"
+message: "jwt must be provided"
+pid: 23952
+hostname: XC-AE-0536-C
+
+2021-02-03 17:12:08,869 INFO 23952 [egg-sequelize](3ms) Executed (default): SELECT `id`, `userId`, `username`, `email`, `password`, `avatarUrl`, `mobile`, `prefix`, `sex`, `created_at`, `updated_at`, `abstract` FROM `users` AS `users` WHERE `users`.`email` = '12121221@qq.com' LIMIT 1;
+2021-02-03 17:14:26,072 INFO 22324 [egg-swagger-doc] register router: get /swagger-doc
+2021-02-03 17:14:26,092 INFO 22324 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-02-03 17:14:26,131 INFO 22324 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-02-03 17:14:28,551 INFO 7324 [egg-swagger-doc] register router: get /swagger-doc
+2021-02-03 17:14:28,572 INFO 7324 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-02-03 17:14:28,612 INFO 7324 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-02-03 17:14:43,259 INFO 7324 [egg-sequelize](9ms) Executed (default): SELECT `id`, `userId`, `username`, `email`, `password`, `avatarUrl`, `mobile`, `prefix`, `sex`, `created_at`, `updated_at`, `abstract` FROM `users` AS `users` WHERE `users`.`email` = '12121221@qq.com' LIMIT 1;
+2021-02-03 17:15:41,161 INFO 22720 [egg-swagger-doc] register router: get /swagger-doc
+2021-02-03 17:15:41,181 INFO 22720 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-02-03 17:15:41,221 INFO 22720 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-02-03 17:15:52,056 INFO 22776 [egg-swagger-doc] register router: get /swagger-doc
+2021-02-03 17:15:52,078 INFO 22776 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-02-03 17:15:52,116 INFO 22776 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-02-03 17:15:59,148 INFO 12352 [egg-swagger-doc] register router: get /swagger-doc
+2021-02-03 17:15:59,169 INFO 12352 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-02-03 17:15:59,207 INFO 12352 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-02-03 17:16:20,657 INFO 1492 [egg-swagger-doc] register router: get /swagger-doc
+2021-02-03 17:16:20,677 INFO 1492 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-02-03 17:16:20,714 INFO 1492 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-02-03 17:19:52,133 INFO 18676 [egg-swagger-doc] register router: get /swagger-doc
+2021-02-03 17:19:52,154 INFO 18676 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-02-03 17:19:52,193 INFO 18676 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-02-03 17:19:57,819 INFO 22132 [egg-swagger-doc] register router: get /swagger-doc
+2021-02-03 17:19:57,840 INFO 22132 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-02-03 17:19:57,880 INFO 22132 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-02-03 17:20:12,779 INFO 22132 [egg-sequelize](2ms) Executed (default): SELECT `id`, `userId`, `username`, `email`, `password`, `avatarUrl`, `mobile`, `prefix`, `sex`, `created_at`, `updated_at`, `abstract` FROM `users` AS `users` WHERE `users`.`email` = '12121221@qq.com' LIMIT 1;
+2021-02-03 17:20:22,312 INFO 22132 [egg-sequelize](1ms) Executed (default): SELECT `id`, `userId`, `username`, `email`, `password`, `avatarUrl`, `mobile`, `prefix`, `sex`, `created_at`, `updated_at`, `abstract` FROM `users` AS `users` WHERE `users`.`email` = '' LIMIT 1;
+2021-02-03 17:20:53,694 INFO 24684 [egg-swagger-doc] register router: get /swagger-doc
+2021-02-03 17:20:53,715 INFO 24684 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-02-03 17:20:53,758 INFO 24684 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-02-03 17:20:59,345 ERROR 24684 [-/127.0.0.1/-/0ms GET /] nodejs.TypeError: this.app.model.User.findOne2 is not a function
+    at UserService.hasRegister (D:\egg\egg-example\app\service\userInfo\user.js:63:48)
+    at UserService.register (D:\egg\egg-example\app\service\userInfo\user.js:13:40)
+    at LoginController.register (D:\egg\egg-example\app\controller\login\index.js:10:42)
+    at Object.callFn (D:\egg\egg-example\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\egg\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\egg\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\egg\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\egg\egg-example\node_modules\@eggjs\router\lib\router.js:190:18
+
+pid: 24684
+hostname: XC-AE-0536-C
+
+2021-02-03 17:21:10,133 INFO 22316 [egg-swagger-doc] register router: get /swagger-doc
+2021-02-03 17:21:10,153 INFO 22316 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-02-03 17:21:10,193 INFO 22316 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-02-03 17:21:13,555 INFO 25248 [egg-swagger-doc] register router: get /swagger-doc
+2021-02-03 17:21:13,577 INFO 25248 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-02-03 17:21:13,615 INFO 25248 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-02-03 17:21:20,264 INFO 8084 [egg-swagger-doc] register router: get /swagger-doc
+2021-02-03 17:21:20,285 INFO 8084 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-02-03 17:21:20,323 INFO 8084 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-02-03 17:21:22,233 ERROR 8084 [-/127.0.0.1/-/16ms POST /api/v1/login/register] nodejs.TypeError: this.app.model.User.findOne2 is not a function
+    at UserService.hasRegister (D:\egg\egg-example\app\service\userInfo\user.js:63:48)
+    at UserService.register (D:\egg\egg-example\app\service\userInfo\user.js:13:40)
+    at LoginController.register (D:\egg\egg-example\app\controller\login\index.js:10:42)
+    at Object.callFn (D:\egg\egg-example\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\egg\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\egg\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\egg\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\egg\egg-example\node_modules\@eggjs\router\lib\router.js:190:18
+
+pid: 8084
+hostname: XC-AE-0536-C
+
+2021-02-03 17:21:28,438 INFO 19328 [egg-swagger-doc] register router: get /swagger-doc
+2021-02-03 17:21:28,460 INFO 19328 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-02-03 17:21:28,496 INFO 19328 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-02-03 17:21:29,826 ERROR 19328 [-/127.0.0.1/-/0ms GET /] nodejs.TypeError: this.app.model.User.findOne2 is not a function
+    at UserService.hasRegister (D:\egg\egg-example\app\service\userInfo\user.js:63:48)
+    at UserService.register (D:\egg\egg-example\app\service\userInfo\user.js:13:40)
+    at LoginController.register (D:\egg\egg-example\app\controller\login\index.js:10:42)
+    at Object.callFn (D:\egg\egg-example\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\egg\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\egg\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\egg\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\egg\egg-example\node_modules\@eggjs\router\lib\router.js:190:18
+
+pid: 19328
+hostname: XC-AE-0536-C
+
+2021-02-03 17:21:34,284 INFO 15484 [egg-swagger-doc] register router: get /swagger-doc
+2021-02-03 17:21:34,309 INFO 15484 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-02-03 17:21:34,353 INFO 15484 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-02-03 17:24:21,388 INFO 16392 [egg-swagger-doc] register router: get /swagger-doc
+2021-02-03 17:24:21,409 INFO 16392 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-02-03 17:24:21,449 INFO 16392 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-02-03 17:26:56,753 INFO 19564 [egg-swagger-doc] register router: get /swagger-doc
+2021-02-03 17:26:56,779 INFO 19564 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-02-03 17:26:56,830 INFO 19564 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-02-03 17:27:19,583 INFO 7220 [egg-swagger-doc] register router: get /swagger-doc
+2021-02-03 17:27:19,603 INFO 7220 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-02-03 17:27:19,645 INFO 7220 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-02-03 17:27:35,284 INFO 22236 [egg-swagger-doc] register router: get /swagger-doc
+2021-02-03 17:27:35,304 INFO 22236 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-02-03 17:27:35,350 INFO 22236 [egg-sequelize](2ms) Executed (default): SELECT 1+1 AS result
+2021-02-03 17:27:51,645 INFO 6304 [egg-swagger-doc] register router: get /swagger-doc
+2021-02-03 17:27:51,665 INFO 6304 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-02-03 17:27:51,710 INFO 6304 [egg-sequelize](0ms) Executed (default): SELECT 1+1 AS result
+2021-02-03 17:28:33,600 INFO 6452 [egg-swagger-doc] register router: get /swagger-doc
+2021-02-03 17:28:33,637 INFO 6452 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-02-03 17:28:33,679 INFO 6452 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-02-03 17:28:33,921 INFO 6452 [egg-sequelize](3ms) Executed (default): SELECT `id`, `userId`, `username`, `email`, `password`, `avatarUrl`, `mobile`, `prefix`, `sex`, `created_at`, `updated_at`, `abstract` FROM `users` AS `users` WHERE `users`.`email` = '12121221@qq.com' LIMIT 1;
+2021-02-03 17:29:18,388 INFO 21004 [egg-swagger-doc] register router: get /swagger-doc
+2021-02-03 17:29:18,408 INFO 21004 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-02-03 17:29:18,451 INFO 21004 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-02-03 17:30:31,012 INFO 22180 [egg-swagger-doc] register router: get /swagger-doc
+2021-02-03 17:30:31,031 INFO 22180 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-02-03 17:30:31,074 INFO 22180 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-02-03 17:30:44,737 INFO 23572 [egg-swagger-doc] register router: get /swagger-doc
+2021-02-03 17:30:44,758 INFO 23572 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-02-03 17:30:44,801 INFO 23572 [egg-sequelize](0ms) Executed (default): SELECT 1+1 AS result
+2021-02-03 17:30:58,256 INFO 25460 [egg-swagger-doc] register router: get /swagger-doc
+2021-02-03 17:30:58,278 INFO 25460 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-02-03 17:30:58,318 INFO 25460 [egg-sequelize](0ms) Executed (default): SELECT 1+1 AS result
+2021-02-03 17:31:59,454 INFO 21276 [egg-swagger-doc] register router: get /swagger-doc
+2021-02-03 17:31:59,474 INFO 21276 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-02-03 17:31:59,513 INFO 21276 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-02-03 17:32:21,479 INFO 25320 [egg-swagger-doc] register router: get /swagger-doc
+2021-02-03 17:32:21,501 INFO 25320 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-02-03 17:32:21,554 INFO 25320 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-02-03 17:32:33,559 INFO 21380 [egg-swagger-doc] register router: get /swagger-doc
+2021-02-03 17:32:33,578 INFO 21380 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-02-03 17:32:33,616 INFO 21380 [egg-sequelize](0ms) Executed (default): SELECT 1+1 AS result
+2021-02-03 17:32:49,369 INFO 24976 [egg-swagger-doc] register router: get /swagger-doc
+2021-02-03 17:32:49,389 INFO 24976 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-02-03 17:32:49,427 INFO 24976 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-02-03 17:34:11,952 INFO 24204 [egg-swagger-doc] register router: get /swagger-doc
+2021-02-03 17:34:11,973 INFO 24204 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-02-03 17:34:12,016 INFO 24204 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-02-03 17:34:30,225 INFO 23028 [egg-swagger-doc] register router: get /swagger-doc
+2021-02-03 17:34:30,246 INFO 23028 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-02-03 17:34:30,290 INFO 23028 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-02-03 17:35:41,238 INFO 22176 [egg-swagger-doc] register router: get /swagger-doc
+2021-02-03 17:35:41,259 INFO 22176 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-02-03 17:35:41,302 INFO 22176 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-02-03 17:36:11,300 INFO 9696 [egg-swagger-doc] register router: get /swagger-doc
+2021-02-03 17:36:11,321 INFO 9696 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-02-03 17:36:11,361 INFO 9696 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-02-03 17:36:32,260 INFO 22512 [egg-swagger-doc] register router: get /swagger-doc
+2021-02-03 17:36:32,281 INFO 22512 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-02-03 17:36:32,320 INFO 22512 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-02-03 17:41:00,065 INFO 2760 [egg-swagger-doc] register router: get /swagger-doc
+2021-02-03 17:41:00,085 INFO 2760 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-02-03 17:41:00,123 INFO 2760 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-02-03 17:44:41,083 INFO 1232 [egg-swagger-doc] register router: get /swagger-doc
+2021-02-03 17:44:41,105 INFO 1232 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-02-03 17:44:41,146 INFO 1232 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-02-03 17:45:07,772 INFO 22156 [egg-swagger-doc] register router: get /swagger-doc
+2021-02-03 17:45:07,793 INFO 22156 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-02-03 17:45:07,839 INFO 22156 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-02-03 17:45:27,294 INFO 19460 [egg-swagger-doc] register router: get /swagger-doc
+2021-02-03 17:45:27,315 INFO 19460 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-02-03 17:45:27,353 INFO 19460 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-02-03 17:45:36,939 INFO 12736 [egg-swagger-doc] register router: get /swagger-doc
+2021-02-03 17:45:36,960 INFO 12736 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-02-03 17:45:37,001 INFO 12736 [egg-sequelize](1ms) Executed (default): SELECT 1+1 AS result
+2021-02-03 17:45:37,448 INFO 12736 [egg-sequelize](2ms) Executed (default): SELECT `id`, `userId`, `username`, `email`, `password`, `avatarUrl`, `mobile`, `prefix`, `sex`, `created_at`, `updated_at`, `abstract` FROM `users` AS `users` WHERE `users`.`userId` = '85da44f72c3547c0873b8eecbf869209' LIMIT 1;

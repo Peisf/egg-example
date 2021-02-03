@@ -1,0 +1,19 @@
+2021-01-26 10:36:12,790 ERROR 7640 nodejs.EPERMError: EPERM: operation not permitted, watch
+    at FSEvent.FSWatcher._handle.onchange (internal/fs/watchers.js:127:28)
+errno: -4048
+syscall: "watch"
+code: "EPERM"
+filename: null
+dir: "D:\\egg\\egg-example\\app\\service\\user"
+name: "EPERMError"
+pid: 7640
+hostname: XC-AE-0536-C
+
+2021-01-27 09:17:11,711 ERROR 39004 nodejs.ClusterClientNoResponseError: client no response in 54418219ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (D:\egg\egg-example\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 39004
+hostname: XC-AE-0536-C
+

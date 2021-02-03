@@ -1,0 +1,26 @@
+2021-01-27 10:52:39,007 ERROR 37964 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:208:20)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 37964
+hostname: XC-AE-0536-C
+
+2021-01-27 10:52:51,913 ERROR 37964 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:208:20)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 37964
+hostname: XC-AE-0536-C
+
+2021-01-28 09:18:01,320 ERROR 40268 nodejs.ClusterClientNoResponseError: client no response in 53464304ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (D:\egg\egg-example\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 40268
+hostname: XC-AE-0536-C
+

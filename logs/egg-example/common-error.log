@@ -1,0 +1,648 @@
+2021-02-03 09:20:03,846 ERROR 32480 [-/127.0.0.1/-/27ms POST /api/v1/login/register] nodejs.TypeError: Cannot read property 'create' of undefined
+    at UserService.register (D:\egg\egg-example\app\service\userInfo\user.js:19:46)
+    at async LoginController.register (D:\egg\egg-example\app\controller\login\index.js:10:23)
+
+pid: 32480
+hostname: XC-AE-0536-C
+
+2021-02-03 11:01:08,072 ERROR 18588 [-/127.0.0.1/-/6ms POST /api/v1/login/register] nodejs.TypeError: Cannot read property 'findOne' of undefined
+    at UserService.hasRegister (D:\egg\egg-example\app\service\userInfo\user.js:24:48)
+    at UserService.register (D:\egg\egg-example\app\service\userInfo\user.js:10:40)
+    at LoginController.register (D:\egg\egg-example\app\controller\login\index.js:10:56)
+    at Object.callFn (D:\egg\egg-example\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\egg\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\egg\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\egg\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\egg\egg-example\node_modules\@eggjs\router\lib\router.js:190:18
+
+pid: 18588
+hostname: XC-AE-0536-C
+
+2021-02-03 11:27:37,070 ERROR 18588 [-/127.0.0.1/-/1ms POST /api/v1/login/register] nodejs.TypeError: Cannot read property 'findOne' of undefined
+    at UserService.hasRegister (D:\egg\egg-example\app\service\userInfo\user.js:24:48)
+    at UserService.register (D:\egg\egg-example\app\service\userInfo\user.js:10:40)
+    at LoginController.register (D:\egg\egg-example\app\controller\login\index.js:10:56)
+    at Object.callFn (D:\egg\egg-example\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\egg\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\egg\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\egg\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\egg\egg-example\node_modules\@eggjs\router\lib\router.js:190:18
+
+pid: 18588
+hostname: XC-AE-0536-C
+
+2021-02-03 11:27:54,873 ERROR 24220 [-/127.0.0.1/-/5ms POST /api/v1/login/register] nodejs.TypeError: Cannot read property 'findOne' of undefined
+    at UserService.hasRegister (D:\egg\egg-example\app\service\userInfo\user.js:24:48)
+    at UserService.register (D:\egg\egg-example\app\service\userInfo\user.js:10:40)
+    at LoginController.register (D:\egg\egg-example\app\controller\login\index.js:10:56)
+    at Object.callFn (D:\egg\egg-example\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\egg\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\egg\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\egg\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\egg\egg-example\node_modules\@eggjs\router\lib\router.js:190:18
+
+pid: 24220
+hostname: XC-AE-0536-C
+
+2021-02-03 11:28:30,597 ERROR 14040 [-/127.0.0.1/-/6ms POST /api/v1/login/register] nodejs.TypeError: Cannot read property 'findOne' of undefined
+    at UserService.hasRegister (D:\egg\egg-example\app\service\userInfo\user.js:24:48)
+    at UserService.register (D:\egg\egg-example\app\service\userInfo\user.js:10:40)
+    at LoginController.register (D:\egg\egg-example\app\controller\login\index.js:10:56)
+    at Object.callFn (D:\egg\egg-example\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\egg\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\egg\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\egg\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\egg\egg-example\node_modules\@eggjs\router\lib\router.js:190:18
+
+pid: 14040
+hostname: XC-AE-0536-C
+
+2021-02-03 12:31:57,318 ERROR 8684 [-/127.0.0.1/-/5ms POST /api/v1/login/register] nodejs.TypeError: Cannot read property 'findOne' of undefined
+    at UserService.hasRegister (D:\egg\egg-example\app\service\userInfo\user.js:24:48)
+    at UserService.register (D:\egg\egg-example\app\service\userInfo\user.js:10:40)
+    at LoginController.register (D:\egg\egg-example\app\controller\login\index.js:10:56)
+    at Object.callFn (D:\egg\egg-example\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\egg\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\egg\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\egg\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\egg\egg-example\node_modules\@eggjs\router\lib\router.js:190:18
+
+pid: 8684
+hostname: XC-AE-0536-C
+
+2021-02-03 12:32:12,190 ERROR 7704 [-/127.0.0.1/-/5ms POST /api/v1/login/register] nodejs.TypeError: Cannot read property 'findOne' of undefined
+    at UserService.hasRegister (D:\egg\egg-example\app\service\userInfo\user.js:24:48)
+    at UserService.register (D:\egg\egg-example\app\service\userInfo\user.js:10:40)
+    at LoginController.register (D:\egg\egg-example\app\controller\login\index.js:10:56)
+    at Object.callFn (D:\egg\egg-example\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\egg\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\egg\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\egg\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\egg\egg-example\node_modules\@eggjs\router\lib\router.js:190:18
+
+pid: 7704
+hostname: XC-AE-0536-C
+
+2021-02-03 12:32:22,983 ERROR 21200 [-/127.0.0.1/-/5ms POST /api/v1/login/register] nodejs.TypeError: Cannot read property 'findOne' of undefined
+    at UserService.hasRegister (D:\egg\egg-example\app\service\userInfo\user.js:24:48)
+    at UserService.register (D:\egg\egg-example\app\service\userInfo\user.js:10:40)
+    at LoginController.register (D:\egg\egg-example\app\controller\login\index.js:10:56)
+    at Object.callFn (D:\egg\egg-example\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\egg\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\egg\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\egg\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\egg\egg-example\node_modules\@eggjs\router\lib\router.js:190:18
+
+pid: 21200
+hostname: XC-AE-0536-C
+
+2021-02-03 12:32:24,704 ERROR 21200 [-/127.0.0.1/-/1ms POST /api/v1/login/register] nodejs.TypeError: Cannot read property 'findOne' of undefined
+    at UserService.hasRegister (D:\egg\egg-example\app\service\userInfo\user.js:24:48)
+    at UserService.register (D:\egg\egg-example\app\service\userInfo\user.js:10:40)
+    at LoginController.register (D:\egg\egg-example\app\controller\login\index.js:10:56)
+    at Object.callFn (D:\egg\egg-example\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\egg\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\egg\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\egg\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\egg\egg-example\node_modules\@eggjs\router\lib\router.js:190:18
+
+pid: 21200
+hostname: XC-AE-0536-C
+
+2021-02-03 12:32:48,495 ERROR 8548 [-/127.0.0.1/-/12ms POST /api/v1/login/register] nodejs.TypeError: Cannot read property 'findOne' of undefined
+    at UserService.hasRegister (D:\egg\egg-example\app\service\userInfo\user.js:25:48)
+    at UserService.register (D:\egg\egg-example\app\service\userInfo\user.js:10:40)
+    at LoginController.register (D:\egg\egg-example\app\controller\login\index.js:10:56)
+    at Object.callFn (D:\egg\egg-example\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\egg\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\egg\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\egg\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\egg\egg-example\node_modules\@eggjs\router\lib\router.js:190:18
+
+pid: 8548
+hostname: XC-AE-0536-C
+
+2021-02-03 12:38:42,303 ERROR 8548 [-/127.0.0.1/-/18ms POST /api/v1/login/register?username=123&password=123&email=123@qq.com] nodejs.TypeError: Cannot read property 'findOne' of undefined
+    at UserService.hasRegister (D:\egg\egg-example\app\service\userInfo\user.js:25:48)
+    at UserService.register (D:\egg\egg-example\app\service\userInfo\user.js:10:40)
+    at LoginController.register (D:\egg\egg-example\app\controller\login\index.js:10:56)
+    at Object.callFn (D:\egg\egg-example\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\egg\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\egg\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\egg\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\egg\egg-example\node_modules\@eggjs\router\lib\router.js:190:18
+
+pid: 8548
+hostname: XC-AE-0536-C
+
+2021-02-03 12:45:18,386 ERROR 20780 [-/127.0.0.1/-/24ms POST /api/v1/login/register?username=123&password=123&email=123@qq.com] nodejs.Error: WHERE parameter "email" has invalid "undefined" value
+    at MySQLQueryGenerator.whereItemQuery (D:\egg\egg-example\node_modules\egg-sequelize\node_modules\sequelize\lib\dialects\abstract\query-generator.js:2262:13)
+    at D:\egg\egg-example\node_modules\egg-sequelize\node_modules\sequelize\lib\dialects\abstract\query-generator.js:2251:25
+    at Array.forEach (<anonymous>)
+    at MySQLQueryGenerator.whereItemsQuery (D:\egg\egg-example\node_modules\egg-sequelize\node_modules\sequelize\lib\dialects\abstract\query-generator.js:2249:35)
+    at MySQLQueryGenerator.getWhereConditions (D:\egg\egg-example\node_modules\egg-sequelize\node_modules\sequelize\lib\dialects\abstract\query-generator.js:2667:19)
+    at MySQLQueryGenerator.selectQuery (D:\egg\egg-example\node_modules\egg-sequelize\node_modules\sequelize\lib\dialects\abstract\query-generator.js:1320:28)
+    at MySQLQueryInterface.select (D:\egg\egg-example\node_modules\egg-sequelize\node_modules\sequelize\lib\dialects\abstract\query-interface.js:953:27)
+    at Function.findAll (D:\egg\egg-example\node_modules\egg-sequelize\node_modules\sequelize\lib\model.js:1753:47)
+    at async Function.findOne (D:\egg\egg-example\node_modules\egg-sequelize\node_modules\sequelize\lib\model.js:1917:12)
+    at async UserService.hasRegister (D:\egg\egg-example\app\service\userInfo\user.js:25:22)
+
+pid: 20780
+hostname: XC-AE-0536-C
+
+2021-02-03 12:47:35,399 ERROR 18172 [-/127.0.0.1/-/6ms POST /api/v1/login/register?username=123&password=123&email=123@qq.com] nodejs.TypeError: Cannot read property 'findOne' of undefined
+    at UserService.hasRegister (D:\egg\egg-example\app\service\userInfo\user.js:25:48)
+    at UserService.register (D:\egg\egg-example\app\service\userInfo\user.js:10:40)
+    at LoginController.register (D:\egg\egg-example\app\controller\login\index.js:10:56)
+    at Object.callFn (D:\egg\egg-example\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\egg\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\egg\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\egg\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\egg\egg-example\node_modules\@eggjs\router\lib\router.js:190:18
+
+pid: 18172
+hostname: XC-AE-0536-C
+
+2021-02-03 12:48:15,989 ERROR 11212 [-/127.0.0.1/-/50ms POST /api/v1/login/register?username=123&password=123&email=123@qq.com] nodejs.TypeError: Cannot read property 'findOne' of undefined
+    at UserService.hasRegister (D:\egg\egg-example\app\service\userInfo\user.js:26:48)
+    at UserService.register (D:\egg\egg-example\app\service\userInfo\user.js:11:40)
+    at LoginController.register (D:\egg\egg-example\app\controller\login\index.js:10:56)
+    at Object.callFn (D:\egg\egg-example\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\egg\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\egg\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\egg\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\egg\egg-example\node_modules\@eggjs\router\lib\router.js:190:18
+
+pid: 11212
+hostname: XC-AE-0536-C
+
+2021-02-03 12:48:51,299 ERROR 3992 [-/127.0.0.1/-/11ms POST /api/v1/login/register?username=123&password=123&email=123@qq.com] nodejs.TypeError: Cannot read property 'findOne' of undefined
+    at UserService.hasRegister (D:\egg\egg-example\app\service\userInfo\user.js:26:48)
+    at UserService.register (D:\egg\egg-example\app\service\userInfo\user.js:11:40)
+    at LoginController.register (D:\egg\egg-example\app\controller\login\index.js:11:56)
+    at Object.callFn (D:\egg\egg-example\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\egg\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\egg\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\egg\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\egg\egg-example\node_modules\@eggjs\router\lib\router.js:190:18
+
+pid: 3992
+hostname: XC-AE-0536-C
+
+2021-02-03 12:49:03,020 ERROR 9220 [-/127.0.0.1/-/18ms POST /api/v1/login/register?username=123&password=123&email=123@qq.com] nodejs.TypeError: Cannot read property 'findOne' of undefined
+    at UserService.hasRegister (D:\egg\egg-example\app\service\userInfo\user.js:26:48)
+    at UserService.register (D:\egg\egg-example\app\service\userInfo\user.js:11:40)
+    at LoginController.register (D:\egg\egg-example\app\controller\login\index.js:11:56)
+    at Object.callFn (D:\egg\egg-example\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\egg\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\egg\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\egg\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\egg\egg-example\node_modules\@eggjs\router\lib\router.js:190:18
+
+pid: 9220
+hostname: XC-AE-0536-C
+
+2021-02-03 12:49:59,623 ERROR 24464 [-/127.0.0.1/-/17ms POST /api/v1/login/register?username=123&password=123&email=123@qq.com] nodejs.TypeError: Cannot read property 'findOne' of undefined
+    at UserService.hasRegister (D:\egg\egg-example\app\service\userInfo\user.js:26:48)
+    at UserService.register (D:\egg\egg-example\app\service\userInfo\user.js:11:40)
+    at LoginController.register (D:\egg\egg-example\app\controller\login\index.js:11:56)
+    at Object.callFn (D:\egg\egg-example\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\egg\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\egg\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\egg\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\egg\egg-example\node_modules\@eggjs\router\lib\router.js:190:18
+
+pid: 24464
+hostname: XC-AE-0536-C
+
+2021-02-03 12:51:47,003 ERROR 24464 [-/127.0.0.1/-/16ms POST /api/v1/login/register?username=123&password=123&email=123@qq.com] nodejs.TypeError: Cannot read property 'findOne' of undefined
+    at UserService.hasRegister (D:\egg\egg-example\app\service\userInfo\user.js:26:48)
+    at UserService.register (D:\egg\egg-example\app\service\userInfo\user.js:11:40)
+    at LoginController.register (D:\egg\egg-example\app\controller\login\index.js:11:56)
+    at Object.callFn (D:\egg\egg-example\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\egg\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\egg\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\egg\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\egg\egg-example\node_modules\@eggjs\router\lib\router.js:190:18
+
+pid: 24464
+hostname: XC-AE-0536-C
+
+2021-02-03 12:55:32,307 ERROR 18408 [-/127.0.0.1/-/14ms POST /api/v1/login/register?username=123&password=123&email=123@qq.com] nodejs.TypeError: Cannot read property 'findAll' of undefined
+    at UserService.hasRegister (D:\egg\egg-example\app\service\userInfo\user.js:25:48)
+    at UserService.register (D:\egg\egg-example\app\service\userInfo\user.js:10:40)
+    at LoginController.register (D:\egg\egg-example\app\controller\login\index.js:11:56)
+    at Object.callFn (D:\egg\egg-example\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\egg\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\egg\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\egg\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\egg\egg-example\node_modules\@eggjs\router\lib\router.js:190:18
+
+pid: 18408
+hostname: XC-AE-0536-C
+
+2021-02-03 13:00:25,826 ERROR 16404 [-/127.0.0.1/-/18ms POST /api/v1/login/register?username=123&password=123&email=123@qq.com] nodejs.TypeError: Cannot read property 'findAll' of undefined
+    at UserService.hasRegister (D:\egg\egg-example\app\service\userInfo\user.js:25:48)
+    at UserService.register (D:\egg\egg-example\app\service\userInfo\user.js:10:40)
+    at LoginController.register (D:\egg\egg-example\app\controller\login\index.js:11:56)
+    at Object.callFn (D:\egg\egg-example\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\egg\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\egg\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\egg\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\egg\egg-example\node_modules\@eggjs\router\lib\router.js:190:18
+
+pid: 16404
+hostname: XC-AE-0536-C
+
+2021-02-03 13:01:23,784 ERROR 12136 [-/127.0.0.1/-/16ms POST /api/v1/login/register?username=123&password=123&email=123@qq.com] nodejs.TypeError: Cannot read property 'findOne' of undefined
+    at UserService.hasRegister (D:\egg\egg-example\app\service\userInfo\user.js:25:48)
+    at UserService.register (D:\egg\egg-example\app\service\userInfo\user.js:10:40)
+    at LoginController.register (D:\egg\egg-example\app\controller\login\index.js:11:56)
+    at Object.callFn (D:\egg\egg-example\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\egg\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\egg\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\egg\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\egg\egg-example\node_modules\@eggjs\router\lib\router.js:190:18
+
+pid: 12136
+hostname: XC-AE-0536-C
+
+2021-02-03 13:01:37,715 ERROR 24092 [-/127.0.0.1/-/69ms POST /api/v1/login/register?username=123&password=123&email=123@qq.com] nodejs.TypeError: Cannot read property 'findOne' of undefined
+    at UserService.hasRegister (D:\egg\egg-example\app\service\userInfo\user.js:25:48)
+    at UserService.register (D:\egg\egg-example\app\service\userInfo\user.js:10:40)
+    at LoginController.register (D:\egg\egg-example\app\controller\login\index.js:11:56)
+    at Object.callFn (D:\egg\egg-example\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\egg\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\egg\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\egg\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\egg\egg-example\node_modules\@eggjs\router\lib\router.js:190:18
+
+pid: 24092
+hostname: XC-AE-0536-C
+
+2021-02-03 13:03:59,271 ERROR 5072 [-/127.0.0.1/-/15ms POST /api/v1/login/register?username=123&password=123&email=123@qq.com] nodejs.TypeError: Cannot read property 'findOne' of undefined
+    at UserService.hasRegister (D:\egg\egg-example\app\service\userInfo\user.js:25:48)
+    at UserService.register (D:\egg\egg-example\app\service\userInfo\user.js:10:40)
+    at LoginController.register (D:\egg\egg-example\app\controller\login\index.js:11:56)
+    at Object.callFn (D:\egg\egg-example\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\egg\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\egg\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\egg\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\egg\egg-example\node_modules\@eggjs\router\lib\router.js:190:18
+
+pid: 5072
+hostname: XC-AE-0536-C
+
+2021-02-03 13:05:44,448 ERROR 8652 [-/127.0.0.1/-/28ms POST /api/v1/login/register?username=123&password=123&email=123@qq.com] nodejs.SequelizeValidationError: notNull Violation: users.id cannot be null,
+notNull Violation: users.updated_at cannot be null
+notNull Violation: users.updated_at cannot be null
+    at InstanceValidator._validate (D:\egg\egg-example\node_modules\egg-sequelize\node_modules\sequelize\lib\instance-validator.js:78:13)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async InstanceValidator._validateAndRunHooks (D:\egg\egg-example\node_modules\egg-sequelize\node_modules\sequelize\lib\instance-validator.js:111:7)
+    at async InstanceValidator.validate (D:\egg\egg-example\node_modules\egg-sequelize\node_modules\sequelize\lib\instance-validator.js:93:12)
+    at async model.save (D:\egg\egg-example\node_modules\egg-sequelize\node_modules\sequelize\lib\model.js:3877:7)
+    at async Function.create (D:\egg\egg-example\node_modules\egg-sequelize\node_modules\sequelize\lib\model.js:2207:12)
+    at async UserService.register (D:\egg\egg-example\app\service\userInfo\user.js:19:25)
+    at async LoginController.register (D:\egg\egg-example\app\controller\login\index.js:11:23)
+    at async robotMiddleware (D:\egg\egg-example\app\middleware\robot.js:10:13)
+    at async D:\egg\egg-example\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+name: "SequelizeValidationError"
+errors: [{"message":"users.id cannot be null","type":"notNull Violation","path":"id","value":null,"origin":"CORE","instance":{"sex":"0","id":null,"username":"123","password":"123","email":"123@qq.com","userId":"6736c3a5535a4a1e932c19b75cd6c6e8"},"validatorKey":"is_null","validatorName":null,"validatorArgs":[]},{"message":"users.updated_at cannot be null","type":"notNull Violation","path":"updated_at","value":null,"origin":"CORE","instance":{"sex":"0","id":null,"username":"123","password":"123","email":"123@qq.com","userId":"6736c3a5535a4a1e932c19b75cd6c6e8"},"validatorKey":"is_null","validatorName":null,"validatorArgs":[]}]
+pid: 8652
+hostname: XC-AE-0536-C
+
+2021-02-03 13:06:14,212 ERROR 1748 [-/127.0.0.1/-/134ms POST /api/v1/login/register?username=123&password=123&email=123@qq.com] nodejs.TypeError: Cannot read property 'code' of undefined
+    at LoginController.register (D:\egg\egg-example\app\controller\login\index.js:12:19)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async robotMiddleware (D:\egg\egg-example\app\middleware\robot.js:10:13)
+    at async D:\egg\egg-example\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\egg\egg-example\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\egg\egg-example\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\egg\egg-example\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\egg\egg-example\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\egg\egg-example\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (D:\egg\egg-example\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 1748
+hostname: XC-AE-0536-C
+
+2021-02-03 13:07:13,108 ERROR 20040 [-/127.0.0.1/-/30ms POST /api/v1/login/register?username=123&password=123&email=123@qq.com] nodejs.SequelizeValidationError: notNull Violation: users.id cannot be null,
+notNull Violation: users.updated_at cannot be null
+notNull Violation: users.updated_at cannot be null
+    at InstanceValidator._validate (D:\egg\egg-example\node_modules\egg-sequelize\node_modules\sequelize\lib\instance-validator.js:78:13)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async InstanceValidator._validateAndRunHooks (D:\egg\egg-example\node_modules\egg-sequelize\node_modules\sequelize\lib\instance-validator.js:111:7)
+    at async InstanceValidator.validate (D:\egg\egg-example\node_modules\egg-sequelize\node_modules\sequelize\lib\instance-validator.js:93:12)
+    at async model.save (D:\egg\egg-example\node_modules\egg-sequelize\node_modules\sequelize\lib\model.js:3877:7)
+    at async Function.create (D:\egg\egg-example\node_modules\egg-sequelize\node_modules\sequelize\lib\model.js:2207:12)
+    at async UserService.register (D:\egg\egg-example\app\service\userInfo\user.js:19:25)
+    at async LoginController.register (D:\egg\egg-example\app\controller\login\index.js:11:23)
+    at async robotMiddleware (D:\egg\egg-example\app\middleware\robot.js:10:13)
+    at async D:\egg\egg-example\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+name: "SequelizeValidationError"
+errors: [{"message":"users.id cannot be null","type":"notNull Violation","path":"id","value":null,"origin":"CORE","instance":{"sex":"0","id":null,"username":"123","password":"123","email":"123@qq.com","userId":"7d3b23b596934cad98eaef1063081681"},"validatorKey":"is_null","validatorName":null,"validatorArgs":[]},{"message":"users.updated_at cannot be null","type":"notNull Violation","path":"updated_at","value":null,"origin":"CORE","instance":{"sex":"0","id":null,"username":"123","password":"123","email":"123@qq.com","userId":"7d3b23b596934cad98eaef1063081681"},"validatorKey":"is_null","validatorName":null,"validatorArgs":[]}]
+pid: 20040
+hostname: XC-AE-0536-C
+
+2021-02-03 13:09:27,702 ERROR 24036 [-/127.0.0.1/-/29ms POST /api/v1/login/register?username=123&password=123&email=123@qq.com] nodejs.SequelizeValidationError: notNull Violation: users.updated_at cannot be null
+    at InstanceValidator._validate (D:\egg\egg-example\node_modules\egg-sequelize\node_modules\sequelize\lib\instance-validator.js:78:13)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async InstanceValidator._validateAndRunHooks (D:\egg\egg-example\node_modules\egg-sequelize\node_modules\sequelize\lib\instance-validator.js:111:7)
+    at async InstanceValidator.validate (D:\egg\egg-example\node_modules\egg-sequelize\node_modules\sequelize\lib\instance-validator.js:93:12)
+    at async model.save (D:\egg\egg-example\node_modules\egg-sequelize\node_modules\sequelize\lib\model.js:3877:7)
+    at async Function.create (D:\egg\egg-example\node_modules\egg-sequelize\node_modules\sequelize\lib\model.js:2207:12)
+    at async UserService.register (D:\egg\egg-example\app\service\userInfo\user.js:19:25)
+    at async LoginController.register (D:\egg\egg-example\app\controller\login\index.js:11:23)
+    at async robotMiddleware (D:\egg\egg-example\app\middleware\robot.js:10:13)
+    at async D:\egg\egg-example\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+name: "SequelizeValidationError"
+errors: [{"message":"users.updated_at cannot be null","type":"notNull Violation","path":"updated_at","value":null,"origin":"CORE","instance":{"sex":"0","id":null,"username":"123","password":"123","email":"123@qq.com","userId":"d6061b2e806f484a8d63b457f3e5db1c"},"validatorKey":"is_null","validatorName":null,"validatorArgs":[]}]
+pid: 24036
+hostname: XC-AE-0536-C
+
+2021-02-03 13:10:54,619 ERROR 24036 [-/127.0.0.1/-/15ms POST /api/v1/login/register?username=123&password=123&email=123@qq.com] nodejs.SequelizeValidationError: notNull Violation: users.updated_at cannot be null
+    at InstanceValidator._validate (D:\egg\egg-example\node_modules\egg-sequelize\node_modules\sequelize\lib\instance-validator.js:78:13)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async InstanceValidator._validateAndRunHooks (D:\egg\egg-example\node_modules\egg-sequelize\node_modules\sequelize\lib\instance-validator.js:111:7)
+    at async InstanceValidator.validate (D:\egg\egg-example\node_modules\egg-sequelize\node_modules\sequelize\lib\instance-validator.js:93:12)
+    at async model.save (D:\egg\egg-example\node_modules\egg-sequelize\node_modules\sequelize\lib\model.js:3877:7)
+    at async Function.create (D:\egg\egg-example\node_modules\egg-sequelize\node_modules\sequelize\lib\model.js:2207:12)
+    at async UserService.register (D:\egg\egg-example\app\service\userInfo\user.js:19:25)
+    at async LoginController.register (D:\egg\egg-example\app\controller\login\index.js:11:23)
+    at async robotMiddleware (D:\egg\egg-example\app\middleware\robot.js:10:13)
+    at async D:\egg\egg-example\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+name: "SequelizeValidationError"
+errors: [{"message":"users.updated_at cannot be null","type":"notNull Violation","path":"updated_at","value":null,"origin":"CORE","instance":{"sex":"0","id":null,"username":"123","password":"123","email":"123@qq.com","userId":"f1c5446476d14f21b2b950c4e53d28f6"},"validatorKey":"is_null","validatorName":null,"validatorArgs":[]}]
+pid: 24036
+hostname: XC-AE-0536-C
+
+2021-02-03 13:59:01,232 ERROR 21160 [-/127.0.0.1/-/14ms POST /api/v1/login/register] nodejs.TypeError: Cannot read property 'uuid' of undefined
+    at UserService.register (D:\egg\egg-example\app\service\userInfo\user.js:8:33)
+    at LoginController.register (D:\egg\egg-example\app\controller\login\index.js:11:56)
+    at Object.callFn (D:\egg\egg-example\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\egg\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\egg\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\egg\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\egg\egg-example\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+
+pid: 21160
+hostname: XC-AE-0536-C
+
+2021-02-03 14:04:23,940 ERROR 24156 [-/127.0.0.1/-/27ms POST /api/v1/login/register] nodejs.TypeError: Cannot read property 'code' of undefined
+    at LoginController.register (D:\egg\egg-example\app\controller\login\index.js:12:19)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async robotMiddleware (D:\egg\egg-example\app\middleware\robot.js:10:13)
+    at async D:\egg\egg-example\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\egg\egg-example\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\egg\egg-example\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\egg\egg-example\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\egg\egg-example\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\egg\egg-example\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (D:\egg\egg-example\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 24156
+hostname: XC-AE-0536-C
+
+2021-02-03 14:06:10,391 ERROR 10168 [-/127.0.0.1/-/50ms POST /api/v1/login/register] nodejs.ReferenceError: userInfo is not defined
+    at UserService.register (D:\egg\egg-example\app\service\userInfo\user.js:19:21)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async LoginController.register (D:\egg\egg-example\app\controller\login\index.js:11:9)
+    at async robotMiddleware (D:\egg\egg-example\app\middleware\robot.js:10:13)
+    at async D:\egg\egg-example\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\egg\egg-example\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\egg\egg-example\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\egg\egg-example\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\egg\egg-example\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\egg\egg-example\node_modules\koa-session\index.js:41:7)
+
+pid: 10168
+hostname: XC-AE-0536-C
+
+2021-02-03 14:10:39,195 ERROR 9664 [-/127.0.0.1/-/12ms POST /api/v1/login/register] nodejs.TypeError: ctx.model.User.create222 is not a function
+    at UserService.register (D:\egg\egg-example\app\service\userInfo\user.js:17:46)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async LoginController.register (D:\egg\egg-example\app\controller\login\index.js:11:9)
+    at async robotMiddleware (D:\egg\egg-example\app\middleware\robot.js:10:13)
+    at async D:\egg\egg-example\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\egg\egg-example\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\egg\egg-example\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\egg\egg-example\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\egg\egg-example\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\egg\egg-example\node_modules\koa-session\index.js:41:7)
+
+pid: 9664
+hostname: XC-AE-0536-C
+
+2021-02-03 14:11:10,742 ERROR 4152 [-/127.0.0.1/-/22ms POST /api/v1/login/register] nodejs.TypeError: ctx.model.User.create222 is not a function
+    at UserService.register (D:\egg\egg-example\app\service\userInfo\user.js:17:46)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async LoginController.register (D:\egg\egg-example\app\controller\login\index.js:11:9)
+    at async robotMiddleware (D:\egg\egg-example\app\middleware\robot.js:10:13)
+    at async D:\egg\egg-example\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\egg\egg-example\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\egg\egg-example\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\egg\egg-example\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\egg\egg-example\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\egg\egg-example\node_modules\koa-session\index.js:41:7)
+
+pid: 4152
+hostname: XC-AE-0536-C
+
+2021-02-03 16:07:23,999 ERROR 20988 [-/127.0.0.1/-/5ms GET /api/v1/login/signout] nodejs.TypeError: ctx.logout is not a function
+    at LoginController.signOut (D:\egg\egg-example\app\controller\login\index.js:36:13)
+    at Object.callFn (D:\egg\egg-example\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\egg\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\egg\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\egg\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\egg\egg-example\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+
+pid: 20988
+hostname: XC-AE-0536-C
+
+2021-02-03 16:16:33,271 ERROR 25200 [-/127.0.0.1/-/26ms GET /api/v1/login/signout] nodejs.TypeError: ctx.logout is not a function
+    at LoginController.signOut (D:\egg\egg-example\app\controller\login\index.js:37:13)
+    at Object.callFn (D:\egg\egg-example\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\egg\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\egg\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\egg\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\egg\egg-example\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+
+pid: 25200
+hostname: XC-AE-0536-C
+
+2021-02-03 16:59:45,137 ERROR 9244 [-/127.0.0.1/-/4ms GET /api/v1/user/info] nodejs.TypeError: Cannot read property 'userId' of undefined
+    at UserController.userInfo (D:\egg\egg-example\app\controller\user\index.js:8:51)
+    at Object.callFn (D:\egg\egg-example\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\egg\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\egg\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\egg\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\egg\egg-example\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+
+pid: 9244
+hostname: XC-AE-0536-C
+
+2021-02-03 17:01:03,114 ERROR 20596 [-/127.0.0.1/-/7ms GET /api/v1/user/info] nodejs.ReferenceError: jwt is not defined
+    at Object.get user [as user] (D:\egg\egg-example\app\extend\context.js:5:20)
+    at UserController.userInfo (D:\egg\egg-example\app\controller\user\index.js:8:46)
+    at Object.callFn (D:\egg\egg-example\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\egg\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\egg\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\egg\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\egg\egg-example\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+
+pid: 20596
+hostname: XC-AE-0536-C
+
+2021-02-03 17:02:42,031 ERROR 17580 [-/127.0.0.1/-/1ms GET /api/v1/user/info] nodejs.JsonWebTokenError: jwt must be provided
+    at Object.module.exports [as verify] (D:\egg\egg-example\node_modules\jsonwebtoken\verify.js:53:17)
+    at AsyncFunction.<computed>.verify (D:\egg\egg-example\node_modules\egg-jwt\app\extend\application.js:42:20)
+    at Object.get user [as user] (D:\egg\egg-example\app\extend\context.js:5:33)
+    at UserController.userInfo (D:\egg\egg-example\app\controller\user\index.js:8:46)
+    at Object.callFn (D:\egg\egg-example\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\egg\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\egg\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\egg\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+name: "JsonWebTokenError"
+message: "jwt must be provided"
+pid: 17580
+hostname: XC-AE-0536-C
+
+2021-02-03 17:04:43,736 ERROR 8336 [-/127.0.0.1/-/5ms GET /api/v1/user/info] nodejs.JsonWebTokenError: jwt must be provided
+    at Object.module.exports [as verify] (D:\egg\egg-example\node_modules\jsonwebtoken\verify.js:53:17)
+    at AsyncFunction.<computed>.verify (D:\egg\egg-example\node_modules\egg-jwt\app\extend\application.js:42:20)
+    at Object.get user [as user] (D:\egg\egg-example\app\extend\context.js:5:33)
+    at UserController.userInfo (D:\egg\egg-example\app\controller\user\index.js:8:46)
+    at Object.callFn (D:\egg\egg-example\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\egg\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\egg\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\egg\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+name: "JsonWebTokenError"
+message: "jwt must be provided"
+pid: 8336
+hostname: XC-AE-0536-C
+
+2021-02-03 17:12:06,525 ERROR 23952 [-/127.0.0.1/-/5ms GET /api/v1/user/info] nodejs.JsonWebTokenError: jwt must be provided
+    at Object.module.exports [as verify] (D:\egg\egg-example\node_modules\jsonwebtoken\verify.js:53:17)
+    at AsyncFunction.<computed>.verify (D:\egg\egg-example\node_modules\egg-jwt\app\extend\application.js:42:20)
+    at Object.get user [as user] (D:\egg\egg-example\app\extend\context.js:5:33)
+    at UserController.userInfo (D:\egg\egg-example\app\controller\user\index.js:8:46)
+    at Object.callFn (D:\egg\egg-example\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\egg\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\egg\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\egg\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+name: "JsonWebTokenError"
+message: "jwt must be provided"
+pid: 23952
+hostname: XC-AE-0536-C
+
+2021-02-03 17:20:59,334 ERROR 24684 [-/127.0.0.1/-/0ms GET /] nodejs.TypeError: this.app.model.User.findOne2 is not a function
+    at UserService.hasRegister (D:\egg\egg-example\app\service\userInfo\user.js:63:48)
+    at UserService.register (D:\egg\egg-example\app\service\userInfo\user.js:13:40)
+    at LoginController.register (D:\egg\egg-example\app\controller\login\index.js:10:42)
+    at Object.callFn (D:\egg\egg-example\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\egg\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\egg\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\egg\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\egg\egg-example\node_modules\@eggjs\router\lib\router.js:190:18
+
+pid: 24684
+hostname: XC-AE-0536-C
+
+2021-02-03 17:21:22,223 ERROR 8084 [-/127.0.0.1/-/16ms POST /api/v1/login/register] nodejs.TypeError: this.app.model.User.findOne2 is not a function
+    at UserService.hasRegister (D:\egg\egg-example\app\service\userInfo\user.js:63:48)
+    at UserService.register (D:\egg\egg-example\app\service\userInfo\user.js:13:40)
+    at LoginController.register (D:\egg\egg-example\app\controller\login\index.js:10:42)
+    at Object.callFn (D:\egg\egg-example\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\egg\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\egg\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\egg\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\egg\egg-example\node_modules\@eggjs\router\lib\router.js:190:18
+
+pid: 8084
+hostname: XC-AE-0536-C
+
+2021-02-03 17:21:29,816 ERROR 19328 [-/127.0.0.1/-/0ms GET /] nodejs.TypeError: this.app.model.User.findOne2 is not a function
+    at UserService.hasRegister (D:\egg\egg-example\app\service\userInfo\user.js:63:48)
+    at UserService.register (D:\egg\egg-example\app\service\userInfo\user.js:13:40)
+    at LoginController.register (D:\egg\egg-example\app\controller\login\index.js:10:42)
+    at Object.callFn (D:\egg\egg-example\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\egg\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\egg\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\egg\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\egg\egg-example\node_modules\@eggjs\router\lib\router.js:190:18
+
+pid: 19328
+hostname: XC-AE-0536-C
+

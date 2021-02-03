@@ -1,0 +1,33 @@
+2021-01-12 17:10:10,457 ERROR 31944 [-/127.0.0.1/-/22ms POST /api/login/account] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column 'username' in 'where clause'
+    at Query.Sequence._packetToError (D:\egg\egg-example\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (D:\egg\egg-example\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (D:\egg\egg-example\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (D:\egg\egg-example\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (D:\egg\egg-example\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (D:\egg\egg-example\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (D:\egg\egg-example\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (D:\egg\egg-example\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:314:20)
+    at addChunk (_stream_readable.js:298:12)
+    --------------------
+    at Pool.query (D:\egg\egg-example\node_modules\mysql\lib\Pool.js:199:23)
+    at D:\egg\egg-example\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (D:\egg\egg-example\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (D:\egg\egg-example\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (D:\egg\egg-example\node_modules\ali-rds\lib\client.js:38:20)
+    at RDSClient.proto.query (D:\egg\egg-example\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (D:\egg\egg-example\node_modules\co\index.js:65:19)
+    at D:\egg\egg-example\node_modules\co\index.js:54:5
+    sql: SELECT * FROM `auth_user` WHERE `username` = 'admin'
+code: "ER_BAD_FIELD_ERROR"
+errno: 1054
+sqlMessage: "Unknown column 'username' in 'where clause'"
+sqlState: "42S22"
+index: 0
+sql: "SELECT * FROM `auth_user` WHERE `username` = 'admin'"
+name: "ER_BAD_FIELD_ERRORError"
+pid: 31944
+hostname: XC-AE-0536-C
+

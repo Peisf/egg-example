@@ -1,0 +1,19 @@
+2021-01-27 09:31:34,033 WARN 3476 A client (::ffff:127.0.0.1:57160) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-01-27 09:31:34,034 WARN 3476 A client (::ffff:127.0.0.1:57160) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-01-27 09:31:34,036 WARN 3476 A client (::ffff:127.0.0.1:57161) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-01-27 09:31:34,053 WARN 3476 A client (::ffff:127.0.0.1:57161) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-01-27 09:31:57,600 WARN 3476 A client (::ffff:127.0.0.1:57181) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-01-27 09:31:57,601 WARN 3476 A client (::ffff:127.0.0.1:57181) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-01-27 09:31:57,602 WARN 3476 A client (::ffff:127.0.0.1:57182) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-01-27 09:31:57,603 WARN 3476 A client (::ffff:127.0.0.1:57182) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-01-27 09:34:05,112 WARN 3476 A client (::ffff:127.0.0.1:57295) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-01-27 09:34:05,113 WARN 3476 A client (::ffff:127.0.0.1:57295) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-01-27 09:34:05,114 WARN 3476 A client (::ffff:127.0.0.1:57296) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-01-27 09:34:05,130 WARN 3476 A client (::ffff:127.0.0.1:57296) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-01-27 09:34:23,646 WARN 3476 A client (::ffff:127.0.0.1:57311) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-01-27 09:34:23,647 WARN 3476 A client (::ffff:127.0.0.1:57311) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-01-27 09:34:23,648 WARN 3476 A client (::ffff:127.0.0.1:57312) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-01-27 09:34:23,649 WARN 3476 A client (::ffff:127.0.0.1:57312) error [HPE_INVALID_METHOD] occurred: Parse Error: Invalid method encountered
+2021-01-27 10:58:57,091 INFO 23584 [egg-swagger-doc] register router: get /swagger-doc
+2021-01-27 10:58:57,118 INFO 23584 [egg-swagger-doc] register router: get /swagger-ui.html
+2021-01-27 10:58:57,157 INFO 23584 [egg-sequelize](0ms) Executed (default): SELECT 1+1 AS result

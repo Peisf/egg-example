@@ -1,0 +1,9 @@
+2021-01-19 09:17:33,882 INFO 1444 [Timer] D:\egg\egg-example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 52947130ms at 2021-01-20 00:00:01.012
+2021-01-19 09:17:33,884 INFO 1444 [Timer] D:\egg\egg-example\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 52946117ms at 2021-01-20 00:00:00.001
+2021-01-19 09:17:33,887 INFO 1444 [Timer] D:\egg\egg-example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 69146115ms at 2021-01-20 04:30:00.002
+2021-01-19 09:17:36,214 INFO 7164 [Job#16110190538624946545884886004] D:\egg\egg-example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js executing by app
+2021-01-19 09:17:36,237 INFO 7164 [Job#16110190538824946546051721004] D:\egg\egg-example\node_modules\egg-logrotator\app\schedule\clean_log.js executing by app
+2021-01-19 09:17:36,237 INFO 7164 [Job#16110190538844946546071816004] D:\egg\egg-example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js executing by app
+2021-01-19 09:17:36,258 INFO 7164 [Job#16110190538824946546051721004] D:\egg\egg-example\node_modules\egg-logrotator\app\schedule\clean_log.js execute succeed, used 21ms. 
+2021-01-19 09:17:36,286 INFO 7164 [Job#16110190538844946546071816004] D:\egg\egg-example\node_modules\egg-multipart\app\schedule\clean_tmpdir.js execute succeed, used 49ms. 
+2021-01-19 09:17:36,289 INFO 7164 [Job#16110190538624946545884886004] D:\egg\egg-example\node_modules\egg-logrotator\app\schedule\rotate_by_file.js execute succeed, used 73ms. 

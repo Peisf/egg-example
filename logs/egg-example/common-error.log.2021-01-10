@@ -1,0 +1,1449 @@
+2021-01-08 10:56:54,708 ERROR 24376 [-/::1/-/4ms GET /] nodejs.TypeError: this.logger is not a function
+    at HomeController.success (D:\egg\egg-example\app\core\base_controller.js:9:14)
+    at HomeController.index (D:\egg\egg-example\app\controller\home.js:5:14)
+    at Object.callFn (D:\egg\egg-example\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\egg\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\egg\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\egg\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\egg\egg-example\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+
+pid: 24376
+hostname: XC-AE-0536-C
+
+2021-01-08 11:08:16,218 ERROR 2700 [-/::1/-/3ms GET /user/2] nodejs.TypeError: ctx.service.user.find is not a function
+    at UserController.info (D:\egg\egg-example\app\controller\user.js:7:49)
+    at Object.callFn (D:\egg\egg-example\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\egg\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\egg\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\egg\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\egg\egg-example\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+
+pid: 2700
+hostname: XC-AE-0536-C
+
+2021-01-08 11:09:01,001 ERROR 2700 [-/::1/-/0ms GET /user/2] nodejs.TypeError: ctx.service.user.find is not a function
+    at UserController.info (D:\egg\egg-example\app\controller\user.js:7:49)
+    at Object.callFn (D:\egg\egg-example\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\egg\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\egg\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\egg\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\egg\egg-example\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+
+pid: 2700
+hostname: XC-AE-0536-C
+
+2021-01-08 11:09:16,845 ERROR 2700 [-/::1/-/1ms GET /user/2] nodejs.TypeError: ctx.service.user.find is not a function
+    at UserController.info (D:\egg\egg-example\app\controller\user.js:7:49)
+    at Object.callFn (D:\egg\egg-example\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\egg\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\egg\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\egg\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\egg\egg-example\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+
+pid: 2700
+hostname: XC-AE-0536-C
+
+2021-01-08 11:09:19,116 ERROR 2700 [-/::1/-/1ms GET /user/2] nodejs.TypeError: ctx.service.user.find is not a function
+    at UserController.info (D:\egg\egg-example\app\controller\user.js:7:49)
+    at Object.callFn (D:\egg\egg-example\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\egg\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\egg\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\egg\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\egg\egg-example\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+
+pid: 2700
+hostname: XC-AE-0536-C
+
+2021-01-08 11:09:19,779 ERROR 2700 [-/::1/-/0ms GET /user/2] nodejs.TypeError: ctx.service.user.find is not a function
+    at UserController.info (D:\egg\egg-example\app\controller\user.js:7:49)
+    at Object.callFn (D:\egg\egg-example\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\egg\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\egg\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\egg\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\egg\egg-example\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+
+pid: 2700
+hostname: XC-AE-0536-C
+
+2021-01-08 11:09:44,933 ERROR 2700 [-/::1/-/0ms GET /user/2] nodejs.TypeError: ctx.service.user.find is not a function
+    at UserController.info (D:\egg\egg-example\app\controller\user.js:7:49)
+    at Object.callFn (D:\egg\egg-example\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\egg\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\egg\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\egg\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\egg\egg-example\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+
+pid: 2700
+hostname: XC-AE-0536-C
+
+2021-01-08 11:09:45,923 ERROR 2700 [-/::1/-/1ms GET /user/2] nodejs.TypeError: ctx.service.user.find is not a function
+    at UserController.info (D:\egg\egg-example\app\controller\user.js:7:49)
+    at Object.callFn (D:\egg\egg-example\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\egg\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\egg\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\egg\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\egg\egg-example\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+
+pid: 2700
+hostname: XC-AE-0536-C
+
+2021-01-08 11:09:46,132 ERROR 2700 [-/::1/-/0ms GET /user/2] nodejs.TypeError: ctx.service.user.find is not a function
+    at UserController.info (D:\egg\egg-example\app\controller\user.js:7:49)
+    at Object.callFn (D:\egg\egg-example\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\egg\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\egg\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\egg\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\egg\egg-example\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+
+pid: 2700
+hostname: XC-AE-0536-C
+
+2021-01-08 11:09:46,347 ERROR 2700 [-/::1/-/0ms GET /user/2] nodejs.TypeError: ctx.service.user.find is not a function
+    at UserController.info (D:\egg\egg-example\app\controller\user.js:7:49)
+    at Object.callFn (D:\egg\egg-example\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\egg\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\egg\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\egg\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\egg\egg-example\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+
+pid: 2700
+hostname: XC-AE-0536-C
+
+2021-01-08 11:09:46,549 ERROR 2700 [-/::1/-/0ms GET /user/2] nodejs.TypeError: ctx.service.user.find is not a function
+    at UserController.info (D:\egg\egg-example\app\controller\user.js:7:49)
+    at Object.callFn (D:\egg\egg-example\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\egg\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\egg\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\egg\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\egg\egg-example\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+
+pid: 2700
+hostname: XC-AE-0536-C
+
+2021-01-08 11:09:46,772 ERROR 2700 [-/::1/-/1ms GET /user/2] nodejs.TypeError: ctx.service.user.find is not a function
+    at UserController.info (D:\egg\egg-example\app\controller\user.js:7:49)
+    at Object.callFn (D:\egg\egg-example\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\egg\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\egg\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\egg\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\egg\egg-example\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+
+pid: 2700
+hostname: XC-AE-0536-C
+
+2021-01-08 11:09:46,964 ERROR 2700 [-/::1/-/0ms GET /user/2] nodejs.TypeError: ctx.service.user.find is not a function
+    at UserController.info (D:\egg\egg-example\app\controller\user.js:7:49)
+    at Object.callFn (D:\egg\egg-example\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\egg\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\egg\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\egg\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\egg\egg-example\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+
+pid: 2700
+hostname: XC-AE-0536-C
+
+2021-01-08 11:09:47,165 ERROR 2700 [-/::1/-/0ms GET /user/2] nodejs.TypeError: ctx.service.user.find is not a function
+    at UserController.info (D:\egg\egg-example\app\controller\user.js:7:49)
+    at Object.callFn (D:\egg\egg-example\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\egg\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\egg\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\egg\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\egg\egg-example\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+
+pid: 2700
+hostname: XC-AE-0536-C
+
+2021-01-08 11:09:47,386 ERROR 2700 [-/::1/-/0ms GET /user/2] nodejs.TypeError: ctx.service.user.find is not a function
+    at UserController.info (D:\egg\egg-example\app\controller\user.js:7:49)
+    at Object.callFn (D:\egg\egg-example\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\egg\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\egg\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\egg\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\egg\egg-example\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+
+pid: 2700
+hostname: XC-AE-0536-C
+
+2021-01-08 11:09:47,634 ERROR 2700 [-/::1/-/0ms GET /user/2] nodejs.TypeError: ctx.service.user.find is not a function
+    at UserController.info (D:\egg\egg-example\app\controller\user.js:7:49)
+    at Object.callFn (D:\egg\egg-example\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\egg\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\egg\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\egg\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\egg\egg-example\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+
+pid: 2700
+hostname: XC-AE-0536-C
+
+2021-01-08 11:09:47,835 ERROR 2700 [-/::1/-/1ms GET /user/2] nodejs.TypeError: ctx.service.user.find is not a function
+    at UserController.info (D:\egg\egg-example\app\controller\user.js:7:49)
+    at Object.callFn (D:\egg\egg-example\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\egg\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\egg\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\egg\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\egg\egg-example\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+
+pid: 2700
+hostname: XC-AE-0536-C
+
+2021-01-08 11:09:48,339 ERROR 2700 [-/::1/-/0ms GET /user/2] nodejs.TypeError: ctx.service.user.find is not a function
+    at UserController.info (D:\egg\egg-example\app\controller\user.js:7:49)
+    at Object.callFn (D:\egg\egg-example\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\egg\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\egg\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\egg\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\egg\egg-example\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+
+pid: 2700
+hostname: XC-AE-0536-C
+
+2021-01-08 11:09:48,765 ERROR 2700 [-/::1/-/0ms GET /user/2] nodejs.TypeError: ctx.service.user.find is not a function
+    at UserController.info (D:\egg\egg-example\app\controller\user.js:7:49)
+    at Object.callFn (D:\egg\egg-example\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\egg\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\egg\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\egg\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\egg\egg-example\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+
+pid: 2700
+hostname: XC-AE-0536-C
+
+2021-01-08 11:09:49,196 ERROR 2700 [-/::1/-/0ms GET /user/2] nodejs.TypeError: ctx.service.user.find is not a function
+    at UserController.info (D:\egg\egg-example\app\controller\user.js:7:49)
+    at Object.callFn (D:\egg\egg-example\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\egg\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\egg\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\egg\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\egg\egg-example\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+
+pid: 2700
+hostname: XC-AE-0536-C
+
+2021-01-08 11:09:49,741 ERROR 2700 [-/::1/-/1ms GET /user/2] nodejs.TypeError: ctx.service.user.find is not a function
+    at UserController.info (D:\egg\egg-example\app\controller\user.js:7:49)
+    at Object.callFn (D:\egg\egg-example\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\egg\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\egg\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\egg\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\egg\egg-example\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+
+pid: 2700
+hostname: XC-AE-0536-C
+
+2021-01-08 11:10:09,166 ERROR 16884 [-/::1/-/4ms GET /user/2] nodejs.TypeError: ctx.service.user.find is not a function
+    at UserController.info (D:\egg\egg-example\app\controller\user.js:7:49)
+    at Object.callFn (D:\egg\egg-example\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\egg\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\egg\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\egg\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\egg\egg-example\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+
+pid: 16884
+hostname: XC-AE-0536-C
+
+2021-01-08 11:11:37,300 ERROR 25180 [-/::1/-/4ms GET /user/2] nodejs.TypeError: Cannot read property 'query' of undefined
+    at UserService.find (D:\egg\egg-example\app\service\user.js:5:40)
+    at UserController.info (D:\egg\egg-example\app\controller\user.js:7:49)
+    at Object.callFn (D:\egg\egg-example\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\egg\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\egg\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\egg\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\egg\egg-example\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+
+pid: 25180
+hostname: XC-AE-0536-C
+
+2021-01-08 11:11:57,634 ERROR 25180 [-/::1/-/1ms GET /user/3] nodejs.TypeError: Cannot read property 'query' of undefined
+    at UserService.find (D:\egg\egg-example\app\service\user.js:5:40)
+    at UserController.info (D:\egg\egg-example\app\controller\user.js:7:49)
+    at Object.callFn (D:\egg\egg-example\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\egg\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\egg\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\egg\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\egg\egg-example\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+
+pid: 25180
+hostname: XC-AE-0536-C
+
+2021-01-08 13:54:52,879 ERROR 24072 [-/::1/-/4ms GET /user/1] nodejs.TypeError: Cannot read property 'query' of undefined
+    at UserService.find (D:\egg\egg-example\app\service\user.js:5:40)
+    at UserController.info (D:\egg\egg-example\app\controller\user.js:7:49)
+    at Object.callFn (D:\egg\egg-example\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\egg\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\egg\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\egg\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\egg\egg-example\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+
+pid: 24072
+hostname: XC-AE-0536-C
+
+2021-01-08 13:55:18,597 ERROR 27348 [-/::1/-/4ms GET /user/1] nodejs.TypeError: Cannot read property 'query' of undefined
+    at UserService.find (D:\egg\egg-example\app\service\user.js:5:40)
+    at UserController.info (D:\egg\egg-example\app\controller\user.js:7:49)
+    at Object.callFn (D:\egg\egg-example\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\egg\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\egg\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\egg\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\egg\egg-example\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+
+pid: 27348
+hostname: XC-AE-0536-C
+
+2021-01-08 13:57:53,052 ERROR 23988 [-/::1/-/15ms GET /user/1] nodejs.TypeError: Cannot read property 'query' of undefined
+    at UserService.find (D:\egg\egg-example\app\service\user.js:6:40)
+    at UserController.info (D:\egg\egg-example\app\controller\user.js:7:49)
+    at Object.callFn (D:\egg\egg-example\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\egg\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\egg\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\egg\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\egg\egg-example\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+
+pid: 23988
+hostname: XC-AE-0536-C
+
+2021-01-08 13:58:35,370 ERROR 14504 [-/::1/-/24ms GET /user/1] nodejs.TypeError: Cannot read property 'query' of undefined
+    at UserService.find (D:\egg\egg-example\app\service\user.js:6:40)
+    at UserController.info (D:\egg\egg-example\app\controller\user.js:7:49)
+    at Object.callFn (D:\egg\egg-example\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\egg\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\egg\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\egg\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\egg\egg-example\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+
+pid: 14504
+hostname: XC-AE-0536-C
+
+2021-01-08 13:58:55,091 ERROR 7864 [-/::1/-/5ms GET /user/1] nodejs.TypeError: Cannot read property 'query' of undefined
+    at UserService.find (D:\egg\egg-example\app\service\user.js:6:40)
+    at UserController.info (D:\egg\egg-example\app\controller\user.js:7:49)
+    at Object.callFn (D:\egg\egg-example\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\egg\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\egg\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\egg\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\egg\egg-example\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+
+pid: 7864
+hostname: XC-AE-0536-C
+
+2021-01-08 13:59:07,861 ERROR 12652 [-/::1/-/225ms GET /user/1] nodejs.TypeError: Cannot read property 'query' of undefined
+    at UserService.find (D:\egg\egg-example\app\service\user.js:6:40)
+    at UserController.info (D:\egg\egg-example\app\controller\user.js:7:49)
+    at Object.callFn (D:\egg\egg-example\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\egg\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\egg\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\egg\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\egg\egg-example\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+
+pid: 12652
+hostname: XC-AE-0536-C
+
+2021-01-08 13:59:33,922 ERROR 25208 [-/::1/-/5ms GET /user/1] nodejs.TypeError: Cannot read property 'query' of undefined
+    at UserService.find (D:\egg\egg-example\app\service\user.js:6:40)
+    at UserController.info (D:\egg\egg-example\app\controller\user.js:7:49)
+    at Object.callFn (D:\egg\egg-example\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\egg\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\egg\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\egg\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\egg\egg-example\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+
+pid: 25208
+hostname: XC-AE-0536-C
+
+2021-01-08 13:59:42,423 ERROR 20112 [-/::1/-/6ms GET /user/1] nodejs.TypeError: Cannot read property 'query' of undefined
+    at UserService.find (D:\egg\egg-example\app\service\user.js:6:40)
+    at UserController.info (D:\egg\egg-example\app\controller\user.js:7:49)
+    at Object.callFn (D:\egg\egg-example\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\egg\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\egg\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\egg\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\egg\egg-example\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+
+pid: 20112
+hostname: XC-AE-0536-C
+
+2021-01-08 14:01:43,215 ERROR 18748 [-/::1/-/6ms GET /user/1] nodejs.TypeError: Cannot read property 'query' of undefined
+    at UserService.find (D:\egg\egg-example\app\service\user.js:6:40)
+    at UserController.info (D:\egg\egg-example\app\controller\user.js:7:49)
+    at Object.callFn (D:\egg\egg-example\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\egg\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\egg\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\egg\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\egg\egg-example\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+
+pid: 18748
+hostname: XC-AE-0536-C
+
+2021-01-08 14:06:26,100 ERROR 32 [-/::1/-/5ms GET /user/1] nodejs.TypeError: Cannot read property 'query' of undefined
+    at UserService.find (D:\egg\egg-example\app\service\user.js:6:40)
+    at UserController.info (D:\egg\egg-example\app\controller\user.js:7:49)
+    at Object.callFn (D:\egg\egg-example\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\egg\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\egg\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\egg\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\egg\egg-example\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+
+pid: 32
+hostname: XC-AE-0536-C
+
+2021-01-08 14:06:54,617 ERROR 26592 [-/::1/-/2ms GET /user/1] nodejs.TypeError: Cannot read property 'query' of undefined
+    at UserService.find (D:\egg\egg-example\app\service\user.js:5:40)
+    at UserController.info (D:\egg\egg-example\app\controller\user.js:7:49)
+    at Object.callFn (D:\egg\egg-example\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\egg\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\egg\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\egg\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\egg\egg-example\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+
+pid: 26592
+hostname: XC-AE-0536-C
+
+2021-01-08 14:07:38,144 ERROR 26592 [-/::1/-/1ms GET /user/1] nodejs.TypeError: Cannot read property 'query' of undefined
+    at UserService.find (D:\egg\egg-example\app\service\user.js:5:40)
+    at UserController.info (D:\egg\egg-example\app\controller\user.js:7:49)
+    at Object.callFn (D:\egg\egg-example\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\egg\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\egg\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\egg\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\egg\egg-example\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+
+pid: 26592
+hostname: XC-AE-0536-C
+
+2021-01-08 14:07:39,127 ERROR 26592 [-/::1/-/1ms GET /user/1] nodejs.TypeError: Cannot read property 'query' of undefined
+    at UserService.find (D:\egg\egg-example\app\service\user.js:5:40)
+    at UserController.info (D:\egg\egg-example\app\controller\user.js:7:49)
+    at Object.callFn (D:\egg\egg-example\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\egg\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\egg\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\egg\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\egg\egg-example\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+
+pid: 26592
+hostname: XC-AE-0536-C
+
+2021-01-08 14:07:39,392 ERROR 26592 [-/::1/-/2ms GET /user/1] nodejs.TypeError: Cannot read property 'query' of undefined
+    at UserService.find (D:\egg\egg-example\app\service\user.js:5:40)
+    at UserController.info (D:\egg\egg-example\app\controller\user.js:7:49)
+    at Object.callFn (D:\egg\egg-example\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\egg\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\egg\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\egg\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\egg\egg-example\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+
+pid: 26592
+hostname: XC-AE-0536-C
+
+2021-01-08 14:07:39,605 ERROR 26592 [-/::1/-/0ms GET /user/1] nodejs.TypeError: Cannot read property 'query' of undefined
+    at UserService.find (D:\egg\egg-example\app\service\user.js:5:40)
+    at UserController.info (D:\egg\egg-example\app\controller\user.js:7:49)
+    at Object.callFn (D:\egg\egg-example\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\egg\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\egg\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\egg\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\egg\egg-example\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+
+pid: 26592
+hostname: XC-AE-0536-C
+
+2021-01-08 14:07:39,807 ERROR 26592 [-/::1/-/0ms GET /user/1] nodejs.TypeError: Cannot read property 'query' of undefined
+    at UserService.find (D:\egg\egg-example\app\service\user.js:5:40)
+    at UserController.info (D:\egg\egg-example\app\controller\user.js:7:49)
+    at Object.callFn (D:\egg\egg-example\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\egg\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\egg\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\egg\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\egg\egg-example\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+
+pid: 26592
+hostname: XC-AE-0536-C
+
+2021-01-08 14:07:56,844 ERROR 28436 [-/::1/-/4ms GET /user/1] nodejs.TypeError: Cannot read property 'query' of undefined
+    at UserService.find (D:\egg\egg-example\app\service\user.js:5:40)
+    at UserController.info (D:\egg\egg-example\app\controller\user.js:7:49)
+    at Object.callFn (D:\egg\egg-example\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\egg\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\egg\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\egg\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\egg\egg-example\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+
+pid: 28436
+hostname: XC-AE-0536-C
+
+2021-01-08 14:07:57,644 ERROR 28436 [-/::1/-/0ms GET /user/1] nodejs.TypeError: Cannot read property 'query' of undefined
+    at UserService.find (D:\egg\egg-example\app\service\user.js:5:40)
+    at UserController.info (D:\egg\egg-example\app\controller\user.js:7:49)
+    at Object.callFn (D:\egg\egg-example\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\egg\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\egg\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\egg\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\egg\egg-example\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+
+pid: 28436
+hostname: XC-AE-0536-C
+
+2021-01-08 14:07:58,372 ERROR 28436 [-/::1/-/1ms GET /user/1] nodejs.TypeError: Cannot read property 'query' of undefined
+    at UserService.find (D:\egg\egg-example\app\service\user.js:5:40)
+    at UserController.info (D:\egg\egg-example\app\controller\user.js:7:49)
+    at Object.callFn (D:\egg\egg-example\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\egg\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\egg\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\egg\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\egg\egg-example\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+
+pid: 28436
+hostname: XC-AE-0536-C
+
+2021-01-08 14:07:58,629 ERROR 28436 [-/::1/-/1ms GET /user/1] nodejs.TypeError: Cannot read property 'query' of undefined
+    at UserService.find (D:\egg\egg-example\app\service\user.js:5:40)
+    at UserController.info (D:\egg\egg-example\app\controller\user.js:7:49)
+    at Object.callFn (D:\egg\egg-example\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\egg\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\egg\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\egg\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\egg\egg-example\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+
+pid: 28436
+hostname: XC-AE-0536-C
+
+2021-01-08 14:09:24,059 ERROR 19164 [-/::1/-/4ms GET /user/1] nodejs.TypeError: Cannot read property 'query' of undefined
+    at UserService.find (D:\egg\egg-example\app\service\user.js:5:40)
+    at UserController.info (D:\egg\egg-example\app\controller\user.js:7:49)
+    at Object.callFn (D:\egg\egg-example\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\egg\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\egg\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\egg\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\egg\egg-example\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+
+pid: 19164
+hostname: XC-AE-0536-C
+
+2021-01-08 14:11:39,918 ERROR 17860 [-/::1/-/20ms GET /user/1] nodejs.TypeError: Cannot read property 'query' of undefined
+    at UserService.find (D:\egg\egg-example\app\service\user.js:6:40)
+    at UserController.info (D:\egg\egg-example\app\controller\user.js:7:49)
+    at Object.callFn (D:\egg\egg-example\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\egg\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\egg\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\egg\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\egg\egg-example\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+
+pid: 17860
+hostname: XC-AE-0536-C
+
+2021-01-08 14:11:56,976 ERROR 24600 [-/::1/-/143ms GET /user/1] nodejs.TypeError: Cannot read property 'query' of undefined
+    at UserService.find (D:\egg\egg-example\app\service\user.js:6:40)
+    at UserController.info (D:\egg\egg-example\app\controller\user.js:7:49)
+    at Object.callFn (D:\egg\egg-example\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\egg\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\egg\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\egg\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\egg\egg-example\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+
+pid: 24600
+hostname: XC-AE-0536-C
+
+2021-01-08 14:11:57,678 ERROR 24600 [-/::1/-/422ms GET /user/1] nodejs.TypeError: Cannot read property 'query' of undefined
+    at UserService.find (D:\egg\egg-example\app\service\user.js:6:40)
+    at UserController.info (D:\egg\egg-example\app\controller\user.js:7:49)
+    at Object.callFn (D:\egg\egg-example\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\egg\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\egg\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\egg\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\egg\egg-example\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+
+pid: 24600
+hostname: XC-AE-0536-C
+
+2021-01-08 14:14:05,014 ERROR 21728 [-/::1/-/91ms GET /user/1] nodejs.TypeError: this.ctx.crul is not a function
+    at UserService.getPicture (D:\egg\egg-example\app\service\user.js:17:39)
+    at UserService.find (D:\egg\egg-example\app\service\user.js:8:36)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async UserController.info (D:\egg\egg-example\app\controller\user.js:7:26)
+    at async robotMiddleware (D:\egg\egg-example\app\middleware\robot.js:10:13)
+    at async D:\egg\egg-example\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\egg\egg-example\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\egg\egg-example\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\egg\egg-example\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\egg\egg-example\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+
+pid: 21728
+hostname: XC-AE-0536-C
+
+2021-01-08 14:16:36,540 ERROR 23236 [-/::1/-/6ms GET /user/1] nodejs.ReferenceError: username is not defined
+    at UserService.find (D:\egg\egg-example\app\service\user.js:8:31)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async UserController.info (D:\egg\egg-example\app\controller\user.js:7:26)
+    at async robotMiddleware (D:\egg\egg-example\app\middleware\robot.js:10:13)
+    at async D:\egg\egg-example\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\egg\egg-example\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\egg\egg-example\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\egg\egg-example\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\egg\egg-example\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\egg\egg-example\node_modules\koa-session\index.js:41:7)
+
+pid: 23236
+hostname: XC-AE-0536-C
+
+2021-01-08 14:16:42,893 ERROR 23236 [-/::1/-/2ms GET /user/1] nodejs.ReferenceError: username is not defined
+    at UserService.find (D:\egg\egg-example\app\service\user.js:8:31)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async UserController.info (D:\egg\egg-example\app\controller\user.js:7:26)
+    at async robotMiddleware (D:\egg\egg-example\app\middleware\robot.js:10:13)
+    at async D:\egg\egg-example\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\egg\egg-example\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\egg\egg-example\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\egg\egg-example\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\egg\egg-example\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\egg\egg-example\node_modules\koa-session\index.js:41:7)
+
+pid: 23236
+hostname: XC-AE-0536-C
+
+2021-01-08 15:05:31,595 ERROR 18052 [-/127.0.0.1/-/11ms POST /api/login/account] nodejs.TypeError: Cannot destructure property 'username' of 'this.params' as it is undefined.
+    at LoginController.login (D:\egg\egg-example\app\controller\login.js:6:17)
+    at Object.callFn (D:\egg\egg-example\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\egg\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\egg\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\egg\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\egg\egg-example\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+
+pid: 18052
+hostname: XC-AE-0536-C
+
+2021-01-08 15:05:58,278 ERROR 27560 [-/127.0.0.1/-/112ms POST /api/login/account] nodejs.TypeError: Cannot destructure property 'username' of 'this.params' as it is undefined.
+    at LoginController.login (D:\egg\egg-example\app\controller\login.js:7:17)
+    at Object.callFn (D:\egg\egg-example\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\egg\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\egg\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\egg\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\egg\egg-example\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+
+pid: 27560
+hostname: XC-AE-0536-C
+
+2021-01-08 15:08:02,365 ERROR 13860 [-/127.0.0.1/-/14ms POST /api/login/account] nodejs.TypeError: Cannot destructure property 'username' of 'this.params' as it is undefined.
+    at LoginController.login (D:\egg\egg-example\app\controller\login.js:7:17)
+    at Object.callFn (D:\egg\egg-example\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\egg\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\egg\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\egg\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\egg\egg-example\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+
+pid: 13860
+hostname: XC-AE-0536-C
+
+2021-01-08 15:08:14,084 ERROR 18348 [-/127.0.0.1/-/15ms POST /api/login/account] nodejs.TypeError: ctx.service.login is not a function
+    at LoginController.login (D:\egg\egg-example\app\controller\login.js:8:41)
+    at Object.callFn (D:\egg\egg-example\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\egg\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\egg\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\egg\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\egg\egg-example\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+
+pid: 18348
+hostname: XC-AE-0536-C
+
+2021-01-08 15:08:51,209 ERROR 25204 [-/127.0.0.1/-/13ms POST /api/login/account] nodejs.TypeError: ctx.service.login.login is not a function
+    at LoginController.login (D:\egg\egg-example\app\controller\login.js:8:47)
+    at Object.callFn (D:\egg\egg-example\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\egg\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\egg\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\egg\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\egg\egg-example\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+
+pid: 25204
+hostname: XC-AE-0536-C
+
+2021-01-08 15:09:55,994 ERROR 22284 [-/127.0.0.1/-/19ms POST /api/login/account] nodejs.TypeError: ctx.service.login.login is not a function
+    at LoginController.login (D:\egg\egg-example\app\controller\login.js:8:47)
+    at Object.callFn (D:\egg\egg-example\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\egg\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\egg\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\egg\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\egg\egg-example\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+
+pid: 22284
+hostname: XC-AE-0536-C
+
+2021-01-08 15:13:42,420 ERROR 25384 [-/127.0.0.1/-/17ms POST /api/login/account] nodejs.TypeError: Cannot read property 'username' of undefined
+    at LoginService.login (D:\egg\egg-example\app\service\login.js:14:32)
+    at LoginController.login (D:\egg\egg-example\app\controller\login.js:7:47)
+    at Object.callFn (D:\egg\egg-example\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\egg\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\egg\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\egg\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\egg\egg-example\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+
+pid: 25384
+hostname: XC-AE-0536-C
+
+2021-01-08 15:14:08,970 ERROR 6388 [-/127.0.0.1/-/18ms POST /api/login/account] nodejs.TypeError: Cannot read property 'username' of undefined
+    at LoginService.login (D:\egg\egg-example\app\service\login.js:13:32)
+    at LoginController.login (D:\egg\egg-example\app\controller\login.js:7:47)
+    at Object.callFn (D:\egg\egg-example\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\egg\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\egg\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\egg\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\egg\egg-example\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+
+pid: 6388
+hostname: XC-AE-0536-C
+
+2021-01-08 15:35:20,329 ERROR 9788 [-/127.0.0.1/-/11ms POST /api/login/account] nodejs.TypeError: ctx.service.login.login.login is not a function
+    at LoginController.login (D:\egg\egg-example\app\controller\login.js:7:53)
+    at Object.callFn (D:\egg\egg-example\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\egg\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\egg\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\egg\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\egg\egg-example\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+
+pid: 9788
+hostname: XC-AE-0536-C
+
+2021-01-08 15:35:32,029 ERROR 23560 [-/127.0.0.1/-/16ms POST /api/login/account] nodejs.TypeError: ctx.service.login.login.login is not a function
+    at LoginController.login (D:\egg\egg-example\app\controller\login.js:7:53)
+    at Object.callFn (D:\egg\egg-example\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\egg\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\egg\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\egg\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\egg\egg-example\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+
+pid: 23560
+hostname: XC-AE-0536-C
+
+2021-01-08 15:38:07,532 ERROR 14900 [-/127.0.0.1/-/26ms POST /api/login/account] nodejs.TypeError: Cannot read property 'login' of undefined
+    at LoginController.login (D:\egg\egg-example\app\controller\login.js:8:52)
+    at Object.callFn (D:\egg\egg-example\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\egg\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\egg\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\egg\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\egg\egg-example\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+
+pid: 14900
+hostname: XC-AE-0536-C
+
+2021-01-08 15:40:04,252 ERROR 22480 [-/127.0.0.1/-/116ms POST /api/login/account] nodejs.TypeError: Cannot read property 'login' of undefined
+    at LoginController.login (D:\egg\egg-example\app\controller\login.js:8:53)
+    at Object.callFn (D:\egg\egg-example\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\egg\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\egg\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\egg\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\egg\egg-example\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+
+pid: 22480
+hostname: XC-AE-0536-C
+
+2021-01-08 15:41:32,244 ERROR 8520 [-/127.0.0.1/-/28ms POST /api/login/account] nodejs.TypeError: Cannot read property 'login' of undefined
+    at LoginController.login (D:\egg\egg-example\app\controller\login.js:8:52)
+    at Object.callFn (D:\egg\egg-example\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\egg\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\egg\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\egg\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\egg\egg-example\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+
+pid: 8520
+hostname: XC-AE-0536-C
+
+2021-01-08 15:42:46,573 ERROR 9944 [-/127.0.0.1/-/22ms POST /api/login/account] nodejs.TypeError: Cannot read property 'find' of undefined
+    at LoginController.login (D:\egg\egg-example\app\controller\login.js:8:53)
+    at Object.callFn (D:\egg\egg-example\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\egg\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\egg\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\egg\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\egg\egg-example\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+
+pid: 9944
+hostname: XC-AE-0536-C
+
+2021-01-08 15:42:47,856 ERROR 9944 [-/127.0.0.1/-/11ms POST /api/login/account] nodejs.TypeError: Cannot read property 'find' of undefined
+    at LoginController.login (D:\egg\egg-example\app\controller\login.js:8:53)
+    at Object.callFn (D:\egg\egg-example\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\egg\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\egg\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\egg\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\egg\egg-example\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+
+pid: 9944
+hostname: XC-AE-0536-C
+
+2021-01-08 15:43:23,703 ERROR 21216 [-/127.0.0.1/-/22ms POST /api/login/account] nodejs.TypeError: Cannot read property 'find' of undefined
+    at LoginController.login (D:\egg\egg-example\app\controller\login.js:8:53)
+    at Object.callFn (D:\egg\egg-example\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\egg\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\egg\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\egg\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\egg\egg-example\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+
+pid: 21216
+hostname: XC-AE-0536-C
+
+2021-01-08 15:43:52,519 ERROR 26700 [-/127.0.0.1/-/27ms POST /api/login/account] nodejs.TypeError: Cannot read property 'user' of undefined
+    at LoginController.login (D:\egg\egg-example\app\controller\login.js:8:46)
+    at Object.callFn (D:\egg\egg-example\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\egg\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\egg\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\egg\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\egg\egg-example\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+
+pid: 26700
+hostname: XC-AE-0536-C
+
+2021-01-08 15:44:28,951 ERROR 21800 [-/127.0.0.1/-/142ms POST /api/login/account] nodejs.TypeError: Cannot read property 'findUser' of undefined
+    at LoginController.login (D:\egg\egg-example\app\controller\login.js:8:53)
+    at Object.callFn (D:\egg\egg-example\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\egg\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\egg\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\egg\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\egg\egg-example\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+
+pid: 21800
+hostname: XC-AE-0536-C
+
+2021-01-08 15:44:30,267 ERROR 21800 [-/127.0.0.1/-/11ms POST /api/login/account] nodejs.TypeError: Cannot read property 'findUser' of undefined
+    at LoginController.login (D:\egg\egg-example\app\controller\login.js:8:53)
+    at Object.callFn (D:\egg\egg-example\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\egg\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\egg\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\egg\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\egg\egg-example\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+
+pid: 21800
+hostname: XC-AE-0536-C
+
+2021-01-08 15:44:48,032 ERROR 27988 [-/127.0.0.1/-/31ms POST /api/login/account] nodejs.TypeError: Cannot read property 'find' of undefined
+    at LoginController.login (D:\egg\egg-example\app\controller\login.js:8:53)
+    at Object.callFn (D:\egg\egg-example\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\egg\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\egg\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\egg\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\egg\egg-example\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+
+pid: 27988
+hostname: XC-AE-0536-C
+
+2021-01-08 15:45:30,272 ERROR 16900 [-/127.0.0.1/-/27ms POST /api/login/account] nodejs.TypeError: Cannot read property 'find2' of undefined
+    at LoginController.login (D:\egg\egg-example\app\controller\login.js:8:53)
+    at Object.callFn (D:\egg\egg-example\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\egg\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\egg\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\egg\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\egg\egg-example\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+
+pid: 16900
+hostname: XC-AE-0536-C
+
+2021-01-08 15:45:48,085 ERROR 20580 [-/127.0.0.1/-/30ms POST /api/login/account] nodejs.TypeError: Cannot read property 'user' of undefined
+    at LoginController.login (D:\egg\egg-example\app\controller\login.js:8:51)
+    at Object.callFn (D:\egg\egg-example\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\egg\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\egg\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\egg\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\egg\egg-example\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+
+pid: 20580
+hostname: XC-AE-0536-C
+
+2021-01-08 15:45:49,367 ERROR 20580 [-/127.0.0.1/-/10ms POST /api/login/account] nodejs.TypeError: Cannot read property 'user' of undefined
+    at LoginController.login (D:\egg\egg-example\app\controller\login.js:8:51)
+    at Object.callFn (D:\egg\egg-example\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\egg\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\egg\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\egg\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\egg\egg-example\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+
+pid: 20580
+hostname: XC-AE-0536-C
+
+2021-01-08 15:46:09,644 ERROR 28432 [-/127.0.0.1/-/284ms POST /api/login/account] nodejs.TypeError: ctx.service.getLogin.user.login is not a function
+    at LoginController.login (D:\egg\egg-example\app\controller\login.js:8:55)
+    at Object.callFn (D:\egg\egg-example\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\egg\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\egg\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\egg\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\egg\egg-example\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+
+pid: 28432
+hostname: XC-AE-0536-C
+
+2021-01-08 15:46:10,935 ERROR 28432 [-/127.0.0.1/-/17ms POST /api/login/account] nodejs.TypeError: ctx.service.getLogin.user.login is not a function
+    at LoginController.login (D:\egg\egg-example\app\controller\login.js:8:55)
+    at Object.callFn (D:\egg\egg-example\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\egg\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\egg\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\egg\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\egg\egg-example\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+
+pid: 28432
+hostname: XC-AE-0536-C
+
+2021-01-08 15:46:11,183 ERROR 28432 [-/127.0.0.1/-/15ms POST /api/login/account] nodejs.TypeError: ctx.service.getLogin.user.login is not a function
+    at LoginController.login (D:\egg\egg-example\app\controller\login.js:8:55)
+    at Object.callFn (D:\egg\egg-example\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\egg\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\egg\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\egg\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\egg\egg-example\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+
+pid: 28432
+hostname: XC-AE-0536-C
+
+2021-01-08 15:46:11,471 ERROR 28432 [-/127.0.0.1/-/10ms POST /api/login/account] nodejs.TypeError: ctx.service.getLogin.user.login is not a function
+    at LoginController.login (D:\egg\egg-example\app\controller\login.js:8:55)
+    at Object.callFn (D:\egg\egg-example\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\egg\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\egg\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\egg\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\egg\egg-example\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+
+pid: 28432
+hostname: XC-AE-0536-C
+
+2021-01-08 15:46:20,020 ERROR 26292 [-/127.0.0.1/-/30ms POST /api/login/account] nodejs.TypeError: this.service.getLogin.user.login is not a function
+    at LoginController.login (D:\egg\egg-example\app\controller\login.js:8:56)
+    at Object.callFn (D:\egg\egg-example\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\egg\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\egg\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\egg\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\egg\egg-example\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+
+pid: 26292
+hostname: XC-AE-0536-C
+
+2021-01-08 15:46:37,543 ERROR 28312 [-/127.0.0.1/-/28ms POST /api/login/account] nodejs.TypeError: this.service.biz.user.login is not a function
+    at LoginController.login (D:\egg\egg-example\app\controller\login.js:8:51)
+    at Object.callFn (D:\egg\egg-example\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\egg\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\egg\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\egg\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\egg\egg-example\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+
+pid: 28312
+hostname: XC-AE-0536-C
+
+2021-01-08 15:47:17,949 ERROR 26096 [-/127.0.0.1/-/29ms POST /api/login/account] nodejs.TypeError: Cannot read property 'find' of undefined
+    at LoginController.login (D:\egg\egg-example\app\controller\login.js:8:53)
+    at Object.callFn (D:\egg\egg-example\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\egg\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\egg\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\egg\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\egg\egg-example\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+
+pid: 26096
+hostname: XC-AE-0536-C
+
+2021-01-08 15:52:14,954 ERROR 24468 [-/127.0.0.1/-/14ms POST /api/login/account] nodejs.ReferenceError: app is not defined
+    at LoginController.login (D:\egg\egg-example\app\controller\login.js:8:23)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async robotMiddleware (D:\egg\egg-example\app\middleware\robot.js:10:13)
+    at async D:\egg\egg-example\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\egg\egg-example\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\egg\egg-example\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\egg\egg-example\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\egg\egg-example\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\egg\egg-example\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (D:\egg\egg-example\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 24468
+hostname: XC-AE-0536-C
+
+2021-01-08 15:52:28,430 ERROR 14780 [-/127.0.0.1/-/18ms POST /api/login/account] nodejs.ReferenceError: app is not defined
+    at LoginController.login (D:\egg\egg-example\app\controller\login.js:12:12)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async robotMiddleware (D:\egg\egg-example\app\middleware\robot.js:10:13)
+    at async D:\egg\egg-example\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\egg\egg-example\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\egg\egg-example\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\egg\egg-example\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\egg\egg-example\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\egg\egg-example\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (D:\egg\egg-example\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 14780
+hostname: XC-AE-0536-C
+
+2021-01-08 15:56:33,290 ERROR 24940 [-/127.0.0.1/-/3ms POST /api/login/account] nodejs.TypeError: Cannot read property 'username' of undefined
+    at LoginController.login (D:\egg\egg-example\app\controller\login.js:10:32)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async robotMiddleware (D:\egg\egg-example\app\middleware\robot.js:10:13)
+    at async D:\egg\egg-example\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\egg\egg-example\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\egg\egg-example\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\egg\egg-example\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\egg\egg-example\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\egg\egg-example\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (D:\egg\egg-example\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 24940
+hostname: XC-AE-0536-C
+
+2021-01-08 15:57:21,923 ERROR 22456 [-/127.0.0.1/-/18ms POST /api/login/account] nodejs.TypeError: Cannot read property 'username' of undefined
+    at LoginController.login (D:\egg\egg-example\app\controller\login.js:10:32)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async robotMiddleware (D:\egg\egg-example\app\middleware\robot.js:10:13)
+    at async D:\egg\egg-example\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\egg\egg-example\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\egg\egg-example\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\egg\egg-example\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\egg\egg-example\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\egg\egg-example\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (D:\egg\egg-example\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 22456
+hostname: XC-AE-0536-C
+
+2021-01-08 15:57:58,095 ERROR 25100 [-/127.0.0.1/-/15ms POST /api/login/account] nodejs.TypeError: Cannot read property 'username' of undefined
+    at LoginController.login (D:\egg\egg-example\app\controller\login.js:11:32)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async robotMiddleware (D:\egg\egg-example\app\middleware\robot.js:10:13)
+    at async D:\egg\egg-example\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\egg\egg-example\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\egg\egg-example\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\egg\egg-example\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\egg\egg-example\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\egg\egg-example\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (D:\egg\egg-example\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 25100
+hostname: XC-AE-0536-C
+
+2021-01-08 16:09:54,434 ERROR 26468 [-/127.0.0.1/-/15ms POST /api/login/account] nodejs.TypeError: Cannot read property 'username' of undefined
+    at LoginController.login (D:\egg\egg-example\app\controller\login.js:11:32)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async robotMiddleware (D:\egg\egg-example\app\middleware\robot.js:10:13)
+    at async D:\egg\egg-example\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\egg\egg-example\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\egg\egg-example\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\egg\egg-example\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\egg\egg-example\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\egg\egg-example\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (D:\egg\egg-example\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 26468
+hostname: XC-AE-0536-C
+
+2021-01-08 16:23:55,094 ERROR 24408 [-/127.0.0.1/-/11ms POST /api/login/account] nodejs.TypeError: Cannot read property 'findAll' of undefined
+    at LoginService.getUser (D:\egg\egg-example\app\service\getLogin\user.js:18:42)
+    at LoginService.validUser (D:\egg\egg-example\app\service\getLogin\user.js:5:33)
+    at LoginController.login (D:\egg\egg-example\app\controller\login.js:8:62)
+    at Object.callFn (D:\egg\egg-example\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\egg\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\egg\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\egg\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\egg\egg-example\node_modules\@eggjs\router\lib\router.js:190:18
+
+pid: 24408
+hostname: XC-AE-0536-C
+
+2021-01-08 16:27:10,649 ERROR 19368 [-/127.0.0.1/-/14ms POST /api/login/account] nodejs.ReferenceError: uname is not defined
+    at LoginService.getUser (D:\egg\egg-example\app\service\getLogin\user.js:15:27)
+    at LoginService.validUser (D:\egg\egg-example\app\service\getLogin\user.js:5:33)
+    at LoginController.login (D:\egg\egg-example\app\controller\login.js:8:62)
+    at Object.callFn (D:\egg\egg-example\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\egg\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\egg\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\egg\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\egg\egg-example\node_modules\@eggjs\router\lib\router.js:190:18
+
+pid: 19368
+hostname: XC-AE-0536-C
+
+2021-01-08 16:27:27,964 ERROR 3164 [-/127.0.0.1/-/19ms POST /api/login/account] nodejs.ReferenceError: loginInfo is not defined
+    at LoginController.login (D:\egg\egg-example\app\controller\login.js:39:22)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async robotMiddleware (D:\egg\egg-example\app\middleware\robot.js:10:13)
+    at async D:\egg\egg-example\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\egg\egg-example\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\egg\egg-example\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\egg\egg-example\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\egg\egg-example\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\egg\egg-example\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (D:\egg\egg-example\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 3164
+hostname: XC-AE-0536-C
+
+2021-01-08 16:27:41,240 ERROR 3164 [-/127.0.0.1/-/14ms POST /api/login/account] nodejs.ReferenceError: loginInfo is not defined
+    at LoginController.login (D:\egg\egg-example\app\controller\login.js:39:22)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async robotMiddleware (D:\egg\egg-example\app\middleware\robot.js:10:13)
+    at async D:\egg\egg-example\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\egg\egg-example\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\egg\egg-example\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\egg\egg-example\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\egg\egg-example\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\egg\egg-example\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (D:\egg\egg-example\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 3164
+hostname: XC-AE-0536-C
+
+2021-01-08 16:32:52,059 ERROR 22732 [-/127.0.0.1/-/26ms POST /api/login/account] nodejs.ReferenceError: loginInfo is not defined
+    at LoginController.login (D:\egg\egg-example\app\controller\login.js:40:22)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async robotMiddleware (D:\egg\egg-example\app\middleware\robot.js:10:13)
+    at async D:\egg\egg-example\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\egg\egg-example\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\egg\egg-example\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\egg\egg-example\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\egg\egg-example\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\egg\egg-example\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (D:\egg\egg-example\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 22732
+hostname: XC-AE-0536-C
+
+2021-01-08 16:33:39,316 ERROR 24188 [-/127.0.0.1/-/18ms POST /api/login/account] nodejs.ReferenceError: loginInfo is not defined
+    at LoginController.login (D:\egg\egg-example\app\controller\login.js:40:22)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async robotMiddleware (D:\egg\egg-example\app\middleware\robot.js:10:13)
+    at async D:\egg\egg-example\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\egg\egg-example\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\egg\egg-example\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\egg\egg-example\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\egg\egg-example\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\egg\egg-example\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (D:\egg\egg-example\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 24188
+hostname: XC-AE-0536-C
+
+2021-01-08 16:34:13,187 ERROR 8236 [-/127.0.0.1/-/18ms POST /api/login/account] nodejs.ReferenceError: loginInfo is not defined
+    at LoginController.login (D:\egg\egg-example\app\controller\login.js:46:22)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async robotMiddleware (D:\egg\egg-example\app\middleware\robot.js:10:13)
+    at async D:\egg\egg-example\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (D:\egg\egg-example\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (D:\egg\egg-example\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (D:\egg\egg-example\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (D:\egg\egg-example\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (D:\egg\egg-example\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (D:\egg\egg-example\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 8236
+hostname: XC-AE-0536-C
+
+2021-01-08 17:03:10,409 ERROR 26036 [-/127.0.0.1/-/24ms POST /api/login/account] nodejs.SyntaxError: Unexpected token o in JSON at position 1
+    at JSON.parse (<anonymous>)
+    at LoginController.login (D:\egg\egg-example\app\controller\login.js:6:45)
+    at Object.callFn (D:\egg\egg-example\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (D:\egg\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\egg\egg-example\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (D:\egg\egg-example\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at D:\egg\egg-example\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (D:\egg\egg-example\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+
+pid: 26036
+hostname: XC-AE-0536-C
+
+2021-01-09 13:03:36,411 ERROR 19044 nodejs.ClusterClientNoResponseError: client no response in 1168558ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (D:\egg\egg-example\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 19044
+hostname: XC-AE-0536-C
+
+2021-01-09 20:51:32,677 ERROR 19044 nodejs.ClusterClientNoResponseError: client no response in 10815438ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (D:\egg\egg-example\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 19044
+hostname: XC-AE-0536-C
+
+2021-01-11 09:25:39,636 ERROR 19044 nodejs.ClusterClientNoResponseError: client no response in 131645255ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (D:\egg\egg-example\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+name: "ClusterClientNoResponseError"
+pid: 19044
+hostname: XC-AE-0536-C
+

@@ -3,11 +3,12 @@
 module.exports = app => {
   const DataTypes = app.Sequelize;
 
-  const Model = app.model.define('topic_like', {
+  const TopicLike = app.model.define('topic_like', {
     id: {
       type: DataTypes.INTEGER,
       allowNull: false,
-      primaryKey: true
+      primaryKey: true,
+      autoIncrement: true
     },
     userId: {
       type: DataTypes.STRING(255),
@@ -21,21 +22,25 @@ module.exports = app => {
       type: DataTypes.INTEGER,
       allowNull: false
     },
-    created_at: {
+    createdAt: {
       type: DataTypes.DATE,
-      allowNull: false
+      allowNull: true,
+      defaultValue: DataTypes.NOW,
+      field: 'created_at'
     },
-    updated_at: {
+    updatedAt: {
       type: DataTypes.DATE,
-      allowNull: false
-    }
+      allowNull: true,
+      defaultValue: DataTypes.NOW,
+      field: 'updated_at'
+    },
   }, {
     tableName: 'topic_like'
   });
 
-  Model.associate = function() {
+  TopicLike.associate = function() {
 
   }
 
-  return Model;
+  return TopicLike;
 };

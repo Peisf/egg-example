@@ -210,7 +210,12 @@
       "password": "<String len: 8>",
       "define": {
         "freezeTableName": true,
-        "timestamps": false
+        "timestamps": true
+      },
+      "timezone": "+08:00",
+      "dialectOptions": {
+        "dateStrings": true,
+        "typeCast": "<Function typeCast>"
       }
     },
     "mysql": {
@@ -412,19 +417,18 @@
       "responseTimeout": 60000
     },
     "onClientError": null,
-    "news": {
-      "pageSize": 5,
-      "serverUrl": "https://hacker-news.firebaseio.com/v0"
-    },
     "authWhiteList": [
       "/api/v1/login",
       "/api/v1/login/register"
     ],
     "middleware": [
       "jwt",
-      "errorHandler",
-      "authorization"
+      "authorization",
+      "errorHandler"
     ],
+    "errorHandler": {
+      "match": "/api"
+    },
     "auth_cookie_name": "token",
     "coreMiddlewares": "~config~coreMiddleware",
     "appMiddlewares": "~config~middleware",

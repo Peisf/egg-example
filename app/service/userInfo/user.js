@@ -70,6 +70,13 @@ class UserService extends Service {
         return false
     }
 
+    /**
+     *根据userId 查找用户
+     *
+     * @param {*} userId
+     * @return {*} 
+     * @memberof UserService
+     */
     async getUserByUserId(userId) {
         return this.ctx.model.User.findOne({
             where: { userId }
@@ -84,6 +91,48 @@ class UserService extends Service {
     async getUserByMail(email) {
         return this.ctx.model.User.findOne({
             where: { email }
+        })
+    }
+
+    /**
+     *更新用户信息
+     *
+     * @param {*} query
+     * @param {*} updateValue
+     * @return {*} 
+     * @memberof UserService
+     */
+    async updateUserInfo(query, updateValue) {
+        return this.ctx.model.User.update(updateValue,{
+            where: query
+        })
+    }
+
+    async getUserList(userId) {
+        const { app, ctx } = this
+        const Op = app.Sequelize.Op
+
+        //查询已关注用户
+        let followList = await ctx.model.Follow.findAll({
+            attributes: ['userId'],
+            where: {
+                followedId: userId,
+                status: 1
+            }
+        }) 
+
+        followList = followList.map(item => {
+            return item.userId
+        })
+
+        return ctx.model.User.findAll({
+            attributes: ['userId','username','email','avatarUrl','abstract'],
+            where: {
+                userId: {
+                    [Op.ne]: userId,
+                    [Op.notIn]: followList
+                }
+            }
         })
     }
     

@@ -1,4 +1,3 @@
-const fs = require('fs');
 const path = require('path');
 
 module.exports = appInfo => {
@@ -74,7 +73,6 @@ module.exports = appInfo => {
     /**
      * egg-swagger-doc配置
      */
-
      config.swaggerdoc = {
         dirScannerL: './app/controller', //配置自动扫描的控制器路径
         //接口文档标题，描述或其它
@@ -101,16 +99,15 @@ module.exports = appInfo => {
         }
     }
 
-    config.news = {
-        pageSize: 5,
-        serverUrl: 'https://hacker-news.firebaseio.com/v0'
-    }
     //设置鉴权白名单
     config.authWhiteList = ['/api/v1/login', '/api/v1/login/register'];
     config.middleware = [
-         'errorHandler', 'authorization'
+         'authorization', 'errorHandler'
     ]
-    
+    // 只对 /api 前缀的 url 路径生效
+    config.errorHandler= {
+        match: '/api',
+    }
     config.security = {
         csrf: {
             enable: false,
@@ -134,7 +131,20 @@ module.exports = appInfo => {
         database: 'learn',
         define: {
             freezeTableName: true, // Model 对应的表名将与model名相同。
-            timestamps: false // 默认情况下，Sequelize会将createdAt和updatedAt的属性添加到模型中，以便您可以知道数据库条目何时进入数据库以及何时被更新（ 确实是太方便了，然而我们一般用不到 ....）。
+            timestamps: true // 默认情况下，Sequelize会将createdAt和updatedAt的属性添加到模型中，以便您可以知道数据库条目何时进入数据库以及何时被更新（ 确实是太方便了，然而我们一般用不到 ....）。
+        },
+        //保存时用的时间
+        timezone: '+08:00' ,// 保存为本地时区
+        //读取时用的时间
+        dialectOptions: {
+        dateStrings: true,
+        typeCast(field, next) {
+            // for reading from database
+            if (field.type === "DATETIME") {
+            return field.string();
+            }
+            return next();
+        }
         }
         // app: true,  //加载到应用程序
         // agent: false    //加载到代理中
@@ -151,6 +161,12 @@ module.exports = appInfo => {
     }
     // cookie name config
     config.auth_cookie_name = 'token';
+
+    //验证validate
+    config.validate = {
+        // convert: false,
+        // validateRoot: false
+    }
     return {
         ...config
     }

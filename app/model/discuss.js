@@ -3,7 +3,7 @@
 module.exports = app => {
   const DataTypes = app.Sequelize;
 
-  const Model = app.model.define('discuss', {
+  const Discuss = app.model.define('discuss', {
     discussId: {
       type: DataTypes.INTEGER,
       allowNull: false,
@@ -25,21 +25,25 @@ module.exports = app => {
       type: DataTypes.STRING(255),
       allowNull: false
     },
-    created_at: {
+    createdAt: {
       type: DataTypes.DATE,
-      allowNull: false
+      allowNull: true,
+      defaultValue: DataTypes.NOW,
+      field: 'created_at'
     },
-    updated_at: {
+    updatedAt: {
       type: DataTypes.DATE,
-      allowNull: false
-    }
+      allowNull: true,
+      defaultValue: DataTypes.NOW,
+      field: 'updated_at'
+    },
   }, {
     tableName: 'discuss'
   });
 
-  Model.associate = function() {
+  Discuss.associate = function() {
 
   }
 
-  return Model;
+  return Discuss;
 };

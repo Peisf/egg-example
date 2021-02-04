@@ -3,11 +3,12 @@
 module.exports = app => {
   const DataTypes = app.Sequelize;
 
-  const Model = app.model.define('follow', {
+  const Follow = app.model.define('follow', {
     id: {
       type: DataTypes.INTEGER.UNSIGNED,
       allowNull: false,
-      primaryKey: true
+      primaryKey: true,
+      autoIncrement: true
     },
     userId: {
       type: DataTypes.STRING(255),
@@ -21,21 +22,25 @@ module.exports = app => {
       type: DataTypes.INTEGER,
       allowNull: false
     },
-    created_at: {
+    createdAt: {
       type: DataTypes.DATE,
-      allowNull: false
+      allowNull: true,
+      defaultValue: DataTypes.NOW,
+      field: 'created_at'
     },
-    updated_at: {
+    updatedAt: {
       type: DataTypes.DATE,
-      allowNull: false
-    }
+      allowNull: true,
+      defaultValue: DataTypes.NOW,
+      field: 'updated_at'
+    },
   }, {
     tableName: 'follow'
   });
 
-  Model.associate = function() {
+  Follow.associate = function() {
 
   }
 
-  return Model;
+  return Follow;
 };

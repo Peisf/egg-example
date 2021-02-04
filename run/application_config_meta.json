@@ -58,12 +58,11 @@
     "cache": "D:\\egg\\egg-example\\node_modules\\egg-view\\config\\config.local.js",
     "defaultExtension": "D:\\egg\\egg-example\\node_modules\\egg-view\\config\\config.default.js"
   },
-  "news": {
-    "pageSize": "D:\\egg\\egg-example\\config\\config.default.js",
-    "serverUrl": "D:\\egg\\egg-example\\config\\config.default.js"
-  },
   "authWhiteList": "D:\\egg\\egg-example\\config\\config.default.js",
   "middleware": "D:\\egg\\egg-example\\config\\config.default.js",
+  "errorHandler": {
+    "match": "D:\\egg\\egg-example\\config\\config.default.js"
+  },
   "security": {
     "csrf": {
       "enable": "D:\\egg\\egg-example\\config\\config.default.js",
@@ -132,6 +131,11 @@
     "define": {
       "freezeTableName": "D:\\egg\\egg-example\\config\\config.default.js",
       "timestamps": "D:\\egg\\egg-example\\config\\config.default.js"
+    },
+    "timezone": "D:\\egg\\egg-example\\config\\config.default.js",
+    "dialectOptions": {
+      "dateStrings": "D:\\egg\\egg-example\\config\\config.default.js",
+      "typeCast": "D:\\egg\\egg-example\\config\\config.default.js"
     }
   },
   "jwt": {
@@ -148,6 +152,7 @@
     "maxFiles": "D:\\egg\\egg-example\\node_modules\\egg-static\\config\\config.default.js"
   },
   "auth_cookie_name": "D:\\egg\\egg-example\\config\\config.default.js",
+  "validate": "D:\\egg\\egg-example\\config\\config.default.js",
   "mysql": {
     "client": {
       "host": "D:\\egg\\egg-example\\config\\config.local.js",
@@ -246,7 +251,6 @@
     "lstripBlocks": "D:\\egg\\egg-example\\node_modules\\egg-view-nunjucks\\config\\config.default.js",
     "cache": "D:\\egg\\egg-example\\node_modules\\egg-view-nunjucks\\config\\config.local.js"
   },
-  "validate": "D:\\egg\\egg-example\\node_modules\\egg-validate\\config\\config.default.js",
   "passportLocal": "D:\\egg\\egg-example\\node_modules\\egg-passport-local\\config\\config.default.js",
   "env": "D:\\egg\\egg-example\\node_modules\\egg\\config\\config.default.js",
   "name": "D:\\egg\\egg-example\\node_modules\\egg\\config\\config.default.js",

@@ -268,6 +268,8 @@
       "dev": "D:\\egg\\egg-example\\node_modules\\egg\\config\\config.default.js",
       "dbinit": "D:\\egg\\egg-example\\node_modules\\egg\\config\\config.default.js",
       "test": "D:\\egg\\egg-example\\node_modules\\egg\\config\\config.default.js",
+      "start": "D:\\egg\\egg-example\\node_modules\\egg\\config\\config.default.js",
+      "stop": "D:\\egg\\egg-example\\node_modules\\egg\\config\\config.default.js",
       "debug": "D:\\egg\\egg-example\\node_modules\\egg\\config\\config.default.js"
     },
     "dependencies": {
@@ -281,6 +283,7 @@
       "egg-passport-local": "D:\\egg\\egg-example\\node_modules\\egg\\config\\config.default.js",
       "egg-router-plus": "D:\\egg\\egg-example\\node_modules\\egg\\config\\config.default.js",
       "egg-schedule": "D:\\egg\\egg-example\\node_modules\\egg\\config\\config.default.js",
+      "egg-scripts": "D:\\egg\\egg-example\\node_modules\\egg\\config\\config.default.js",
       "egg-security": "D:\\egg\\egg-example\\node_modules\\egg\\config\\config.default.js",
       "egg-sequelize": "D:\\egg\\egg-example\\node_modules\\egg\\config\\config.default.js",
       "egg-sequelize-auto": "D:\\egg\\egg-example\\node_modules\\egg\\config\\config.default.js",

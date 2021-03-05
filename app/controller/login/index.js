@@ -17,13 +17,7 @@ class LoginController extends Controller {
         const token = await ctx.service.userInfo.user.login({password, email})
         //set cookie
         if (token) {
-            const opts = {
-                path: '/',
-                maxAge: 1000*60*60*24*30,
-                httpOnly: false,
-                domain: '127.0.0.1'
-            }
-            ctx.cookies.set(this.config.auth_cookie_name, token, opts)
+            // ctx.cookies.set(this.config.auth_cookie_name, token, this.config.opts)
             ctx.returnBody(200, "登录成功",{token})
         }else{
             ctx.returnBody(401, "用户名或密码错误")
@@ -34,7 +28,7 @@ class LoginController extends Controller {
     async signOut() {
         const { ctx } = this;
         ctx.logout()
-        ctx.cookies.set(this.config.auth_cookie_name, "")
+        // ctx.cookies.set(this.config.auth_cookie_name, "")
         ctx.returnBody(200, "退出登录成功")
     }
     

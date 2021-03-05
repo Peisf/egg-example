@@ -14,24 +14,6 @@
     },
     "onerror": "D:\\egg\\egg-example\\config\\config.default.js"
   },
-  "logger": {
-    "dir": "D:\\egg\\egg-example\\config\\config.default.js",
-    "encoding": "D:\\egg\\egg-example\\config\\config.default.js",
-    "env": "D:\\egg\\egg-example\\config\\config.default.js",
-    "level": "D:\\egg\\egg-example\\config\\config.default.js",
-    "consoleLevel": "D:\\egg\\egg-example\\config\\config.default.js",
-    "disableConsoleAfterReady": "D:\\egg\\egg-example\\config\\config.default.js",
-    "outputJSON": "D:\\egg\\egg-example\\config\\config.default.js",
-    "buffer": "D:\\egg\\egg-example\\config\\config.default.js",
-    "appLogName": "D:\\egg\\egg-example\\config\\config.default.js",
-    "coreLogName": "D:\\egg\\egg-example\\config\\config.default.js",
-    "agentLogName": "D:\\egg\\egg-example\\config\\config.default.js",
-    "errorLogName": "D:\\egg\\egg-example\\config\\config.default.js",
-    "coreLogger": {
-      "consoleLevel": "D:\\egg\\egg-example\\node_modules\\egg\\config\\config.local.js"
-    },
-    "allowDebugAtProd": "D:\\egg\\egg-example\\config\\config.default.js"
-  },
   "swaggerdoc": {
     "dirScannerL": "D:\\egg\\egg-example\\config\\config.default.js",
     "apiInfo": {
@@ -153,20 +135,27 @@
   },
   "auth_cookie_name": "D:\\egg\\egg-example\\config\\config.default.js",
   "validate": "D:\\egg\\egg-example\\config\\config.default.js",
-  "mysql": {
-    "client": {
-      "host": "D:\\egg\\egg-example\\config\\config.local.js",
-      "port": "D:\\egg\\egg-example\\config\\config.local.js",
-      "user": "D:\\egg\\egg-example\\config\\config.local.js",
-      "password": "D:\\egg\\egg-example\\config\\config.local.js",
-      "database": "D:\\egg\\egg-example\\config\\config.local.js"
-    },
-    "app": "D:\\egg\\egg-example\\config\\config.local.js",
-    "agent": "D:\\egg\\egg-example\\config\\config.local.js",
-    "default": {
-      "database": "D:\\egg\\egg-example\\node_modules\\egg-mysql\\config\\config.default.js",
-      "connectionLimit": "D:\\egg\\egg-example\\node_modules\\egg-mysql\\config\\config.default.js"
-    }
+  "logger": {
+    "dir": "D:\\egg\\egg-example\\config\\config.local.js",
+    "encoding": "D:\\egg\\egg-example\\config\\config.local.js",
+    "env": "D:\\egg\\egg-example\\config\\config.local.js",
+    "level": "D:\\egg\\egg-example\\config\\config.local.js",
+    "consoleLevel": "D:\\egg\\egg-example\\config\\config.local.js",
+    "disableConsoleAfterReady": "D:\\egg\\egg-example\\config\\config.local.js",
+    "outputJSON": "D:\\egg\\egg-example\\config\\config.local.js",
+    "buffer": "D:\\egg\\egg-example\\config\\config.local.js",
+    "appLogName": "D:\\egg\\egg-example\\config\\config.local.js",
+    "coreLogName": "D:\\egg\\egg-example\\config\\config.local.js",
+    "agentLogName": "D:\\egg\\egg-example\\config\\config.local.js",
+    "errorLogName": "D:\\egg\\egg-example\\config\\config.local.js",
+    "coreLogger": "D:\\egg\\egg-example\\config\\config.local.js",
+    "allowDebugAtProd": "D:\\egg\\egg-example\\config\\config.local.js"
+  },
+  "opts": {
+    "path": "D:\\egg\\egg-example\\config\\config.local.js",
+    "maxAge": "D:\\egg\\egg-example\\config\\config.local.js",
+    "httpOnly": "D:\\egg\\egg-example\\config\\config.local.js",
+    "domain": "D:\\egg\\egg-example\\config\\config.local.js"
   },
   "session": {
     "maxAge": "D:\\egg\\egg-example\\node_modules\\egg-session\\config\\config.default.js",
@@ -250,6 +239,14 @@
     "trimBlocks": "D:\\egg\\egg-example\\node_modules\\egg-view-nunjucks\\config\\config.default.js",
     "lstripBlocks": "D:\\egg\\egg-example\\node_modules\\egg-view-nunjucks\\config\\config.default.js",
     "cache": "D:\\egg\\egg-example\\node_modules\\egg-view-nunjucks\\config\\config.local.js"
+  },
+  "mysql": {
+    "default": {
+      "database": "D:\\egg\\egg-example\\node_modules\\egg-mysql\\config\\config.default.js",
+      "connectionLimit": "D:\\egg\\egg-example\\node_modules\\egg-mysql\\config\\config.default.js"
+    },
+    "app": "D:\\egg\\egg-example\\node_modules\\egg-mysql\\config\\config.default.js",
+    "agent": "D:\\egg\\egg-example\\node_modules\\egg-mysql\\config\\config.default.js"
   },
   "passportLocal": "D:\\egg\\egg-example\\node_modules\\egg-passport-local\\config\\config.default.js",
   "env": "D:\\egg\\egg-example\\node_modules\\egg\\config\\config.default.js",

@@ -71,6 +71,17 @@ class UserService extends Service {
     }
 
     /**
+     *查询所有用户
+     *
+     * @memberof UserService
+     */
+    async getUserAll(query, username, email) {
+        this.ctx.logger.info(query)
+        const Op = this.app.Sequelize.Op
+        return this.ctx.model.User.findAndCountAll(query)
+    }
+
+    /**
      *根据userId 查找用户
      *
      * @param {*} userId

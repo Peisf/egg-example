@@ -9,6 +9,7 @@ module.exports = app => {
     subRouter.get('/login/signout', login.index.signOut) //退出登录
 
     //user
+    subRouter.get('/user/list', user.index.userList) // 获取用户列表
     subRouter.get('/user/info', user.index.userInfo) // 获取用户信息
     subRouter.get('/user/personal', user.index.userPersonalInfo)
     subRouter.post('/user/update', user.index.updateUserInfo) //更新用户信息

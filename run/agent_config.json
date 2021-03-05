@@ -170,7 +170,12 @@
       "password": "<String len: 8>",
       "define": {
         "freezeTableName": true,
-        "timestamps": false
+        "timestamps": true
+      },
+      "timezone": "+08:00",
+      "dialectOptions": {
+        "dateStrings": true,
+        "typeCast": "<Function typeCast>"
       }
     },
     "mysql": {
@@ -179,20 +184,14 @@
         "connectionLimit": 5
       },
       "app": true,
-      "agent": false,
-      "client": {
-        "host": "localhost",
-        "port": "3306",
-        "user": "root",
-        "password": "<String len: 8>",
-        "database": "test"
-      }
+      "agent": false
     },
     "jwt": {
       "secret": "<String len: 5>",
       "enable": false,
-      "expiresIn": 604800
+      "expiresIn": 7200
     },
+    "passportLocal": {},
     "cors": {
       "credentials": true,
       "allowMethods": "GET,HEAD,PUT,POST,DELETE,PATCH"
@@ -238,6 +237,8 @@
         "dev": "egg-bin dev --port 7000",
         "dbinit": "egg-sequelize-auto -o ./app/model -h 127.0.0.1 -p 3306 -d learn -u root -x sf200672",
         "test": "egg-bin test",
+        "start": "egg-scripts start --daemon",
+        "stop": "egg-scripts stop",
         "debug": "egg-bin debug"
       },
       "dependencies": {
@@ -247,8 +248,11 @@
         "egg-jwt": "^3.1.7",
         "egg-mock": "^4.0.1",
         "egg-mysql": "^3.0.0",
+        "egg-passport": "^2.1.1",
+        "egg-passport-local": "^1.2.1",
         "egg-router-plus": "^1.3.1",
         "egg-schedule": "^3.6.6",
+        "egg-scripts": "^2.13.0",
         "egg-security": "^2.8.0",
         "egg-sequelize": "^6.0.0",
         "egg-sequelize-auto": "^0.1.1",
@@ -358,19 +362,24 @@
       "responseTimeout": 60000
     },
     "onClientError": null,
-    "news": {
-      "pageSize": 5,
-      "serverUrl": "https://hacker-news.firebaseio.com/v0"
-    },
-    "middleware": [
-      "robot"
+    "authWhiteList": [
+      "/api/v1/login",
+      "/api/v1/login/register"
     ],
-    "robot": {
-      "ua": [
-        {}
-      ]
+    "middleware": [
+      "authorization",
+      "errorHandler"
+    ],
+    "errorHandler": {
+      "match": "/api"
     },
     "auth_cookie_name": "token",
+    "opts": {
+      "path": "/",
+      "maxAge": 2592000000,
+      "httpOnly": false,
+      "domain": "127.0.0.1"
+    },
     "coreMiddlewares": "~config~coreMiddleware",
     "appMiddlewares": "~config~middleware",
     "appMiddleware": "~config~middleware"
@@ -592,6 +601,32 @@
       "from": "D:\\egg\\egg-example\\config\\plugin.js",
       "path": "D:\\egg\\egg-example\\node_modules\\egg-router-plus",
       "version": "1.3.1"
+    },
+    "passport": {
+      "enable": true,
+      "package": "egg-passport",
+      "name": "passport",
+      "dependencies": [
+        "session"
+      ],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "D:\\egg\\egg-example\\config\\plugin.js",
+      "path": "D:\\egg\\egg-example\\node_modules\\egg-passport",
+      "version": "2.1.1"
+    },
+    "passportLocal": {
+      "enable": true,
+      "package": "egg-passport-local",
+      "name": "passportLocal",
+      "dependencies": [
+        "passport"
+      ],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "D:\\egg\\egg-example\\config\\plugin.js",
+      "path": "D:\\egg\\egg-example\\node_modules\\egg-passport-local",
+      "version": "1.2.1"
     },
     "cors": {
       "enable": true,

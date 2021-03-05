@@ -224,19 +224,12 @@
         "connectionLimit": 5
       },
       "app": true,
-      "agent": false,
-      "client": {
-        "host": "localhost",
-        "port": "3306",
-        "user": "root",
-        "password": "<String len: 8>",
-        "database": "test"
-      }
+      "agent": false
     },
     "jwt": {
       "secret": "<String len: 5>",
       "enable": false,
-      "expiresIn": 604800
+      "expiresIn": 7200
     },
     "passportLocal": {
       "passReqToCallback": true
@@ -433,6 +426,12 @@
       "match": "/api"
     },
     "auth_cookie_name": "token",
+    "opts": {
+      "path": "/",
+      "maxAge": 2592000000,
+      "httpOnly": false,
+      "domain": "127.0.0.1"
+    },
     "coreMiddlewares": "~config~coreMiddleware",
     "appMiddlewares": "~config~middleware",
     "appMiddleware": "~config~middleware",

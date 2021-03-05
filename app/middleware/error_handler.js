@@ -3,12 +3,12 @@ module.exports = (option, app) => {
 
   /**
    * 异常处理中间件
-   * @author shawzhou
+   * @author sf
    *
    * @param cxt
    * @param next
    *
-   * @modified by shawzhou on 15:01 2018/10/11
+   * @modified by sf on 15:01 2021/02/03
    * @return {Promise<void>}
    */
 
@@ -28,7 +28,7 @@ module.exports = (option, app) => {
         // 从 error 对象上读出各个属性，设置到响应中
         ctx.body = { 
             code: status,
-            data: {},
+            data: null,
             message: error_msg,
             success: false
         };

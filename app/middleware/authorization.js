@@ -7,12 +7,13 @@ module.exports = (option, app) => {
       await next(option)
       return
     }
-    
-    let token = ctx.cookies.get('token')
+    let token = ctx.request.header.authorization;
+    // let token = ctx.cookies.get('token')
     if (token) {
       //解码token
+      token = token.substring(7)
       try {
-        const decode = ctx.app.jwt.verify(token, app.config.jwt.secret);
+        let decode = ctx.app.jwt.verify(token, app.config.jwt.secret);
         ctx.state.user = decode; // 信息存一下，这步很重要，业务里要用
         await next();
       } catch (error) {

@@ -1,12 +1,21 @@
 const { Controller } = require('egg')
 
 class UserController extends Controller {
-
+    //获取所有用户列表
+    async userList() {
+        const { ctx } = this;
+        ctx.logger.info(ctx.request.body)
+        const query = { limit: ctx.toInt(ctx.query.pageSize), offset: ctx.toInt(ctx.query.current - 1)};
+        const username = ctx.query.username || ''
+        const email = ctx.query.email || ''
+        let userAll = await ctx.service.userInfo.user.getUserAll(query, username, email)
+        ctx.returnBody(200,'获取用户列表成功', userAll)
+    }
     //获取用户信息
     async userInfo() {
         const { ctx } = this;
+        this.ctx.logger.info(ctx.request.body)
         let userId = ctx.query.userId || ctx.user.userId
-        console.log(userId);
         let user = await ctx.service.userInfo.user.getUserByUserId(userId)
         let userInfo = {
             username: user.username,
@@ -57,7 +66,7 @@ class UserController extends Controller {
         if (contentBody.password) {
             ctx.logout()
             ctx.cookies.set(this.config.auth_cookie_name, "")
-            ctx.returnBody(401, "密码更新成功，请重新登录")
+            ctx.returnBody(200, "密码更新成功，请重新登录")
         }else{
             ctx.returnBody(200, "更新成功")
         }

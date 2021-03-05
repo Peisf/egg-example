@@ -17,7 +17,6 @@ class TopicController extends Controller {
         const { topicImg, topicTitle } = ctx.request.body
 
         let userId = ctx.user.userId
-        console.log('===========================',topicImg, topicTitle);
         let newTopic = { 
             topicImg: JSON.stringify(topicImg),
             topicTitle: topicTitle,
@@ -69,8 +68,8 @@ class TopicController extends Controller {
     //获取帖子列表
     async friendsTopicList() {
         const { ctx } = this
+        this.ctx.logger.info(ctx.request.body)
         let userId = ctx.user.userId
-
         //查询帖子详情
         let follower = await ctx.service.follows.follow.findFollow({
             followedId: userId,
@@ -81,7 +80,7 @@ class TopicController extends Controller {
         let followList = follower.map( item => {
             return item.userId
         })
-        followList.push(userid)
+        followList.push(userId)
 
         //获取每个帖子详情、评论、发帖人信息
         const Op = this.app.Sequelize.Op

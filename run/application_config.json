@@ -204,7 +204,7 @@
     "sequelize": {
       "dialect": "mysql",
       "database": "learn",
-      "host": "localhost",
+      "host": "121.4.215.189",
       "port": "3306",
       "username": "root",
       "password": "<String len: 8>",

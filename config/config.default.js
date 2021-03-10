@@ -2,7 +2,7 @@ const path = require('path');
 
 module.exports = appInfo => {
 
-    const config = exports = {};
+    const config = { };
 
     config.keys = appInfo.name + "_176021831751304_1748" 
     /**

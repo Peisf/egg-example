@@ -2,7 +2,7 @@ const path = require('path');
 
 module.exports = appInfo => {
 
-    const config= exports= {}
+    const config= {}
     /**
      * logger options
      * @member Config#logger

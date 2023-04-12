@@ -5,6 +5,7 @@
       "key": "EGG_SESS",
       "httpOnly": true,
       "encrypt": true,
+      "logValue": true,
       "overwrite": true,
       "signed": true,
       "autoCommit": true,
@@ -28,6 +29,18 @@
         "headerName": "x-csrf-token",
         "bodyName": "_csrf",
         "queryName": "_csrf",
+        "supportedRequests": [
+          {
+            "path": {},
+            "methods": [
+              "POST",
+              "PATCH",
+              "DELETE",
+              "PUT",
+              "CONNECT"
+            ]
+          }
+        ],
         "refererWhiteList": []
       },
       "xframe": {
@@ -71,6 +84,7 @@
       },
       "ssrf": {
         "ipBlackList": null,
+        "ipExceptionList": null,
         "checkAddress": null
       },
       "_protocolWhiteListSet": "<Set>"
@@ -89,35 +103,34 @@
     "onerror": {
       "errorPageUrl": "",
       "appErrorFilter": null,
-      "templatePath": "D:\\egg\\egg-example\\node_modules\\egg-onerror\\lib\\onerror_page.mustache"
+      "templatePath": "/Users/peishuaifei/mySpace/egg-example/node_modules/egg-onerror/lib/onerror_page.mustache"
     },
     "i18n": {
       "defaultLocale": "en_US",
       "dirs": [
-        "D:\\egg\\egg-example\\node_modules\\egg-session\\config\\locales",
-        "D:\\egg\\egg-example\\node_modules\\egg-security\\config\\locales",
-        "D:\\egg\\egg-example\\node_modules\\egg-jsonp\\config\\locales",
-        "D:\\egg\\egg-example\\node_modules\\egg-onerror\\config\\locales",
-        "D:\\egg\\egg-example\\node_modules\\egg-i18n\\config\\locales",
-        "D:\\egg\\egg-example\\node_modules\\egg-watcher\\config\\locales",
-        "D:\\egg\\egg-example\\node_modules\\egg-schedule\\config\\locales",
-        "D:\\egg\\egg-example\\node_modules\\egg-multipart\\config\\locales",
-        "D:\\egg\\egg-example\\node_modules\\egg-development\\config\\locales",
-        "D:\\egg\\egg-example\\node_modules\\egg-logrotator\\config\\locales",
-        "D:\\egg\\egg-example\\node_modules\\egg-static\\config\\locales",
-        "D:\\egg\\egg-example\\node_modules\\egg-view\\config\\locales",
-        "D:\\egg\\egg-example\\node_modules\\egg-view-nunjucks\\config\\locales",
-        "D:\\egg\\egg-example\\node_modules\\egg-validate\\config\\locales",
-        "D:\\egg\\egg-example\\node_modules\\egg-sequelize\\config\\locales",
-        "D:\\egg\\egg-example\\node_modules\\egg-mysql\\config\\locales",
-        "D:\\egg\\egg-example\\node_modules\\egg-jwt\\config\\locales",
-        "D:\\egg\\egg-example\\node_modules\\egg-router-plus\\config\\locales",
-        "D:\\egg\\egg-example\\node_modules\\egg-passport\\config\\locales",
-        "D:\\egg\\egg-example\\node_modules\\egg-passport-local\\config\\locales",
-        "D:\\egg\\egg-example\\node_modules\\egg-cors\\config\\locales",
-        "D:\\egg\\egg-example\\node_modules\\egg-swagger-doc\\config\\locales",
-        "D:\\egg\\egg-example\\node_modules\\egg\\config\\locales",
-        "D:\\egg\\egg-example\\config\\locales"
+        "/Users/peishuaifei/mySpace/egg-example/node_modules/egg-session/config/locales",
+        "/Users/peishuaifei/mySpace/egg-example/node_modules/egg-security/config/locales",
+        "/Users/peishuaifei/mySpace/egg-example/node_modules/egg-jsonp/config/locales",
+        "/Users/peishuaifei/mySpace/egg-example/node_modules/egg-onerror/config/locales",
+        "/Users/peishuaifei/mySpace/egg-example/node_modules/egg-i18n/config/locales",
+        "/Users/peishuaifei/mySpace/egg-example/node_modules/egg-watcher/config/locales",
+        "/Users/peishuaifei/mySpace/egg-example/node_modules/egg-schedule/config/locales",
+        "/Users/peishuaifei/mySpace/egg-example/node_modules/egg-multipart/config/locales",
+        "/Users/peishuaifei/mySpace/egg-example/node_modules/egg-development/config/locales",
+        "/Users/peishuaifei/mySpace/egg-example/node_modules/egg-logrotator/config/locales",
+        "/Users/peishuaifei/mySpace/egg-example/node_modules/egg-static/config/locales",
+        "/Users/peishuaifei/mySpace/egg-example/node_modules/egg-view/config/locales",
+        "/Users/peishuaifei/mySpace/egg-example/node_modules/egg-view-nunjucks/config/locales",
+        "/Users/peishuaifei/mySpace/egg-example/node_modules/egg-validate/config/locales",
+        "/Users/peishuaifei/mySpace/egg-example/node_modules/egg-sequelize/config/locales",
+        "/Users/peishuaifei/mySpace/egg-example/node_modules/egg-mysql/config/locales",
+        "/Users/peishuaifei/mySpace/egg-example/node_modules/egg-jwt/config/locales",
+        "/Users/peishuaifei/mySpace/egg-example/node_modules/egg-router-plus/config/locales",
+        "/Users/peishuaifei/mySpace/egg-example/node_modules/egg-passport/config/locales",
+        "/Users/peishuaifei/mySpace/egg-example/node_modules/egg-passport-local/config/locales",
+        "/Users/peishuaifei/mySpace/egg-example/node_modules/egg-cors/config/locales",
+        "/Users/peishuaifei/mySpace/egg-example/node_modules/egg/config/locales",
+        "/Users/peishuaifei/mySpace/egg-example/config/locales"
       ],
       "queryField": "locale",
       "cookieField": "locale",
@@ -128,8 +141,8 @@
     "watcher": {
       "type": "development",
       "eventSources": {
-        "default": "D:\\egg\\egg-example\\node_modules\\egg-watcher\\lib\\event-sources\\default",
-        "development": "D:\\egg\\egg-example\\node_modules\\egg-watcher\\lib\\event-sources\\development"
+        "default": "/Users/peishuaifei/mySpace/egg-example/node_modules/egg-watcher/lib/event-sources/default",
+        "development": "/Users/peishuaifei/mySpace/egg-example/node_modules/egg-watcher/lib/event-sources/development"
       }
     },
     "customLogger": {
@@ -145,6 +158,7 @@
       "mode": "stream",
       "autoFields": false,
       "defaultCharset": "utf8",
+      "defaultParamCharset": "utf8",
       "fieldNameSize": 100,
       "fieldSize": 102400,
       "fields": 10,
@@ -152,10 +166,13 @@
       "files": 10,
       "fileExtensions": [],
       "whitelist": null,
-      "tmpdir": "C:\\Users\\SC4029\\AppData\\Local\\Temp\\egg-multipart-tmp\\egg-example",
+      "allowArrayField": false,
+      "tmpdir": "/var/folders/3f/t6q8g8_n1_vfdyd99lfsxhj40000gn/T/egg-multipart-tmp/egg-example",
       "cleanSchedule": {
-        "cron": "0 30 4 * * *"
-      }
+        "cron": "0 30 4 * * *",
+        "disable": false
+      },
+      "checkFile": "<Function anonymous>"
     },
     "development": {
       "watchDirs": [],
@@ -176,7 +193,7 @@
     },
     "static": {
       "prefix": "/public",
-      "dir": "D:\\egg\\egg-example\\app\\public",
+      "dir": "/Users/peishuaifei/mySpace/egg-example/app/public",
       "dynamic": true,
       "preload": false,
       "buffer": false,
@@ -184,7 +201,7 @@
     },
     "view": {
       "root": [
-        "D:\\egg\\egg-example\\app\\view"
+        "/Users/peishuaifei/mySpace/egg-example/app/view"
       ],
       "cache": false,
       "defaultExtension": ".html",
@@ -203,8 +220,8 @@
     "validate": {},
     "sequelize": {
       "dialect": "mysql",
-      "database": "learn",
-      "host": "121.4.215.189",
+      "database": "egg_data",
+      "host": "127.0.0.1",
       "port": "3306",
       "username": "root",
       "password": "<String len: 8>",
@@ -239,30 +256,6 @@
       "allowMethods": "GET,HEAD,PUT,POST,DELETE,PATCH",
       "origin": "<Function corsOrigin>"
     },
-    "swaggerdoc": {
-      "dirScanner": "./app/controller",
-      "basePath": "/",
-      "apiInfo": {
-        "title": "MYAPI",
-        "description": "swagger-ui for MYAPI document",
-        "version": "1.0.0"
-      },
-      "schemes": [
-        "http",
-        "https"
-      ],
-      "consumes": [
-        "application/json"
-      ],
-      "produces": [
-        "application/json"
-      ],
-      "securityDefinitions": {},
-      "enableSecurity": false,
-      "routerMap": true,
-      "enable": true,
-      "dirScannerL": "./app/controller"
-    },
     "env": "local",
     "name": "egg-example",
     "keys": "<String len: 32>",
@@ -277,42 +270,44 @@
       "name": "egg-example",
       "author": "sfPei",
       "scripts": {
-        "dev": "egg-bin dev --port 7000",
-        "dbinit": "egg-sequelize-auto -o ./app/model -h 127.0.0.1 -p 3306 -d learn -u root -x sf200672",
+        "dev": "egg-bin dev --port 7013",
+        "dbinit": "egg-sequelize-auto -o ./app/model -h 127.0.0.1 -p 3306 -d egg_data -u root -x sf200672",
         "test": "egg-bin test",
         "start": "egg-scripts start --daemon",
         "stop": "egg-scripts stop",
         "debug": "egg-bin debug"
       },
       "dependencies": {
-        "egg": "^2.29.1",
-        "egg-bin": "^4.15.0",
+        "egg": "^3.15.0",
+        "egg-bin": "^6.3.0",
         "egg-cors": "^2.2.3",
         "egg-jwt": "^3.1.7",
-        "egg-mock": "^4.0.1",
-        "egg-mysql": "^3.0.0",
+        "egg-mock": "^5.10.6",
+        "egg-mysql": "^4.0.0",
         "egg-passport": "^2.1.1",
         "egg-passport-local": "^1.2.1",
-        "egg-router-plus": "^1.3.1",
-        "egg-schedule": "^3.6.6",
-        "egg-scripts": "^2.13.0",
-        "egg-security": "^2.8.0",
+        "egg-router-plus": "^2.0.0",
+        "egg-schedule": "^4.0.0",
+        "egg-scripts": "^2.17.0",
+        "egg-security": "^2.11.0",
         "egg-sequelize": "^6.0.0",
         "egg-sequelize-auto": "^0.1.1",
-        "egg-swagger-doc": "^2.3.2",
         "egg-validate": "^2.0.2",
-        "egg-view-nunjucks": "^2.2.0",
-        "moment": "^2.29.1",
-        "mysql2": "^2.2.5",
-        "sequelize-cli": "^6.2.0",
-        "uuid": "^8.3.2"
+        "egg-view-nunjucks": "^2.3.0",
+        "moment": "^2.29.4",
+        "mysql2": "^3.2.0",
+        "sequelize-cli": "^6.6.0",
+        "uuid": "^9.0.0"
       }
     },
-    "baseDir": "D:\\egg\\egg-example",
-    "HOME": "C:\\Users\\SC4029",
-    "rundir": "D:\\egg\\egg-example\\run",
+    "baseDir": "/Users/peishuaifei/mySpace/egg-example",
+    "HOME": "/Users/peishuaifei",
+    "rundir": "/Users/peishuaifei/mySpace/egg-example/run",
     "dump": {
-      "ignore": "<Set>"
+      "ignore": "<Set>",
+      "timing": {
+        "slowBootActionMinDuration": 5000
+      }
     },
     "confusedConfigurations": {
       "bodyparser": "bodyParser",
@@ -325,7 +320,8 @@
       "pageUrl": ""
     },
     "siteFile": {
-      "/favicon.ico": "<Buffer len: 6463>"
+      "/favicon.ico": "<Buffer len: 6463>",
+      "cacheControl": "public, max-age=2592000"
     },
     "bodyParser": {
       "enable": true,
@@ -342,7 +338,7 @@
       "returnRawBody": true
     },
     "logger": {
-      "dir": "D:\\egg\\egg-example\\logs\\egg-example",
+      "dir": "/Users/peishuaifei/mySpace/egg-example/logs/egg-example",
       "encoding": "utf8",
       "env": "local",
       "level": "DEBUG",
@@ -358,7 +354,10 @@
         "consoleLevel": "WARN"
       },
       "allowDebugAtProd": false,
-      "type": "application"
+      "enablePerformanceTimer": false,
+      "enableFastContextLogger": false,
+      "type": "application",
+      "localStorage": "<AsyncLocalStorage>"
     },
     "httpclient": {
       "enableDNSCache": false,
@@ -378,7 +377,8 @@
         "freeSocketTimeout": 4000,
         "maxSockets": 9007199254740991,
         "maxFreeSockets": 256
-      }
+      },
+      "useHttpClientNext": false
     },
     "meta": {
       "enable": true,
@@ -434,19 +434,7 @@
     },
     "coreMiddlewares": "~config~coreMiddleware",
     "appMiddlewares": "~config~middleware",
-    "appMiddleware": "~config~middleware",
-    "multipartParseOptions": {
-      "autoFields": false,
-      "defCharset": "utf8",
-      "limits": {
-        "fieldNameSize": 100,
-        "fieldSize": 102400,
-        "fields": 10,
-        "fileSize": 10485760,
-        "files": 10
-      },
-      "checkFile": "<Function checkFile>"
-    }
+    "appMiddleware": "~config~middleware"
   },
   "plugins": {
     "onerror": {
@@ -458,9 +446,9 @@
         "jsonp"
       ],
       "env": [],
-      "from": "D:\\egg\\egg-example\\config\\plugin.js",
-      "path": "D:\\egg\\egg-example\\node_modules\\egg-onerror",
-      "version": "2.1.0"
+      "from": "/Users/peishuaifei/mySpace/egg-example/config/plugin.js",
+      "path": "/Users/peishuaifei/mySpace/egg-example/node_modules/egg-onerror",
+      "version": "2.2.0"
     },
     "session": {
       "enable": true,
@@ -469,9 +457,12 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "D:\\egg\\egg-example\\node_modules\\egg\\config\\plugin.js",
-      "path": "D:\\egg\\egg-example\\node_modules\\egg-session",
-      "version": "3.2.0"
+      "from": "/Users/peishuaifei/mySpace/egg-example/node_modules/egg/config/plugin.js",
+      "path": "/Users/peishuaifei/mySpace/egg-example/node_modules/egg-session",
+      "version": "3.3.0",
+      "dependents": [
+        "passport"
+      ]
     },
     "i18n": {
       "enable": true,
@@ -480,8 +471,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "D:\\egg\\egg-example\\node_modules\\egg\\config\\plugin.js",
-      "path": "D:\\egg\\egg-example\\node_modules\\egg-i18n",
+      "from": "/Users/peishuaifei/mySpace/egg-example/node_modules/egg/config/plugin.js",
+      "path": "/Users/peishuaifei/mySpace/egg-example/node_modules/egg-i18n",
       "version": "2.1.1"
     },
     "watcher": {
@@ -491,9 +482,12 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "D:\\egg\\egg-example\\node_modules\\egg\\config\\plugin.js",
-      "path": "D:\\egg\\egg-example\\node_modules\\egg-watcher",
-      "version": "3.1.1"
+      "from": "/Users/peishuaifei/mySpace/egg-example/node_modules/egg/config/plugin.js",
+      "path": "/Users/peishuaifei/mySpace/egg-example/node_modules/egg-watcher",
+      "version": "3.1.1",
+      "dependents": [
+        "development"
+      ]
     },
     "multipart": {
       "enable": true,
@@ -504,9 +498,9 @@
         "schedule"
       ],
       "env": [],
-      "from": "D:\\egg\\egg-example\\node_modules\\egg\\config\\plugin.js",
-      "path": "D:\\egg\\egg-example\\node_modules\\egg-multipart",
-      "version": "2.10.3"
+      "from": "/Users/peishuaifei/mySpace/egg-example/node_modules/egg/config/plugin.js",
+      "path": "/Users/peishuaifei/mySpace/egg-example/node_modules/egg-multipart",
+      "version": "3.3.0"
     },
     "security": {
       "enable": true,
@@ -517,9 +511,12 @@
         "session"
       ],
       "env": [],
-      "from": "D:\\egg\\egg-example\\node_modules\\egg\\config\\plugin.js",
-      "path": "D:\\egg\\egg-example\\node_modules\\egg-security",
-      "version": "2.8.0"
+      "from": "/Users/peishuaifei/mySpace/egg-example/node_modules/egg/config/plugin.js",
+      "path": "/Users/peishuaifei/mySpace/egg-example/node_modules/egg-security",
+      "version": "2.11.0",
+      "dependents": [
+        "nunjucks"
+      ]
     },
     "development": {
       "enable": true,
@@ -532,8 +529,8 @@
       "env": [
         "local"
       ],
-      "from": "D:\\egg\\egg-example\\node_modules\\egg\\config\\plugin.js",
-      "path": "D:\\egg\\egg-example\\node_modules\\egg-development",
+      "from": "/Users/peishuaifei/mySpace/egg-example/node_modules/egg/config/plugin.js",
+      "path": "/Users/peishuaifei/mySpace/egg-example/node_modules/egg-development",
       "version": "2.7.0"
     },
     "logrotator": {
@@ -545,8 +542,8 @@
       ],
       "optionalDependencies": [],
       "env": [],
-      "from": "D:\\egg\\egg-example\\node_modules\\egg\\config\\plugin.js",
-      "path": "D:\\egg\\egg-example\\node_modules\\egg-logrotator",
+      "from": "/Users/peishuaifei/mySpace/egg-example/node_modules/egg/config/plugin.js",
+      "path": "/Users/peishuaifei/mySpace/egg-example/node_modules/egg-logrotator",
       "version": "3.1.0"
     },
     "schedule": {
@@ -555,10 +552,13 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "D:\\egg\\egg-example\\config\\plugin.js",
+      "from": "/Users/peishuaifei/mySpace/egg-example/config/plugin.js",
       "package": "egg-schedule",
-      "path": "D:\\egg\\egg-example\\node_modules\\egg-schedule",
-      "version": "3.6.6"
+      "path": "/Users/peishuaifei/mySpace/egg-example/node_modules/egg-schedule",
+      "version": "4.0.0",
+      "dependents": [
+        "logrotator"
+      ]
     },
     "static": {
       "enable": true,
@@ -567,9 +567,9 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "D:\\egg\\egg-example\\node_modules\\egg\\config\\plugin.js",
-      "path": "D:\\egg\\egg-example\\node_modules\\egg-static",
-      "version": "2.2.0"
+      "from": "/Users/peishuaifei/mySpace/egg-example/node_modules/egg/config/plugin.js",
+      "path": "/Users/peishuaifei/mySpace/egg-example/node_modules/egg-static",
+      "version": "2.3.1"
     },
     "jsonp": {
       "enable": true,
@@ -580,8 +580,8 @@
         "security"
       ],
       "env": [],
-      "from": "D:\\egg\\egg-example\\node_modules\\egg\\config\\plugin.js",
-      "path": "D:\\egg\\egg-example\\node_modules\\egg-jsonp",
+      "from": "/Users/peishuaifei/mySpace/egg-example/node_modules/egg/config/plugin.js",
+      "path": "/Users/peishuaifei/mySpace/egg-example/node_modules/egg-jsonp",
       "version": "2.0.0"
     },
     "view": {
@@ -591,9 +591,12 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "D:\\egg\\egg-example\\node_modules\\egg\\config\\plugin.js",
-      "path": "D:\\egg\\egg-example\\node_modules\\egg-view",
-      "version": "2.1.3"
+      "from": "/Users/peishuaifei/mySpace/egg-example/node_modules/egg/config/plugin.js",
+      "path": "/Users/peishuaifei/mySpace/egg-example/node_modules/egg-view",
+      "version": "2.1.4",
+      "dependents": [
+        "nunjucks"
+      ]
     },
     "nunjucks": {
       "enable": true,
@@ -605,9 +608,9 @@
       ],
       "optionalDependencies": [],
       "env": [],
-      "from": "D:\\egg\\egg-example\\config\\plugin.js",
-      "path": "D:\\egg\\egg-example\\node_modules\\egg-view-nunjucks",
-      "version": "2.2.0"
+      "from": "/Users/peishuaifei/mySpace/egg-example/config/plugin.js",
+      "path": "/Users/peishuaifei/mySpace/egg-example/node_modules/egg-view-nunjucks",
+      "version": "2.3.0"
     },
     "validate": {
       "enable": true,
@@ -616,8 +619,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "D:\\egg\\egg-example\\config\\plugin.js",
-      "path": "D:\\egg\\egg-example\\node_modules\\egg-validate",
+      "from": "/Users/peishuaifei/mySpace/egg-example/config/plugin.js",
+      "path": "/Users/peishuaifei/mySpace/egg-example/node_modules/egg-validate",
       "version": "2.0.2"
     },
     "sequelize": {
@@ -627,8 +630,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "D:\\egg\\egg-example\\config\\plugin.js",
-      "path": "D:\\egg\\egg-example\\node_modules\\egg-sequelize",
+      "from": "/Users/peishuaifei/mySpace/egg-example/config/plugin.js",
+      "path": "/Users/peishuaifei/mySpace/egg-example/node_modules/egg-sequelize",
       "version": "6.0.0"
     },
     "mysql": {
@@ -638,9 +641,9 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "D:\\egg\\egg-example\\config\\plugin.js",
-      "path": "D:\\egg\\egg-example\\node_modules\\egg-mysql",
-      "version": "3.0.0"
+      "from": "/Users/peishuaifei/mySpace/egg-example/config/plugin.js",
+      "path": "/Users/peishuaifei/mySpace/egg-example/node_modules/egg-mysql",
+      "version": "4.0.0"
     },
     "jwt": {
       "enable": true,
@@ -651,8 +654,8 @@
         "onerror"
       ],
       "env": [],
-      "from": "D:\\egg\\egg-example\\config\\plugin.js",
-      "path": "D:\\egg\\egg-example\\node_modules\\egg-jwt",
+      "from": "/Users/peishuaifei/mySpace/egg-example/config/plugin.js",
+      "path": "/Users/peishuaifei/mySpace/egg-example/node_modules/egg-jwt",
       "version": "3.1.7"
     },
     "routerPlus": {
@@ -662,9 +665,9 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "D:\\egg\\egg-example\\config\\plugin.js",
-      "path": "D:\\egg\\egg-example\\node_modules\\egg-router-plus",
-      "version": "1.3.1"
+      "from": "/Users/peishuaifei/mySpace/egg-example/config/plugin.js",
+      "path": "/Users/peishuaifei/mySpace/egg-example/node_modules/egg-router-plus",
+      "version": "2.0.0"
     },
     "passport": {
       "enable": true,
@@ -675,9 +678,12 @@
       ],
       "optionalDependencies": [],
       "env": [],
-      "from": "D:\\egg\\egg-example\\config\\plugin.js",
-      "path": "D:\\egg\\egg-example\\node_modules\\egg-passport",
-      "version": "2.1.1"
+      "from": "/Users/peishuaifei/mySpace/egg-example/config/plugin.js",
+      "path": "/Users/peishuaifei/mySpace/egg-example/node_modules/egg-passport",
+      "version": "2.1.1",
+      "dependents": [
+        "passportLocal"
+      ]
     },
     "passportLocal": {
       "enable": true,
@@ -688,8 +694,8 @@
       ],
       "optionalDependencies": [],
       "env": [],
-      "from": "D:\\egg\\egg-example\\config\\plugin.js",
-      "path": "D:\\egg\\egg-example\\node_modules\\egg-passport-local",
+      "from": "/Users/peishuaifei/mySpace/egg-example/config/plugin.js",
+      "path": "/Users/peishuaifei/mySpace/egg-example/node_modules/egg-passport-local",
       "version": "1.2.1"
     },
     "cors": {
@@ -699,20 +705,51 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "D:\\egg\\egg-example\\config\\plugin.js",
-      "path": "D:\\egg\\egg-example\\node_modules\\egg-cors",
+      "from": "/Users/peishuaifei/mySpace/egg-example/config/plugin.js",
+      "path": "/Users/peishuaifei/mySpace/egg-example/node_modules/egg-cors",
       "version": "2.2.3"
-    },
-    "swaggerdoc": {
-      "enable": true,
-      "package": "egg-swagger-doc",
-      "name": "swaggerdoc",
-      "dependencies": [],
-      "optionalDependencies": [],
-      "env": [],
-      "from": "D:\\egg\\egg-example\\config\\plugin.js",
-      "path": "D:\\egg\\egg-example\\node_modules\\egg-swagger-doc",
-      "version": "2.3.2"
     }
+  },
+  "appInfo": {
+    "name": "egg-example",
+    "baseDir": "/Users/peishuaifei/mySpace/egg-example",
+    "env": "local",
+    "scope": "",
+    "HOME": "/Users/peishuaifei",
+    "pkg": {
+      "name": "egg-example",
+      "author": "sfPei",
+      "scripts": {
+        "dev": "egg-bin dev --port 7013",
+        "dbinit": "egg-sequelize-auto -o ./app/model -h 127.0.0.1 -p 3306 -d egg_data -u root -x sf200672",
+        "test": "egg-bin test",
+        "start": "egg-scripts start --daemon",
+        "stop": "egg-scripts stop",
+        "debug": "egg-bin debug"
+      },
+      "dependencies": {
+        "egg": "^3.15.0",
+        "egg-bin": "^6.3.0",
+        "egg-cors": "^2.2.3",
+        "egg-jwt": "^3.1.7",
+        "egg-mock": "^5.10.6",
+        "egg-mysql": "^4.0.0",
+        "egg-passport": "^2.1.1",
+        "egg-passport-local": "^1.2.1",
+        "egg-router-plus": "^2.0.0",
+        "egg-schedule": "^4.0.0",
+        "egg-scripts": "^2.17.0",
+        "egg-security": "^2.11.0",
+        "egg-sequelize": "^6.0.0",
+        "egg-sequelize-auto": "^0.1.1",
+        "egg-validate": "^2.0.2",
+        "egg-view-nunjucks": "^2.3.0",
+        "moment": "^2.29.4",
+        "mysql2": "^3.2.0",
+        "sequelize-cli": "^6.6.0",
+        "uuid": "^9.0.0"
+      }
+    },
+    "root": "/Users/peishuaifei/mySpace/egg-example"
   }
 }

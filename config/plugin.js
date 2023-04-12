@@ -3,7 +3,7 @@ module.exports = {
     onerror: {
         enable: true
     },
-    
+
     nunjucks: {
         enable: true,
         package: 'egg-view-nunjucks'
@@ -19,8 +19,8 @@ module.exports = {
         package: 'egg-validate'
     },
     sequelize: {
-        enable: true, 
-        package: 'egg-sequelize', 
+        enable: true,
+        package: 'egg-sequelize',
     },
 
     mysql: {
@@ -54,8 +54,8 @@ module.exports = {
         package: 'egg-cors'
     },
 
-    swaggerdoc: {
-        enable: true,
-        package: 'egg-swagger-doc'
-    }
+    // swaggerdoc: {
+    //     enable: true,
+    //     package: 'egg-swagger-doc'
+    // }
 }
